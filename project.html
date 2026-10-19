@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Project — Nejat Şumlu</title>
+  <meta name="description" content="Project by Nejat Şumlu, interior designer.">
+  <meta name="theme-color" content="#F2EEE8">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/inter-tight-var.woff" as="font" type="font/woff" crossorigin>
+  <link rel="stylesheet" href="assets/css/site.css">
+  <script>
+    document.documentElement.classList.add('js');
+    // Arriving from the homepage transition: paint the same (cached) hero image in the very first frame
+    try { var hs = sessionStorage.getItem('ns.heroSrc'); if (hs) document.documentElement.style.setProperty('--pending-hero', 'url("' + hs.replace(/"/g, '') + '")'); } catch (e) {}
+  </script>
+</head>
+<body class="page-project">
+  <a class="skip-link" href="#concept">Skip to project text</a>
+  <div class="gridlines" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+
+  <header class="site-header site-header--project">
+    <div class="wrap site-header__inner">
+      <a class="wordmark" href="./">Nejat Şumlu</a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="./#work" class="site-nav__back"><span aria-hidden="true">←</span> All work</a>
+        <a href="./#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main data-project>
+    <div class="hero-pending" aria-hidden="true"></div>
+    <noscript><section class="wrap notfound"><p>This page needs JavaScript to display the project. <a href="./">Return to the homepage</a>.</p></section></noscript>
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="wrap site-footer__grid">
+      <h2 class="site-footer__big">Contact</h2>
+      <div class="site-footer__col">
+        <p class="meta">Email</p>
+        <p><a class="link-strong" data-bind="email"></a></p>
+      </div>
+      <div class="site-footer__col">
+        <p class="meta">Profiles</p>
+        <ul class="plain" data-list="social-plain"></ul>
+      </div>
+      <div class="site-footer__col">
+        <p class="meta">Based in</p>
+        <p data-bind="location"></p>
+      </div>
+      <p class="site-footer__legal meta">© <span data-year></span> Nejat Şumlu. Project images are visualisations of academic proposals and object studies.</p>
+    </div>
+  </footer>
+
+  <script type="module" src="assets/js/project.js"></script>
+</body>
+</html>

@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Nejat Şumlu — Interior Designer</title>
+  <meta name="description" content="Nejat Şumlu is an Istanbul-based interior designer. Selected work: Concept Store, Concept Restaurant, Concept Cultural Centre and RELIC No.01.">
+  <meta property="og:title" content="Nejat Şumlu — Interior Designer">
+  <meta property="og:description" content="Portfolio of Nejat Şumlu, interior designer based in Istanbul.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#F2EEE8">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/inter-tight-var.woff" as="font" type="font/woff" crossorigin>
+  <link rel="stylesheet" href="assets/css/site.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body class="page-home">
+  <a class="skip-link" href="#work">Skip to projects</a>
+  <div class="gridlines" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+
+  <header class="site-header">
+    <div class="wrap site-header__inner">
+      <a class="wordmark" href="./" aria-label="Nejat Şumlu — home">Nejat Şumlu</a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============================================================ OPENING / CV -->
+    <section class="opening" id="about" aria-labelledby="name">
+      <div class="wrap opening__grid">
+        <p class="opening__index meta" aria-hidden="true"><span>Portfolio</span><span data-year></span></p>
+
+        <h1 class="opening__name" id="name"><span class="line">Nejat</span><span class="line">Şumlu</span></h1>
+
+        <div class="opening__lead">
+          <div class="opening__role">
+            <p class="role">Interior Designer</p>
+            <p class="meta" data-bind="location"></p>
+          </div>
+          <div class="opening__intro">
+            <p class="intro" data-bind="intro"></p>
+            <div class="actions">
+              <a class="btn btn--solid" href="#work">View Projects <span aria-hidden="true">↓</span></a>
+              <a class="btn btn--line" data-bind="cv" download>Download CV <span class="btn__note">PDF</span></a>
+            </div>
+          </div>
+        </div>
+
+        <figure class="opening__portrait">
+          <div class="portrait-block">
+            <img data-bind="portrait" alt="" width="326" height="435" decoding="async" fetchpriority="high">
+            <p class="portrait-block__v" aria-hidden="true">Nejat Şumlu — Interior Designer</p>
+            <figcaption class="portrait-block__cap">
+              <span class="portrait-block__n">00</span>
+              <span>Interior Architecture<br>Istanbul Gelişim University</span>
+            </figcaption>
+          </div>
+        </figure>
+
+        <div class="cv-head">
+          <h2 id="cv-title">Curriculum Vitae</h2>
+          <p class="meta">Education · Internships · Software · Contact</p>
+        </div>
+        <div class="cv-strip" role="group" aria-labelledby="cv-title">
+          <section class="cv-col">
+            <h2 class="cv-col__head"><span class="num">01</span>Education</h2>
+            <ul class="cv-list" data-list="education"></ul>
+          </section>
+          <section class="cv-col">
+            <h2 class="cv-col__head"><span class="num">02</span>Internships</h2>
+            <ul class="cv-list" data-list="internships"></ul>
+          </section>
+          <section class="cv-col">
+            <h2 class="cv-col__head"><span class="num">03</span>Software</h2>
+            <ul class="cv-tags" data-list="software"></ul>
+            <h2 class="cv-col__head cv-col__head--sub">Language</h2>
+            <ul class="cv-tags" data-list="languages"></ul>
+          </section>
+          <section class="cv-col cv-col--contact" id="profiles">
+            <h2 class="cv-col__head"><span class="num">04</span>Contact</h2>
+            <p><a class="link-strong" data-bind="email"></a></p>
+            <ul class="social" data-list="social"></ul>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================ SELECTOR -->
+    <section class="work" id="work" aria-labelledby="work-title">
+      <div class="work__threshold" aria-hidden="true"><div class="work__plane"></div></div>
+      <div class="wrap work__head">
+        <h2 class="work__title" id="work-title">Selected Work</h2>
+        <p class="work__lede">Explore selected projects.</p>
+        <p class="work__count meta"><span data-bind="count"></span> projects</p>
+      </div>
+
+      <div class="stage" data-stage>
+        <div class="stage__space" data-space role="list" aria-label="Selected projects"></div>
+        <ol class="stage__labels" data-labels aria-label="Project titles"></ol>
+      </div>
+
+      <div class="wrap stage__bar">
+        <div class="stage__progress" data-progress aria-hidden="true"></div>
+        <div class="stage__nav">
+          <button class="stage__btn" type="button" data-prev aria-label="Previous project">←</button>
+          <p class="stage__counter meta" aria-live="polite"><span data-current>01</span> / <span data-total>04</span></p>
+          <button class="stage__btn" type="button" data-next aria-label="Next project">→</button>
+        </div>
+        <p class="stage__swipe meta" aria-hidden="true">Swipe for more →</p>
+      </div>
+
+      <nav class="wrap project-index" aria-label="Project index">
+        <ol data-index></ol>
+      </nav>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="wrap site-footer__grid">
+      <h2 class="site-footer__big">Contact</h2>
+      <div class="site-footer__col">
+        <p class="meta">Email</p>
+        <p><a class="link-strong" data-bind="email"></a></p>
+      </div>
+      <div class="site-footer__col">
+        <p class="meta">Profiles</p>
+        <ul class="plain" data-list="social-plain"></ul>
+      </div>
+      <div class="site-footer__col">
+        <p class="meta">Based in</p>
+        <p data-bind="location"></p>
+      </div>
+      <p class="site-footer__legal meta">© <span data-year></span> Nejat Şumlu. Project images are visualisations of academic proposals and object studies.</p>
+    </div>
+  </footer>
+
+  <!-- Overlay used for the project-opening transition and the Concept Store entrance -->
+  <div class="portal" data-portal hidden>
+    <div class="portal__media" data-portal-media></div>
+    <div class="portal__ui" data-portal-ui hidden>
+      <p class="portal__label meta" data-portal-label></p>
+      <button class="portal__skip" type="button" data-portal-skip>Skip <span aria-hidden="true">→</span></button>
+    </div>
+  </div>
+
+  <script type="module" src="assets/js/home.js"></script>
+</body>
+</html>

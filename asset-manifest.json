@@ -1,0 +1,755 @@
+{
+  "generated": "2026-10-19",
+  "assets": [
+    {
+      "files": [
+        "assets/projects/concept-store/images/storefront-800.webp",
+        "assets/projects/concept-store/images/storefront-1400.webp",
+        "assets/projects/concept-store/images/storefront-1672.webp"
+      ],
+      "project": "Concept Store",
+      "folder": "concept-store",
+      "role": "Image — Selector cover; matches first frame of entrance video; Selected views (offset, with note)",
+      "caption": "Visualisation — Storefront at dusk",
+      "source": "projects/01-concept-store/images/01-facade.png",
+      "source_sha256": "09e948788a39384c97883b66e719671b552d5b3201e32eadd11ccab1b1819c58",
+      "original_name": "ChatGPT Image Oct 18, 2026, 10_54_30 PM.png",
+      "verification": "Visually checked: belongs to this project (consistent interior language, signage/programme); hash matches package manifest."
+    },
+    {
+      "files": [
+        "assets/projects/concept-store/images/entrance-axis-800.webp",
+        "assets/projects/concept-store/images/entrance-axis-1400.webp",
+        "assets/projects/concept-store/images/entrance-axis-1787.webp"
+      ],
+      "project": "Concept Store",
+      "folder": "concept-store",
+      "role": "Image — Project hero (settled arrival). The video's last frame = this render ×0.861, shifted −128.8/+0.3 px, no rotation (ORB/RANSAC, 2,714 inliers; residual 3.6/255); the entrance crossfades frame → render",
+      "caption": "Visualisation — Arrival, the entrance axis",
+      "source": "projects/01-concept-store/images/04-entrance-axis.png",
+      "source_sha256": "fd511c94c54f6e91b4caf3a06468f5526d260adab03c7eae32374b23f6b48452",
+      "original_name": "bijan2.png",
+      "verification": "Visually checked: belongs to this project (consistent interior language, signage/programme); hash matches package manifest."
+    },
+    {
+      "files": [
+        "assets/projects/concept-store/images/display-and-stair-800.webp",
+        "assets/projects/concept-store/images/display-and-stair-1400.webp",
+        "assets/projects/concept-store/images/display-and-stair-1910.webp"
+      ],
+      "project": "Concept Store",
+      "folder": "concept-store",
+      "role": "Image — Selected views (pair)",
+      "caption": "Visualisation — Menswear display and stair",
+      "source": "projects/01-concept-store/images/02-display-and-stair.png",
+      "source_sha256": "1258b992f81610e172a8450d98aa85e1dd9532e9a53715f09d3c5f15478f452b",
+      "original_name": "ChatGPT Image Oct 18, 2026, 09_47_23 PM.png",
+      "verification": "Visually checked: belongs to this project (consistent interior language, signage/programme); hash matches package manifest."
+    },
+    {
+      "files": [
+        "assets/projects/concept-store/images/podium-office-800.webp",
+        "assets/projects/concept-store/images/podium-office-1400.webp",
+        "assets/projects/concept-store/images/podium-office-1910.webp"
+      ],
+      "project": "Concept Store",
+      "folder": "concept-store",
+      "role": "Image — Selected views (pair)",
+      "caption": "Visualisation — Podium and frosted office",
+      "source": "projects/01-concept-store/images/05-podium-office.png",
+      "source_sha256": "917e12e2e8c268677c2d8bc2165b0ab896d9b40bd2973329f53f9f81c5e7cdce",
+      "original_name": "ChatGPT Image Oct 18, 2026, 09_32_19 PM.png",
+      "verification": "Visually checked: belongs to this project (consistent interior language, signage/programme); hash matches package manifest."
+    },
+    {
+      "files": [
+        "assets/projects/concept-store/images/display-capsules-800.webp",
+        "assets/projects/concept-store/images/display-capsules-1400.webp",
+        "assets/projects/concept-store/images/display-capsules-1679.webp"
+      ],
+      "project": "Concept Store",
+      "folder": "concept-store",
+      "role": "Image — Materials and details image",
+      "caption": "Visualisation — Glass display capsules",
+      "source": "projects/01-concept-store/images/03-display-capsules.png",
+      "source_sha256": "277729068814fcf7193a378cc856ef81822836a0338e6e8d3e7dbc8a51cdeb4e",
+      "original_name": "bijan1.png",
+      "verification": "Visually checked: belongs to this project (consistent interior language, signage/programme); hash matches package manifest."
+    },
+    {
+      "files": [
+        "assets/projects/concept-store/drawings/front-elevation.pdf",
+        "assets/projects/concept-store/drawings/front-elevation-preview.webp",
+        "assets/projects/concept-store/drawings/front-elevation-large.webp"
+      ],
+      "project": "Concept Store",
+      "folder": "concept-store",
+      "role": "Drawing — Elevation",
+      "caption": "Elevation — Front elevation",
+      "source": "projects/01-concept-store/drawings/front-elevation.pdf",
+      "source_sha256": "22ab04a754e9d5663d0b6d308de86b4b919c20f7861266eb1dbb36b9ad14c998",
+      "original_name": "PLAN2-ÖNGÖRÜNÜŞ.pdf",
+      "verification": "Title block / room labels read and sheet rendered; previews rendered directly from this PDF (not reused)."
+    },
+    {
+      "files": [
+        "assets/projects/concept-store/drawings/ground-floor.pdf",
+        "assets/projects/concept-store/drawings/ground-floor-preview.webp",
+        "assets/projects/concept-store/drawings/ground-floor-large.webp"
+      ],
+      "project": "Concept Store",
+      "folder": "concept-store",
+      "role": "Drawing — Plan",
+      "caption": "Plan — Ground floor",
+      "source": "projects/01-concept-store/drawings/ground-floor.pdf",
+      "source_sha256": "1a74b20cb9c4e034c6722040d2f2c5b8bd9aeda6846a77231bbf1a580c62a828",
+      "original_name": "plan2-Model.pdf",
+      "verification": "Title block / room labels read and sheet rendered; previews rendered directly from this PDF (not reused)."
+    },
+    {
+      "files": [
+        "assets/projects/concept-store/drawings/mezzanine.pdf",
+        "assets/projects/concept-store/drawings/mezzanine-preview.webp",
+        "assets/projects/concept-store/drawings/mezzanine-large.webp"
+      ],
+      "project": "Concept Store",
+      "folder": "concept-store",
+      "role": "Drawing — Plan",
+      "caption": "Plan — Mezzanine",
+      "source": "projects/01-concept-store/drawings/mezzanine.pdf",
+      "source_sha256": "1a83e156573bd038e9a42d3f136cae1f7378520e63fd7ecbc9176a04e98e7f41",
+      "original_name": "plan2-Model.pdf2.pdf",
+      "verification": "Title block / room labels read and sheet rendered; previews rendered directly from this PDF (not reused)."
+    },
+    {
+      "files": [
+        "assets/projects/concept-store/drawings/section-aa.pdf",
+        "assets/projects/concept-store/drawings/section-aa-preview.webp",
+        "assets/projects/concept-store/drawings/section-aa-large.webp"
+      ],
+      "project": "Concept Store",
+      "folder": "concept-store",
+      "role": "Drawing — Section",
+      "caption": "Section — Section A-A",
+      "source": "projects/01-concept-store/drawings/section-aa.pdf",
+      "source_sha256": "b62994c4e4185b2a1b423e84a1807592dde73f3302fe1a720c616e0ec6e9a5f8",
+      "original_name": "plan2-KESİTA.pdf",
+      "verification": "Title block / room labels read and sheet rendered; previews rendered directly from this PDF (not reused)."
+    },
+    {
+      "files": [
+        "assets/projects/concept-store/drawings/section-bb.pdf",
+        "assets/projects/concept-store/drawings/section-bb-preview.webp",
+        "assets/projects/concept-store/drawings/section-bb-large.webp"
+      ],
+      "project": "Concept Store",
+      "folder": "concept-store",
+      "role": "Drawing — Section",
+      "caption": "Section — Section B-B",
+      "source": "projects/01-concept-store/drawings/section-bb.pdf",
+      "source_sha256": "f466c62128e97054a3d59b458c33ec7cbd31040d1b5dfbe5ab1b06509fd5ff9e",
+      "original_name": "plan2-Mkesitb.pdf",
+      "verification": "Title block / room labels read and sheet rendered; previews rendered directly from this PDF (not reused)."
+    },
+    {
+      "files": [
+        "assets/projects/concept-store/drawings/section-cc.pdf",
+        "assets/projects/concept-store/drawings/section-cc-preview.webp",
+        "assets/projects/concept-store/drawings/section-cc-large.webp"
+      ],
+      "project": "Concept Store",
+      "folder": "concept-store",
+      "role": "Drawing — Section",
+      "caption": "Section — Section C-C",
+      "source": "projects/01-concept-store/drawings/section-cc.pdf",
+      "source_sha256": "7870086d90fb16f8a144007aa80a7f537e05aafd920389f95fdb6a4b7e8e02de",
+      "original_name": "plan2-CCKESİT.pdf",
+      "verification": "Title block / room labels read and sheet rendered; previews rendered directly from this PDF (not reused)."
+    },
+    {
+      "files": [
+        "assets/projects/concept-store/drawings/section-dd.pdf",
+        "assets/projects/concept-store/drawings/section-dd-preview.webp",
+        "assets/projects/concept-store/drawings/section-dd-large.webp"
+      ],
+      "project": "Concept Store",
+      "folder": "concept-store",
+      "role": "Drawing — Section",
+      "caption": "Section — Section D-D",
+      "source": "projects/01-concept-store/drawings/section-dd.pdf",
+      "source_sha256": "9da379ff148a0b26488f6ba0eb54ce3a1a6d5635084892c8c9487d9e86319ae4",
+      "original_name": "plan2-DDKESİT.pdf",
+      "verification": "Title block / room labels read and sheet rendered; previews rendered directly from this PDF (not reused)."
+    },
+    {
+      "files": [
+        "assets/projects/concept-restaurant/images/dining-room-800.webp",
+        "assets/projects/concept-restaurant/images/dining-room-1400.webp",
+        "assets/projects/concept-restaurant/images/dining-room-1672.webp"
+      ],
+      "project": "Concept Restaurant",
+      "folder": "concept-restaurant",
+      "role": "Image — Selector cover and project hero",
+      "caption": "Visualisation — Dining room",
+      "source": "projects/02-concept-restaurant/images/01-dining.png",
+      "source_sha256": "db48fa6f751cc18c2772a09d45572ffbfc0c5807cbec07ecfcb0fb44aec1c963",
+      "original_name": "ChatGPT Image Oct 19, 2026, 05_48_21 PM.png",
+      "verification": "Visually checked: belongs to this project (consistent interior language, signage/programme); hash matches package manifest."
+    },
+    {
+      "files": [
+        "assets/projects/concept-restaurant/images/bar-oblique-800.webp",
+        "assets/projects/concept-restaurant/images/bar-oblique-1400.webp",
+        "assets/projects/concept-restaurant/images/bar-oblique-1672.webp"
+      ],
+      "project": "Concept Restaurant",
+      "folder": "concept-restaurant",
+      "role": "Image — Selected views (pair)",
+      "caption": "Visualisation — The bar, oblique view",
+      "source": "projects/02-concept-restaurant/images/02-bar-oblique.png",
+      "source_sha256": "cdf52e694167540c19d77b62428045329b31a3f5a9a01b4480fbae7467498c64",
+      "original_name": "ChatGPT Image Oct 19, 2026, 05_48_27 PM.png",
+      "verification": "Visually checked: belongs to this project (consistent interior language, signage/programme); hash matches package manifest."
+    },
+    {
+      "files": [
+        "assets/projects/concept-restaurant/images/bar-front-800.webp",
+        "assets/projects/concept-restaurant/images/bar-front-1400.webp",
+        "assets/projects/concept-restaurant/images/bar-front-1672.webp"
+      ],
+      "project": "Concept Restaurant",
+      "folder": "concept-restaurant",
+      "role": "Image — Selected views (pair)",
+      "caption": "Visualisation — The bar, front view",
+      "source": "projects/02-concept-restaurant/images/03-bar-front.png",
+      "source_sha256": "ff3b6129fa921c059402022a461acb1e0542d18a2a321b9dc4578075871f3ee7",
+      "original_name": "ChatGPT Image Oct 19, 2026, 05_48_33 PM.png",
+      "verification": "Visually checked: belongs to this project (consistent interior language, signage/programme); hash matches package manifest."
+    },
+    {
+      "files": [
+        "assets/projects/concept-restaurant/images/terrace-day-800.webp",
+        "assets/projects/concept-restaurant/images/terrace-day-1400.webp",
+        "assets/projects/concept-restaurant/images/terrace-day-1711.webp"
+      ],
+      "project": "Concept Restaurant",
+      "folder": "concept-restaurant",
+      "role": "Image — Selected views (full width)",
+      "caption": "Visualisation — Upper-floor terrace by day",
+      "source": "projects/02-concept-restaurant/images/04-terrace-day.png",
+      "source_sha256": "5c0d8ebb4751625cfae869fdad3d005571f549f68397c5eebe80e82f1fbea53e",
+      "original_name": "ChatGPT Image Oct 19, 2026, 05_39_45 PM.png",
+      "verification": "Visually checked: belongs to this project (consistent interior language, signage/programme); hash matches package manifest."
+    },
+    {
+      "files": [
+        "assets/projects/concept-restaurant/images/terrace-night-800.webp",
+        "assets/projects/concept-restaurant/images/terrace-night-1400.webp",
+        "assets/projects/concept-restaurant/images/terrace-night-1672.webp"
+      ],
+      "project": "Concept Restaurant",
+      "folder": "concept-restaurant",
+      "role": "Image — Selected views (offset)",
+      "caption": "Visualisation — Upper-floor terrace at night",
+      "source": "projects/02-concept-restaurant/images/05-terrace-night.png",
+      "source_sha256": "2e0db3f9c443d60ca4f36d68bde243bc80571d6a54de769a08ae85b3e104759f",
+      "original_name": "ChatGPT Image Oct 19, 2026, 05_39_52 PM.png",
+      "verification": "Visually checked: belongs to this project (consistent interior language, signage/programme); hash matches package manifest."
+    },
+    {
+      "files": [
+        "assets/projects/concept-restaurant/drawings/ground-floor.pdf",
+        "assets/projects/concept-restaurant/drawings/ground-floor-preview.webp",
+        "assets/projects/concept-restaurant/drawings/ground-floor-large.webp"
+      ],
+      "project": "Concept Restaurant",
+      "folder": "concept-restaurant",
+      "role": "Drawing — Plan",
+      "caption": "Plan — Ground floor",
+      "source": "projects/02-concept-restaurant/drawings/ground-floor.pdf",
+      "source_sha256": "97dc915f3eb273f36f0c8d152051b5f19d457c252ad75cca06d6354e2e2277ba",
+      "original_name": "plan1.pdf",
+      "verification": "Title block / room labels read and sheet rendered; previews rendered directly from this PDF (not reused)."
+    },
+    {
+      "files": [
+        "assets/projects/concept-restaurant/drawings/section-aa.pdf",
+        "assets/projects/concept-restaurant/drawings/section-aa-preview.webp",
+        "assets/projects/concept-restaurant/drawings/section-aa-large.webp"
+      ],
+      "project": "Concept Restaurant",
+      "folder": "concept-restaurant",
+      "role": "Drawing — Section",
+      "caption": "Section — Section A-A",
+      "source": "projects/02-concept-restaurant/drawings/section-aa.pdf",
+      "source_sha256": "c36a63971206ef3c49ae7a64594b2bea566d57c1d946997670314f0330183a84",
+      "original_name": "kesitaa.pdf",
+      "verification": "Title block / room labels read and sheet rendered; previews rendered directly from this PDF (not reused)."
+    },
+    {
+      "files": [
+        "assets/projects/concept-restaurant/drawings/section-bb.pdf",
+        "assets/projects/concept-restaurant/drawings/section-bb-preview.webp",
+        "assets/projects/concept-restaurant/drawings/section-bb-large.webp"
+      ],
+      "project": "Concept Restaurant",
+      "folder": "concept-restaurant",
+      "role": "Drawing — Section",
+      "caption": "Section — Section B-B",
+      "source": "projects/02-concept-restaurant/drawings/section-bb.pdf",
+      "source_sha256": "ce2170366ed0d6b6aedff4fd291e4d42e6243d3ad8dee8131e95ff3a78b8bf9f",
+      "original_name": "kesitb.pdf",
+      "verification": "Title block / room labels read and sheet rendered; previews rendered directly from this PDF (not reused)."
+    },
+    {
+      "files": [
+        "assets/projects/concept-restaurant/drawings/section-cc.pdf",
+        "assets/projects/concept-restaurant/drawings/section-cc-preview.webp",
+        "assets/projects/concept-restaurant/drawings/section-cc-large.webp"
+      ],
+      "project": "Concept Restaurant",
+      "folder": "concept-restaurant",
+      "role": "Drawing — Section",
+      "caption": "Section — Section C-C",
+      "source": "projects/02-concept-restaurant/drawings/section-cc.pdf",
+      "source_sha256": "2368746fed17a2e12b2c858e645570263e7275513335f542a0d4cd405ff92c5f",
+      "original_name": "kesitcc.pdf",
+      "verification": "Title block / room labels read and sheet rendered; previews rendered directly from this PDF (not reused)."
+    },
+    {
+      "files": [
+        "assets/projects/concept-restaurant/drawings/section-dd.pdf",
+        "assets/projects/concept-restaurant/drawings/section-dd-preview.webp",
+        "assets/projects/concept-restaurant/drawings/section-dd-large.webp"
+      ],
+      "project": "Concept Restaurant",
+      "folder": "concept-restaurant",
+      "role": "Drawing — Section",
+      "caption": "Section — Section D-D",
+      "source": "projects/02-concept-restaurant/drawings/section-dd.pdf",
+      "source_sha256": "5fadd64ec9957aa5edc90536a2ddba318aec4f4c4025c63cea8b0673d27029b9",
+      "original_name": "kesitdd.pdf",
+      "verification": "Title block / room labels read and sheet rendered; previews rendered directly from this PDF (not reused)."
+    },
+    {
+      "files": [
+        "assets/projects/concept-cultural-centre/images/exterior-day-800.webp",
+        "assets/projects/concept-cultural-centre/images/exterior-day-1400.webp",
+        "assets/projects/concept-cultural-centre/images/exterior-day-1672.webp"
+      ],
+      "project": "Concept Cultural Centre",
+      "folder": "concept-cultural-centre",
+      "role": "Image — Selector cover and project hero",
+      "caption": "Visualisation — Exterior by day",
+      "source": "projects/03-concept-cultural-centre/images/11-discephe-gunduz.png",
+      "source_sha256": "44bb2c84f450bea667477b88066325f6929303580e794855a4d7565a20bf193a",
+      "original_name": "11-discephe-gunduz.png",
+      "verification": "Visually checked: belongs to this project (consistent interior language, signage/programme); hash matches package manifest."
+    },
+    {
+      "files": [
+        "assets/projects/concept-cultural-centre/images/exhibition-hall-800.webp",
+        "assets/projects/concept-cultural-centre/images/exhibition-hall-1400.webp",
+        "assets/projects/concept-cultural-centre/images/exhibition-hall-1672.webp"
+      ],
+      "project": "Concept Cultural Centre",
+      "folder": "concept-cultural-centre",
+      "role": "Image — Selected views (full width)",
+      "caption": "Visualisation — Exhibition hall, ground floor",
+      "source": "projects/03-concept-cultural-centre/images/02-sergi-holu.png",
+      "source_sha256": "d7d1dc9ec31c9b229c77c335406919c6d25856641ad1d21232814bc921ff4742",
+      "original_name": "02-sergi-holu.png",
+      "verification": "Visually checked: belongs to this project (consistent interior language, signage/programme); hash matches package manifest."
+    },
+    {
+      "files": [
+        "assets/projects/concept-cultural-centre/images/exhibition-detail-800.webp",
+        "assets/projects/concept-cultural-centre/images/exhibition-detail-1400.webp",
+        "assets/projects/concept-cultural-centre/images/exhibition-detail-1672.webp"
+      ],
+      "project": "Concept Cultural Centre",
+      "folder": "concept-cultural-centre",
+      "role": "Image — Selected views (pair)",
+      "caption": "Visualisation — Exhibition detail",
+      "source": "projects/03-concept-cultural-centre/images/05-sergi-detay.png",
+      "source_sha256": "d575aff9d800f0524cbd5736aa8b1b59ab572f0981c0e92d172f7f2092618949",
+      "original_name": "05-sergi-detay.png",
+      "verification": "Visually checked: belongs to this project (consistent interior language, signage/programme); hash matches package manifest."
+    },
+    {
+      "files": [
+        "assets/projects/concept-cultural-centre/images/exhibition-panels-800.webp",
+        "assets/projects/concept-cultural-centre/images/exhibition-panels-1400.webp",
+        "assets/projects/concept-cultural-centre/images/exhibition-panels-1672.webp"
+      ],
+      "project": "Concept Cultural Centre",
+      "folder": "concept-cultural-centre",
+      "role": "Image — Selected views (pair)",
+      "caption": "Visualisation — Exhibition panels",
+      "source": "projects/03-concept-cultural-centre/images/07-sergi-panolari.png",
+      "source_sha256": "3b50dd0f3f182c8c45cd1b3c0b977b6d47a9eb309f5b996a879fe312f18cb6bc",
+      "original_name": "07-sergi-panolari.png",
+      "verification": "Visually checked: belongs to this project (consistent interior language, signage/programme); hash matches package manifest."
+    },
+    {
+      "files": [
+        "assets/projects/concept-cultural-centre/images/performance-hall-800.webp",
+        "assets/projects/concept-cultural-centre/images/performance-hall-1400.webp",
+        "assets/projects/concept-cultural-centre/images/performance-hall-1672.webp"
+      ],
+      "project": "Concept Cultural Centre",
+      "folder": "concept-cultural-centre",
+      "role": "Image — Selected views (offset)",
+      "caption": "Visualisation — Multipurpose performance hall",
+      "source": "projects/03-concept-cultural-centre/images/04-konferans.png",
+      "source_sha256": "a7d38aa4522993ddd2a6accc9613211f5205f3799e06ee2ed48b43a9e02a6375",
+      "original_name": "04-konferans.png",
+      "verification": "Visually checked: belongs to this project (consistent interior language, signage/programme); hash matches package manifest."
+    },
+    {
+      "files": [
+        "assets/projects/concept-cultural-centre/images/music-workshop-800.webp",
+        "assets/projects/concept-cultural-centre/images/music-workshop-1400.webp",
+        "assets/projects/concept-cultural-centre/images/music-workshop-1672.webp"
+      ],
+      "project": "Concept Cultural Centre",
+      "folder": "concept-cultural-centre",
+      "role": "Image — Selected views (trio)",
+      "caption": "Visualisation — Music workshop",
+      "source": "projects/03-concept-cultural-centre/images/06-muzik-atolyesi.png",
+      "source_sha256": "b52488277fa7265fc398441f1b93205d1a1486bae044af34017997a11e5ba677",
+      "original_name": "06-muzik-atolyesi.png",
+      "verification": "Visually checked: belongs to this project (consistent interior language, signage/programme); hash matches package manifest."
+    },
+    {
+      "files": [
+        "assets/projects/concept-cultural-centre/images/dance-studio-800.webp",
+        "assets/projects/concept-cultural-centre/images/dance-studio-1400.webp",
+        "assets/projects/concept-cultural-centre/images/dance-studio-1672.webp"
+      ],
+      "project": "Concept Cultural Centre",
+      "folder": "concept-cultural-centre",
+      "role": "Image — Selected views (trio)",
+      "caption": "Visualisation — Dance studio",
+      "source": "projects/03-concept-cultural-centre/images/01-dans.png",
+      "source_sha256": "cb1175c33df1c236e7f8709d6d38fb32e845c9643f6da8c759fa2404fdf70bcf",
+      "original_name": "01-dans.png",
+      "verification": "Visually checked: belongs to this project (consistent interior language, signage/programme); hash matches package manifest."
+    },
+    {
+      "files": [
+        "assets/projects/concept-cultural-centre/images/painting-workshop-800.webp",
+        "assets/projects/concept-cultural-centre/images/painting-workshop-1400.webp",
+        "assets/projects/concept-cultural-centre/images/painting-workshop-1672.webp"
+      ],
+      "project": "Concept Cultural Centre",
+      "folder": "concept-cultural-centre",
+      "role": "Image — Selected views (trio)",
+      "caption": "Visualisation — Painting workshop",
+      "source": "projects/03-concept-cultural-centre/images/08-resim-atolyesi.png",
+      "source_sha256": "0e549acfaf0e386d3a080e86521302e2a8cc6f362a35b3540f44a4e4ca62b690",
+      "original_name": "08-resim-atolyesi.png",
+      "verification": "Visually checked: belongs to this project (consistent interior language, signage/programme); hash matches package manifest."
+    },
+    {
+      "files": [
+        "assets/projects/concept-cultural-centre/images/sculpture-workshop-800.webp",
+        "assets/projects/concept-cultural-centre/images/sculpture-workshop-1400.webp",
+        "assets/projects/concept-cultural-centre/images/sculpture-workshop-1672.webp"
+      ],
+      "project": "Concept Cultural Centre",
+      "folder": "concept-cultural-centre",
+      "role": "Image — Selected views (pair)",
+      "caption": "Visualisation — Sculpture workshop",
+      "source": "projects/03-concept-cultural-centre/images/03-heykel-atolyesi.png",
+      "source_sha256": "fa9c233388e30b6adc058276f2bba03e7b3f0686167543a4384a8d8c91118111",
+      "original_name": "03-heykel-atolyesi.png",
+      "verification": "Visually checked: belongs to this project (consistent interior language, signage/programme); hash matches package manifest."
+    },
+    {
+      "files": [
+        "assets/projects/concept-cultural-centre/images/cafe-800.webp",
+        "assets/projects/concept-cultural-centre/images/cafe-1400.webp",
+        "assets/projects/concept-cultural-centre/images/cafe-1672.webp"
+      ],
+      "project": "Concept Cultural Centre",
+      "folder": "concept-cultural-centre",
+      "role": "Image — Selected views (pair)",
+      "caption": "Visualisation — Café",
+      "source": "projects/03-concept-cultural-centre/images/09-kafe.png",
+      "source_sha256": "1054e188dadc2cc8bae2f1169ae504b32c9d338f62bfeecf9e390dd155d0aed5",
+      "original_name": "09-kafe.png",
+      "verification": "Visually checked: belongs to this project (consistent interior language, signage/programme); hash matches package manifest."
+    },
+    {
+      "files": [
+        "assets/projects/concept-cultural-centre/images/exterior-night-800.webp",
+        "assets/projects/concept-cultural-centre/images/exterior-night-1400.webp",
+        "assets/projects/concept-cultural-centre/images/exterior-night-1672.webp"
+      ],
+      "project": "Concept Cultural Centre",
+      "folder": "concept-cultural-centre",
+      "role": "Image — Selected views (full width)",
+      "caption": "Visualisation — Exterior at night",
+      "source": "projects/03-concept-cultural-centre/images/10-discephe-gece.png",
+      "source_sha256": "75e3570b563a04c17b841fb66b4b94613ea7f0bf6105f6d8b6fef83e942f1a78",
+      "original_name": "10-discephe-gece.png",
+      "verification": "Visually checked: belongs to this project (consistent interior language, signage/programme); hash matches package manifest."
+    },
+    {
+      "files": [
+        "assets/projects/concept-cultural-centre/drawings/first-floor.pdf",
+        "assets/projects/concept-cultural-centre/drawings/first-floor-preview.webp",
+        "assets/projects/concept-cultural-centre/drawings/first-floor-large.webp"
+      ],
+      "project": "Concept Cultural Centre",
+      "folder": "concept-cultural-centre",
+      "role": "Drawing — Plan",
+      "caption": "Plan — First floor",
+      "source": "projects/03-concept-cultural-centre/drawings/first-floor.pdf",
+      "source_sha256": "89e1aad907d8c073cea2885cb6638915661a2cc93d0d4d1012eb3a76b3329ec3",
+      "original_name": "BİRKAT.pdf",
+      "verification": "Title block / room labels read and sheet rendered; previews rendered directly from this PDF (not reused)."
+    },
+    {
+      "files": [
+        "assets/projects/concept-cultural-centre/drawings/ground-floor.pdf",
+        "assets/projects/concept-cultural-centre/drawings/ground-floor-preview.webp",
+        "assets/projects/concept-cultural-centre/drawings/ground-floor-large.webp"
+      ],
+      "project": "Concept Cultural Centre",
+      "folder": "concept-cultural-centre",
+      "role": "Drawing — Plan",
+      "caption": "Plan — Ground floor",
+      "source": "projects/03-concept-cultural-centre/drawings/ground-floor.pdf",
+      "source_sha256": "ec68c936c049119afe38a543ba388896174528230add5bcf8f0391601dfd78ed",
+      "original_name": "ZEMKAT.pdf",
+      "verification": "Title block / room labels read and sheet rendered; previews rendered directly from this PDF (not reused)."
+    },
+    {
+      "files": [
+        "assets/projects/concept-cultural-centre/drawings/second-floor.pdf",
+        "assets/projects/concept-cultural-centre/drawings/second-floor-preview.webp",
+        "assets/projects/concept-cultural-centre/drawings/second-floor-large.webp"
+      ],
+      "project": "Concept Cultural Centre",
+      "folder": "concept-cultural-centre",
+      "role": "Drawing — Plan",
+      "caption": "Plan — Second floor",
+      "source": "projects/03-concept-cultural-centre/drawings/second-floor.pdf",
+      "source_sha256": "2ebc5a39e0e388e1ea56655e7bfee6258e1d023419cf2ba658c3ddc017696391",
+      "original_name": "plan33.pdf",
+      "verification": "Source file was plan33.pdf in the restaurant (\"cafe\") folder. Confirmed cultural centre: music 42 m², dance 31 m², drawing 49 m², crafts 30 m² workshops + twin lifts match section A-A/B-B at +11.00. NOT used for the restaurant."
+    },
+    {
+      "files": [
+        "assets/projects/concept-cultural-centre/drawings/section-aa.pdf",
+        "assets/projects/concept-cultural-centre/drawings/section-aa-preview.webp",
+        "assets/projects/concept-cultural-centre/drawings/section-aa-large.webp"
+      ],
+      "project": "Concept Cultural Centre",
+      "folder": "concept-cultural-centre",
+      "role": "Drawing — Section",
+      "caption": "Section — Section A-A",
+      "source": "projects/03-concept-cultural-centre/drawings/section-aa.pdf",
+      "source_sha256": "8255f69bcc7a7e5d993940ee2114636f5145240a50723f891ac8eeb0914cea51",
+      "original_name": "aakesit.pdf",
+      "verification": "Title block / room labels read and sheet rendered; previews rendered directly from this PDF (not reused)."
+    },
+    {
+      "files": [
+        "assets/projects/concept-cultural-centre/drawings/section-bb.pdf",
+        "assets/projects/concept-cultural-centre/drawings/section-bb-preview.webp",
+        "assets/projects/concept-cultural-centre/drawings/section-bb-large.webp"
+      ],
+      "project": "Concept Cultural Centre",
+      "folder": "concept-cultural-centre",
+      "role": "Drawing — Section",
+      "caption": "Section — Section B-B",
+      "source": "projects/03-concept-cultural-centre/drawings/section-bb.pdf",
+      "source_sha256": "fddcd29dff3a565a8df7cd2fc4fd6c15d90f0f716d02f783323f5d47d7017ec7",
+      "original_name": "bbkesit.pdf",
+      "verification": "Title block / room labels read and sheet rendered; previews rendered directly from this PDF (not reused)."
+    },
+    {
+      "files": [
+        "assets/projects/concept-cultural-centre/drawings/section-cc.pdf",
+        "assets/projects/concept-cultural-centre/drawings/section-cc-preview.webp",
+        "assets/projects/concept-cultural-centre/drawings/section-cc-large.webp"
+      ],
+      "project": "Concept Cultural Centre",
+      "folder": "concept-cultural-centre",
+      "role": "Drawing — Section",
+      "caption": "Section — Section C-C",
+      "source": "projects/03-concept-cultural-centre/drawings/section-cc.pdf",
+      "source_sha256": "44165ad7178e8b85092ce5da52c3fac339ddc59059fad683c2ee48f107b7ba28",
+      "original_name": "CCKESİT.pdf",
+      "verification": "Title block / room labels read and sheet rendered; previews rendered directly from this PDF (not reused)."
+    },
+    {
+      "files": [
+        "assets/projects/concept-cultural-centre/drawings/section-dd.pdf",
+        "assets/projects/concept-cultural-centre/drawings/section-dd-preview.webp",
+        "assets/projects/concept-cultural-centre/drawings/section-dd-large.webp"
+      ],
+      "project": "Concept Cultural Centre",
+      "folder": "concept-cultural-centre",
+      "role": "Drawing — Section",
+      "caption": "Section — Section D-D",
+      "source": "projects/03-concept-cultural-centre/drawings/section-dd.pdf",
+      "source_sha256": "7f2336eec98b5b3cf68e037e13dfb269bb90853828102daa493ac50d92a8b5c1",
+      "original_name": "ddkesit.pdf",
+      "verification": "Title block / room labels read and sheet rendered; previews rendered directly from this PDF (not reused)."
+    },
+    {
+      "files": [
+        "assets/projects/concept-cultural-centre/drawings/third-floor.pdf",
+        "assets/projects/concept-cultural-centre/drawings/third-floor-preview.webp",
+        "assets/projects/concept-cultural-centre/drawings/third-floor-large.webp"
+      ],
+      "project": "Concept Cultural Centre",
+      "folder": "concept-cultural-centre",
+      "role": "Drawing — Plan",
+      "caption": "Plan — Third floor",
+      "source": "projects/03-concept-cultural-centre/drawings/third-floor.pdf",
+      "source_sha256": "bf67cdf673f81dc8ca3baf666a470c918b154fb2c715135ec4cdaf76f1c7ec1f",
+      "original_name": "3KATT.pdf",
+      "verification": "Title block / room labels read and sheet rendered; previews rendered directly from this PDF (not reused)."
+    },
+    {
+      "files": [
+        "assets/projects/relic-no01/images/object-800.webp",
+        "assets/projects/relic-no01/images/object-1122.webp"
+      ],
+      "project": "RELIC No.01",
+      "folder": "relic-no01",
+      "role": "Image — Selector cover and project hero",
+      "caption": "Visualisation — RELIC No.01",
+      "source": "projects/04-relic/images/01-object.png",
+      "source_sha256": "401ee69a47af92706f87eed42a236aa7f8f7ca0e06c91bbfc932889efccfe7f0",
+      "original_name": "ChatGPT Görseli 9 Eki 2026 12_26_26-2.png",
+      "verification": "Visually checked: belongs to this project (consistent interior language, signage/programme); hash matches package manifest."
+    },
+    {
+      "files": [
+        "assets/projects/relic-no01/images/material-detail-800.webp",
+        "assets/projects/relic-no01/images/material-detail-1122.webp"
+      ],
+      "project": "RELIC No.01",
+      "folder": "relic-no01",
+      "role": "Image — Object view beside link",
+      "caption": "Visualisation — Material detail",
+      "source": "projects/04-relic/images/02-material-detail.png",
+      "source_sha256": "e4dc90c08ce78c1eebbdbf67517c152c6b2911888415681e3a823af28ec33c46",
+      "original_name": "ChatGPT Görseli 9 Eki 2026 12_26_28-3.png",
+      "verification": "Visually checked: belongs to this project (consistent interior language, signage/programme); hash matches package manifest."
+    },
+    {
+      "files": [
+        "assets/projects/concept-store/video/door-entry-720.mp4",
+        "assets/projects/concept-store/video/door-entry-540.mp4",
+        "assets/projects/concept-store/video/door-entry-720.webm",
+        "assets/projects/concept-store/video/door-entry-540.webm"
+      ],
+      "project": "Concept Store",
+      "folder": "concept-store",
+      "role": "Entrance video (plays once after selecting Concept Store)",
+      "caption": "Entering Concept Store",
+      "source": "projects/01-concept-store/video/door-entry.mp4",
+      "source_sha256": "a4c9423e5b85a1bd28f7d31ed0cf1b1534d511aa05955ccbf64f128af7bd0187",
+      "original_name": "Walkthrough_into_menswear_boutiq…_20261018233947.mp4",
+      "verification": "Facade → door with atlantes → runway axis. The supplied clip has an abrupt jump at the threshold (frames 119→120, 5.0 s); smoothed with a 0.25 s dissolve, giving 7.75 s. No other edits. First frame matches 01-facade.png (mean diff 3.6/255); last frame unchanged. Audio removed; H.264 + VP9."
+    },
+    {
+      "files": [
+        "assets/profile/portrait-326.webp"
+      ],
+      "project": "Profile",
+      "folder": "profile",
+      "role": "Portrait",
+      "caption": "Portrait of Nejat Şumlu",
+      "source": "profile/portrait.png",
+      "source_sha256": "8be72c4066d203ffe4fc7f38224184de6c10e2e06aac6ccf49b073c5db21f2d8",
+      "original_name": "",
+      "verification": "Pixel-identical to the image embedded in the CV PDF."
+    },
+    {
+      "files": [
+        "assets/profile/qr/linkedin-480.png"
+      ],
+      "project": "Profile",
+      "folder": "profile",
+      "role": "QR code",
+      "caption": "Scan — LinkedIn",
+      "source": "profile/qr/linkedin.png",
+      "source_sha256": "35e2d5192578f2803bf94c8d35e7e461bd0006cc7f151514a06e2b8681448c0f",
+      "original_name": "",
+      "verification": "Decoded: https://q.me-qr.com/dhlhrgz8 (me-qr.com dynamic redirect). Resized copy re-decoded to the same URL."
+    },
+    {
+      "files": [
+        "assets/profile/qr/behance-480.png"
+      ],
+      "project": "Profile",
+      "folder": "profile",
+      "role": "QR code",
+      "caption": "Scan — Behance",
+      "source": "profile/qr/behance.png",
+      "source_sha256": "beb6d43607cb52da18062750125fb9245af971416a725516ed642a3710823431",
+      "original_name": "",
+      "verification": "Decoded: https://q.me-qr.com/hov3la8e (me-qr.com dynamic redirect). Resized copy re-decoded to the same URL."
+    },
+    {
+      "files": [
+        "assets/profile/Nejat-Sumlu-CV.pdf"
+      ],
+      "project": "Profile",
+      "folder": "profile",
+      "role": "Public CV download",
+      "caption": "Download CV (PDF)",
+      "source": "tools/cv/cv.html (generated)",
+      "source_sha256": "",
+      "original_name": "",
+      "verification": "Rebuilt from verified CV facts only; excludes address, phone, high school and references."
+    }
+  ],
+  "flagged": [
+    {
+      "item": "projects/02-concept-restaurant/moodboard/material-light-palette.png",
+      "status": "Excluded",
+      "reason": "Composite board (Turkish heading, duplicated renders, material swatches of unverified origin); not in the selected images folder. Possible overlap with old-portfolio material imagery cannot be ruled out."
+    },
+    {
+      "item": "Restaurant upper-floor plan",
+      "status": "Missing",
+      "reason": "No clean verified PDF supplied. Old-portfolio page not used. The page shows the ground floor plan and four sections only."
+    },
+    {
+      "item": "LinkedIn / Behance profile URLs",
+      "status": "Needs review",
+      "reason": "QR codes decode to me-qr.com redirect links; the final profile URLs could not be fetched from this environment. Dynamic QR links can expire — replace with direct URLs in assets/js/content.js (SITE.social) and tools/cv/cv.html."
+    },
+    {
+      "item": "Project dates",
+      "status": "Hidden until confirmed",
+      "reason": "Concept Store: old portfolio says 2022/2023, source folder says \"2.sınıf-2.dönem\" (2nd year, spring term), i.e. 2021/22 if enrolment began in 2020. Concept Restaurant 2022/2023 and Cultural Centre 2024/2025 come from the old portfolio only. All dates are omitted; set `year` + `showYear` in content.js once confirmed."
+    },
+    {
+      "item": "Plan scales",
+      "status": "Shown only where printed",
+      "reason": "Restaurant ground floor and the four cultural-centre plans carry no printed scale; no scale is shown for them."
+    },
+    {
+      "item": "RELIC No.01 text",
+      "status": "Sourced",
+      "reason": "Wording taken from https://nsumlu.github.io/relic-no01-final/ (title, materials, “Light, remembered.”)."
+    }
+  ],
+  "not_used": [
+    "text-reference-only/OLD-PORTFOLIO-TEXT-ONLY.pdf — text only; no images, drawings, layouts or colours extracted",
+    "design-references/*.jpg — design inspiration only, never shown",
+    "review/*.png|jpg — internal review aids only",
+    "projects/*/drawing-previews/*.webp — superseded; previews regenerated from the verified PDFs",
+    "profile/Nejat-Sumlu-CV.pdf — original contains private address, phone and references; not published"
+  ]
+}

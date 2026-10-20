@@ -257,7 +257,7 @@ main, .site-footer { position: relative; z-index: 1; }
 
 /* the scene */
 .stage {
-  --pw: clamp(150px, 14.5vw, 260px);
+  --pw: clamp(190px, 18.5vw, 330px);
   position: relative; height: calc(var(--pw) * 1.5 + 190px);
   margin-top: clamp(8px, 1vw, 16px);
   /* one restrained, static light at the vanishing point */

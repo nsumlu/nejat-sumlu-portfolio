@@ -56,7 +56,7 @@ const panels = PROJECTS.map((p, i) => {
     el('span', { class: 'plane__mopen', 'aria-hidden': 'true' }, 'View Project →'),
   ]);
   return el('div', { class: 'plane', role: 'listitem', 'data-i': i, 'aria-label': `${p.number} ${p.title}`, style: `--accent:${p.accent || '#3546B6'}` }, [
-    el('div', { class: 'plane__img' }, picture(p, p.cover, { sizes: '(max-width: 760px) 64vw, 18vw', eager: true })),
+    el('div', { class: 'plane__img' }, picture(p, p.cover, { sizes: '(max-width: 760px) 64vw, 22vw', eager: true })),
     hit, select, mLabel,
   ]);
 });

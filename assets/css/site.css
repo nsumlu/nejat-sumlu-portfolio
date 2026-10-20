@@ -156,11 +156,11 @@ main, .site-footer { position: relative; z-index: 1; }
 .opening__index { grid-area: idx; display: flex; justify-content: space-between; color: var(--ink-2); padding-bottom: 10px; border-bottom: 1px solid var(--ink); }
 .opening__name {
   grid-area: nam; align-self: end;
-  font-size: var(--name-size);
+  font-size: calc(var(--name-size) * 0.5);
   /* generous leading + bottom room so the Ş cedilla never touches the rule below */
   line-height: 0.9; font-weight: 820; letter-spacing: -0.052em;
   margin: clamp(28px, 3.4vw, 56px) 0 0 -0.045em;
-  padding-bottom: calc(var(--name-size) * 0.3);
+  padding-bottom: calc(var(--name-size) * 0.15);
 }
 .opening__name .line { display: block; }
 .opening__name .line + .line { margin-top: 0.02em; }

@@ -34,7 +34,6 @@ q('[data-list="social"]').replaceChildren(...SITE.social.map((s) =>
 const space = q('[data-space]');
 const stage = q('[data-stage]');
 const labels = q('[data-labels]');
-const indexList = q('[data-index]');
 const progress = q('[data-progress]');
 const STORE_KEY = 'ns.selector.active';
 const N = PROJECTS.length;
@@ -79,8 +78,18 @@ const labelEls = PROJECTS.map((p, i) => {
 labels.replaceChildren(...labelEls);
 progress.replaceChildren(...PROJECTS.map(() => el('span')));
 
-indexList.replaceChildren(...PROJECTS.map((p, i) => el('li', {}, el('a', { href: projectUrl(p), 'data-i': i, onclick: openFrom(i) },
-  [el('span', { class: 'num', text: p.number }), el('span', { class: 'project-index__title', text: p.title }), el('span', { class: 'meta', text: p.category })]))));
+// Fine-pointer hover selects without navigating or moving keyboard focus.
+const hoverInput = window.matchMedia('(hover: hover) and (pointer: fine)');
+panels.forEach((panel, i) => {
+  panel.addEventListener('pointerenter', (event) => {
+    if (event.pointerType !== 'touch' && hoverInput.matches && !isMobile() && i !== active) setActive(i);
+  });
+});
+labelEls.forEach((label, i) => {
+  label.addEventListener('pointerenter', (event) => {
+    if (event.pointerType !== 'touch' && hoverInput.matches && !isMobile() && i !== active) setActive(i);
+  });
+});
 
 /* corridor geometry: t ∈ [-1, 1] across the scene */
 const PERSP = 1100, WALL = 54, ACTIVE_TURN = 14, STEP = 70, SPREAD = 0.31, DEPTH = 300;
@@ -99,7 +108,6 @@ function layout() {
     pl.querySelector('.plane__hit').tabIndex = mobile && i === active ? 0 : -1;
   });
   labelEls.forEach((l, i) => l.classList.toggle('is-active', i === active));
-  indexList.querySelectorAll('a').forEach((a, i) => a.toggleAttribute('aria-current', i === active));
   [...progress.children].forEach((s, i) => s.classList.toggle('is-on', i === active));
   q('[data-current]').textContent = PROJECTS[active].number;
   if (mobile) { tiltCards(); return; }

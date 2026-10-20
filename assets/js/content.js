@@ -122,7 +122,7 @@ export const PROJECTS = [
     number: '02',
     title: 'Concept Restaurant',
     kind: 'interior',
-    category: 'Hospitality interior',
+    category: 'Restaurant interior',
     dir: 'assets/projects/concept-restaurant/',
     accent: '#C4471F',
     cover: { base: 'images/dining-room', widths: [800, 1400, 1672], w: 1672, h: 941, alt: 'Restaurant dining room with terracotta walls, string lights, patterned floor tiles and red-clothed tables', label: V },
@@ -134,7 +134,7 @@ export const PROJECTS = [
       'On set days the restaurant becomes a programme: tasting events, taco and burrito workshops, live music, and evenings of dance, art and dress.',
     ],
     facts: [
-      ['Type', 'Hospitality interior — restaurant and bar'],
+      ['Type', 'Restaurant and bar interior'],
       ['Location', 'Yeşilköy, Bakırköy, Istanbul'],
       ['Levels', 'Two floors and an upper-floor terrace'],
       ['Programme', 'Dining rooms, central bar, kitchen, food workshops, gift shop, photo corner, terrace'],

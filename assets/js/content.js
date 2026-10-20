@@ -16,15 +16,15 @@ export const SITE = {
   location: 'Istanbul, Türkiye',
   email: 'nsumlu@hotmail.com',
   intro:
-    'I am an Istanbul-based interior designer exploring how material, light and spatial composition shape experience. My work spans cultural, retail and hospitality environments, alongside an interest in collectible objects.',
+    'I am an Istanbul-based interior designer exploring how material, light and spatial composition shape experience. My work spans cultural spaces, retail and restaurant interiors, alongside an interest in collectible objects.',
   portrait: { src: 'assets/profile/portrait-326.webp', w: 326, h: 435, alt: 'Portrait of Nejat Şumlu' },
   cv: 'assets/profile/Nejat-Sumlu-CV.pdf',
   education: [
     { years: '2020–2025', title: 'Interior Architecture (BA)', place: 'Istanbul Gelişim University, Faculty of Fine Arts' },
   ],
   internships: [
-    { years: 'Aug–Sep 2024', title: 'Internship', place: 'Artaş İnşaat' },
-    { years: 'Aug–Sep 2023', title: 'Internship', place: 'Kaleseramik' },
+    { years: 'Aug–Sep 2024', title: 'Internship', place: 'Artaş İnşaat San. ve Tic. A.Ş.' },
+    { years: 'Aug–Sep 2023', title: 'Internship', place: 'Kaleseramik Çanakkale Kalebodur Seramik A.Ş.' },
   ],
   software: ['AutoCAD', 'Autodesk 3ds Max', 'Adobe Photoshop', 'Rhino 7', 'Microsoft Office'],
   languages: ['English — B2'],

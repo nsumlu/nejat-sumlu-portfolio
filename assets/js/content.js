@@ -18,7 +18,6 @@ export const SITE = {
   intro:
     'I am an Istanbul-based interior designer exploring how material, light and spatial composition shape experience. My work spans cultural spaces, retail and restaurant interiors, alongside an interest in collectible objects.',
   portrait: { src: 'assets/profile/portrait-326.webp', w: 326, h: 435, alt: 'Portrait of Nejat Şumlu' },
-  cv: 'assets/profile/Nejat-Sumlu-CV.pdf',
   education: [
     { years: '2020–2025', title: 'Interior Architecture (BA)', place: 'Istanbul Gelişim University, Faculty of Fine Arts' },
   ],

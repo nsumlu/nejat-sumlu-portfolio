@@ -7,7 +7,6 @@ const q = (s) => document.querySelector(s);
 q('[data-bind="intro"]').textContent = SITE.intro;
 const portrait = q('[data-bind="portrait"]');
 portrait.src = SITE.portrait.src; portrait.alt = SITE.portrait.alt;
-q('[data-bind="cv"]').href = SITE.cv;
 q('[data-bind="count"]').textContent = String(PROJECTS.length).padStart(2, '0');
 
 const li = (o) => el('li', {}, [el('span', { class: 'cv-list__years meta', text: o.years }), el('strong', { text: o.title }), el('span', { text: o.place })]);

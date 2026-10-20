@@ -90,7 +90,15 @@
       <div class="wrap work__head">
         <h2 class="work__title" id="work-title">Selected Work</h2>
         <p class="work__lede">Explore selected projects.</p>
-        <p class="work__count meta"><span data-bind="count"></span> projects</p>
+        <p class="work__count meta"><span data-bind="count"></span> <span data-count-label>projects</span></p>
+      </div>
+      <div class="wrap work__filters">
+        <div class="project-filters" role="group" aria-label="Filter projects by discipline">
+          <button type="button" data-filter="all" aria-pressed="true">All Projects</button>
+          <button type="button" data-filter="interior" aria-pressed="false">Interiors</button>
+          <button type="button" data-filter="object" aria-pressed="false">Objects</button>
+        </div>
+        <p class="sr-only" data-filter-status role="status" aria-live="polite"></p>
       </div>
 
       <div class="stage" data-stage>

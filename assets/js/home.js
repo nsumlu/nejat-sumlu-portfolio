@@ -36,11 +36,12 @@ const labels = q('[data-labels]');
 const progress = q('[data-progress]');
 const STORE_KEY = 'ns.selector.active';
 const N = PROJECTS.length;
-// Keep five or more planes legible within the same corridor composition.
-if (N > 4) stage.style.setProperty('--pw', 'clamp(165px, 16vw, 285px)');
+let filter = 'all';
+try { const saved = sessionStorage.getItem('ns.selector.filter'); if (['all', 'interior', 'object'].includes(saved)) filter = saved; } catch {}
+let visible = PROJECTS.map((p, i) => i).filter((i) => filter === 'all' || PROJECTS[i].kind === filter);
 let active = 0;
 try { active = Math.min(N - 1, Math.max(0, Number(sessionStorage.getItem(STORE_KEY)) || 0)); } catch { /* storage unavailable */ }
-q('[data-total]').textContent = String(N).padStart(2, '0');
+if (!visible.includes(active)) active = visible[0];
 
 const isMobile = () => window.matchMedia('(max-width: 760px)').matches;
 const plain = (e) => !(e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || e.button);
@@ -93,9 +94,10 @@ labelEls.forEach((label, i) => {
 });
 
 /* corridor geometry: t ∈ [-1, 1] across the scene */
-const PERSP = 1100, WALL = 54, ACTIVE_TURN = 14, STEP = 70, SPREAD = N > 4 ? 0.34 : 0.31, DEPTH = 300;
+const PERSP = 1100, WALL = 54, ACTIVE_TURN = 14, STEP = 70, DEPTH = 300;
 function place(i) {
-  const t = N === 1 ? 0 : (i - (N - 1) / 2) / ((N - 1) / 2);
+  if (visible.length === 1) return {t: 0, side: 0, z: 0, ry: 0};
+  const t = (visible.indexOf(i) - (visible.length - 1) / 2) / ((visible.length - 1) / 2);
   const side = Math.sign(t);
   return { t, side, z: -(1 - Math.abs(t)) * DEPTH, ry: -side * WALL };
 }
@@ -103,19 +105,29 @@ function place(i) {
 function layout() {
   const mobile = isMobile();
   stage.classList.toggle('is-mobile', mobile);
+  stage.style.setProperty('--pw', visible.length > 4 ? 'clamp(165px, 16vw, 285px)' : 'clamp(190px, 18.5vw, 330px)');
+  q('[data-total]').textContent = String(visible.length).padStart(2, '0');
+  q('[data-bind="count"]').textContent = String(visible.length).padStart(2, '0');
+  q('[data-count-label]').textContent = visible.length === 1 ? 'project' : 'projects';
+  q('.stage__swipe').hidden = visible.length < 2;
+  q('[data-prev]').disabled = q('[data-next]').disabled = visible.length < 2;
+  document.querySelectorAll('[data-filter]').forEach((button) => button.setAttribute('aria-pressed', String(button.dataset.filter === filter)));
   panels.forEach((pl, i) => {
+    pl.hidden = !visible.includes(i);
     pl.classList.toggle('is-active', i === active); pl.toggleAttribute('aria-current', i === active);
     // desktop: the label's “View Project” link is the tab stop; phones: the card itself
     pl.querySelector('.plane__hit').tabIndex = mobile && i === active ? 0 : -1;
   });
-  labelEls.forEach((l, i) => l.classList.toggle('is-active', i === active));
-  [...progress.children].forEach((s, i) => s.classList.toggle('is-on', i === active));
-  q('[data-current]').textContent = PROJECTS[active].number;
+  labelEls.forEach((l, i) => { l.hidden = !visible.includes(i); l.classList.toggle('is-active', i === active); });
+  [...progress.children].forEach((s, i) => { s.hidden = !visible.includes(i); s.classList.toggle('is-on', i === active); });
+  q('[data-current]').textContent = String(visible.indexOf(active) + 1).padStart(2, '0');
+  q('[data-filter-status]').textContent = `${visible.length} ${filter === 'all' ? '' : filter === 'interior' ? 'interior ' : 'object '}project${visible.length === 1 ? '' : 's'}`;
   if (mobile) { tiltCards(); return; }
   const W = stage.clientWidth;
   panels.forEach((pl, i) => {
+    if (!visible.includes(i)) return;
     const g = place(i), on = i === active;
-    const x = g.t * SPREAD * W;
+    const x = g.t * (visible.length > 4 ? 0.34 : 0.31) * W;
     const z = g.z + (on ? STEP : 0);
     const ry = on ? -g.side * ACTIVE_TURN : g.ry;
     pl.style.setProperty('--x', `${x}px`);
@@ -130,7 +142,8 @@ function layout() {
 /* phones: cards angle away from the centre of the strip */
 function tiltCards() {
   const mid = space.scrollLeft + space.clientWidth / 2;
-  panels.forEach((pl) => {
+  visible.forEach((i) => {
+    const pl = panels[i];
     const d = (pl.offsetLeft + pl.offsetWidth / 2 - mid) / pl.offsetWidth;
     pl.style.setProperty('--ry', `${Math.max(-28, Math.min(28, -d * 28))}deg`);
     pl.style.setProperty('--z', `${-Math.min(1, Math.abs(d)) * 60}px`);
@@ -138,7 +151,8 @@ function tiltCards() {
 }
 
 function setActive(i, { focus = false } = {}) {
-  active = (i + N) % N;
+  if (!visible.includes(i)) return;
+  active = i;
   try { sessionStorage.setItem(STORE_KEY, String(active)); } catch { /* ignore */ }
   layout();
   if (isMobile()) centreCard(active, true);
@@ -150,11 +164,20 @@ function centreCard(i, smooth) {
   space.scrollTo({ left: pl.offsetLeft - (space.clientWidth - pl.offsetWidth) / 2, behavior: smooth && !reducedMotion() ? 'smooth' : 'auto' });
 }
 
-q('[data-prev]').addEventListener('click', () => setActive(active - 1, { focus: !isMobile() }));
-q('[data-next]').addEventListener('click', () => setActive(active + 1, { focus: !isMobile() }));
+const relative = (delta) => visible[(visible.indexOf(active) + delta + visible.length) % visible.length];
+q('[data-prev]').addEventListener('click', () => setActive(relative(-1), { focus: !isMobile() }));
+q('[data-next]').addEventListener('click', () => setActive(relative(1), { focus: !isMobile() }));
+document.querySelectorAll('[data-filter]').forEach((button) => button.addEventListener('click', () => {
+  filter = button.dataset.filter;
+  visible = PROJECTS.map((p, i) => i).filter((i) => filter === 'all' || PROJECTS[i].kind === filter);
+  try { sessionStorage.setItem('ns.selector.filter', filter); } catch {}
+  clearTimeout(scrollT);
+  setActive(visible.includes(active) ? active : visible[0]);
+  if (isMobile()) { centreCard(active, false); tiltCards(); }
+}));
 q('.work').addEventListener('keydown', (e) => {
   if (!e.target.closest('[data-stage], .stage__labels, .stage__bar')) return;
-  const k = { ArrowRight: active + 1, ArrowLeft: active - 1, Home: 0, End: N - 1 }[e.key];
+  const k = { ArrowRight: relative(1), ArrowLeft: relative(-1), Home: visible[0], End: visible[visible.length - 1] }[e.key];
   if (k === undefined) return;
   e.preventDefault(); setActive(k, { focus: true });
 });
@@ -165,7 +188,7 @@ stage.addEventListener('touchstart', (e) => { if (!isMobile()) { touchX = e.touc
 stage.addEventListener('touchend', (e) => {
   if (touchX == null) return;
   const dx = e.changedTouches[0].clientX - touchX, dy = e.changedTouches[0].clientY - touchY; touchX = null;
-  if (Math.abs(dx) > 40 && Math.abs(dx) > Math.abs(dy)) setActive(active + (dx < 0 ? 1 : -1));
+  if (Math.abs(dx) > 40 && Math.abs(dx) > Math.abs(dy)) setActive(relative(dx < 0 ? 1 : -1));
 }, { passive: true });
 
 // Phones: native scroll; tilt follows the scroll, selection follows the centred card
@@ -176,8 +199,8 @@ space.addEventListener('scroll', () => {
   clearTimeout(scrollT);
   scrollT = setTimeout(() => {
     const mid = space.scrollLeft + space.clientWidth / 2;
-    let best = 0, bestD = Infinity;
-    panels.forEach((pl, i) => { const d = Math.abs(pl.offsetLeft + pl.offsetWidth / 2 - mid); if (d < bestD) { bestD = d; best = i; } });
+    let best = active, bestD = Infinity;
+    visible.forEach((i) => { const pl = panels[i]; const d = Math.abs(pl.offsetLeft + pl.offsetWidth / 2 - mid); if (d < bestD) { bestD = d; best = i; } });
     if (best !== active) { active = best; try { sessionStorage.setItem(STORE_KEY, String(active)); } catch {} layout(); }
     stage.classList.toggle('is-scrolled-end', space.scrollLeft + space.clientWidth >= space.scrollWidth - 4);
   }, 80);

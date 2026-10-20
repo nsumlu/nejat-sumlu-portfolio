@@ -147,13 +147,20 @@ function drawings(p) {
 
 function materials(p) {
   const m = p.materials;
-  return el('section', { class: 'p-materials wrap', 'aria-labelledby': 'mat-h' }, [
+  return el('section', { class: `p-materials wrap${m.samples?.length ? ' p-materials--samples' : ''}`, 'aria-labelledby': 'mat-h' }, [
     el('h2', { class: 'side-label', id: 'mat-h' }, [el('span', { class: 'num', text: 'E' }), 'Materials and details']),
     el('div', { class: 'p-materials__text' }, [
       el('p', { class: 'reveal', text: m.text }),
       el('dl', { class: 'facts facts--compact' }, m.list.map(([k, v]) => el('div', { class: 'facts__row' }, [el('dt', { text: k }), el('dd', { text: v })]))),
     ]),
     m.image ? el('div', { class: 'p-materials__img' }, fig(p, m.image, '(max-width:760px) 100vw, 45vw')) : null,
+    m.samples?.length ? el('div', { class: 'material-study' }, [
+      el('p', { class: 'material-study__intro meta', text: m.sampleNote || 'Material palette' }),
+      el('div', { class: 'material-study__grid' }, m.samples.map((sample, i) => el('figure', { class: 'material-sample reveal' }, [
+        el('div', { class: 'material-sample__image' }, el('img', {src: p.dir + sample.src, width: sample.w, height: sample.h, alt: sample.alt, loading: 'lazy', decoding: 'async'})),
+        el('figcaption', {}, [el('span', {class: 'meta',text: String(i + 1).padStart(2, '0')}), el('strong', {text: sample.title}), el('span', {class: 'material-sample__note',text: sample.note})]),
+      ]))),
+    ]) : null,
   ]);
 }
 

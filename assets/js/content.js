@@ -452,7 +452,42 @@ export const PROJECTS = [
       }
     ],
     "materials": {
-      "text": "The concept board combines timber, grey mineral surfaces, white finishes, integrated greenery and contemporary lighting within a blue and charcoal palette.",
+      "samples": [
+  {
+    "src": "materials/timber.webp",
+    "title": "Timber texture",
+    "note": "Warm natural grain",
+    "w": 311,
+    "h": 636,
+    "alt": "Timber texture sample from the project concept board"
+  },
+  {
+    "src": "materials/grey-mineral.webp",
+    "title": "Grey mineral finish",
+    "note": "Fine-grained neutral surface",
+    "w": 233,
+    "h": 291,
+    "alt": "Grey mineral finish sample from the project concept board"
+  },
+  {
+    "src": "materials/white-finish.webp",
+    "title": "White finish",
+    "note": "A quiet, light backdrop",
+    "w": 346,
+    "h": 187,
+    "alt": "White finish sample from the project concept board"
+  },
+  {
+    "src": "materials/greenery.webp",
+    "title": "Integrated greenery",
+    "note": "Living texture and colour",
+    "w": 242,
+    "h": 345,
+    "alt": "Integrated greenery sample from the project concept board"
+  }
+],
+    "sampleNote": "Material references from the project concept board.",
+    "text": "The concept board combines timber, grey mineral surfaces, white finishes, integrated greenery and contemporary lighting within a blue and charcoal palette.",
       "list": [
         [
           "Palette",

@@ -119,3 +119,7 @@ Only the three approved, restrained-lighting v2 renders are used. Text is adapte
 - Section D-D — Yeni klasör (2)/dkes.pdf
 
 Detailed provenance: `assets/projects/concept-headquarters/sources.json`. CV downloads were removed at the owner’s request.
+
+## Headquarters material study
+
+Four texture references are extracted directly from the materials area of the supplied headquarters presentation, page 1. No old portfolio imagery or external manufacturer claims are used. See `assets/projects/concept-headquarters/materials/sources.json`.

@@ -854,6 +854,50 @@
       "role": "drawing",
       "source": "Yeni klasör (2)/dkes.pdf",
       "source_sha256": "45eb43f7086354d7a91e18170dafeda901f8f8931cca11d574a67127fdddf708"
+    },
+    {
+      "files": [
+        "assets/projects/concept-headquarters/materials/timber.webp"
+      ],
+      "project": "Concept Headquarters",
+      "folder": "concept-headquarters",
+      "role": "Material sample",
+      "caption": "Timber texture",
+      "source": "Headquarters concept presentation, page 1, materials area",
+      "sha256": "7063110444a438573a7d3ef4610ea2970a96fe8287248b8990522657572f4d3a"
+    },
+    {
+      "files": [
+        "assets/projects/concept-headquarters/materials/grey-mineral.webp"
+      ],
+      "project": "Concept Headquarters",
+      "folder": "concept-headquarters",
+      "role": "Material sample",
+      "caption": "Grey mineral finish",
+      "source": "Headquarters concept presentation, page 1, materials area",
+      "sha256": "09287de99f2cdafe81d7ca30f7976c72b718d61c48326374fcea700bd6ddf27a"
+    },
+    {
+      "files": [
+        "assets/projects/concept-headquarters/materials/white-finish.webp"
+      ],
+      "project": "Concept Headquarters",
+      "folder": "concept-headquarters",
+      "role": "Material sample",
+      "caption": "White finish",
+      "source": "Headquarters concept presentation, page 1, materials area",
+      "sha256": "6b316f53093a2f0f656f964011a7ea9eaca76e6b988cc95cd107cd966cb21d04"
+    },
+    {
+      "files": [
+        "assets/projects/concept-headquarters/materials/greenery.webp"
+      ],
+      "project": "Concept Headquarters",
+      "folder": "concept-headquarters",
+      "role": "Material sample",
+      "caption": "Integrated greenery",
+      "source": "Headquarters concept presentation, page 1, materials area",
+      "sha256": "1a04440051fdc517868a52eb7e7f18b88edcbc5069dff236a66d40e096a4f3d2"
     }
   ],
   "flagged": [

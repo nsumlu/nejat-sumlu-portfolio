@@ -98,3 +98,24 @@ Public captions use neutral labels (*Visualisation*, *Plan*, *Section*, *Elevati
 - profile/Nejat-Sumlu-CV.pdf — original contains private address, phone and references; not published
 
 Source SHA-256 hashes for every file are in `asset-manifest.json`; all 74 package hashes matched the package manifest on 19 Oct 2026.
+
+
+## Concept Headquarters — added 21 October 2026
+
+Only the three approved, restrained-lighting v2 renders are used. Text is adapted from the supplied headquarters presentation concept board and programme drawings; no old presentation images are used. The original ten drawing PDFs are copied unchanged.
+
+- images/exterior — 03-dis-cephe-v2.png
+- images/open-office — 01-acik-ofis-perspektif-v2.png
+- images/workstations — 02-calisma-alani-v2.png
+- Site plan — Yeni klasör (2)/vaz1.pdf
+- Basement — Yeni klasör (2)/pla1.pdf
+- Ground floor — Yeni klasör (2)/pla2.pdf
+- First floor — Yeni klasör (2)/pla3.pdf
+- Second floor — Yeni klasör (2)/pla4.pdf
+- Third floor — Yeni klasör (2)/pla5.pdf
+- Section A-A — aakes.pdf
+- Section B-B — bbkess.pdf
+- Section C-C — Yeni klasör (2)/ckes.pdf
+- Section D-D — Yeni klasör (2)/dkes.pdf
+
+Detailed provenance: `assets/projects/concept-headquarters/sources.json`. CV downloads were removed at the owner’s request.

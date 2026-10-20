@@ -36,6 +36,8 @@ const labels = q('[data-labels]');
 const progress = q('[data-progress]');
 const STORE_KEY = 'ns.selector.active';
 const N = PROJECTS.length;
+// Keep five or more planes legible within the same corridor composition.
+if (N > 4) stage.style.setProperty('--pw', 'clamp(165px, 16vw, 285px)');
 let active = 0;
 try { active = Math.min(N - 1, Math.max(0, Number(sessionStorage.getItem(STORE_KEY)) || 0)); } catch { /* storage unavailable */ }
 q('[data-total]').textContent = String(N).padStart(2, '0');
@@ -56,7 +58,7 @@ const panels = PROJECTS.map((p, i) => {
     el('span', { class: 'plane__mopen', 'aria-hidden': 'true' }, 'View Project →'),
   ]);
   return el('div', { class: 'plane', role: 'listitem', 'data-i': i, 'aria-label': `${p.number} ${p.title}`, style: `--accent:${p.accent || '#3546B6'}` }, [
-    el('div', { class: 'plane__img' }, picture(p, p.cover, { sizes: '(max-width: 760px) 64vw, 22vw', eager: true })),
+    el('div', { class: 'plane__img' }, picture(p, p.cover, { sizes: `(max-width: 760px) 64vw, ${N > 4 ? '19vw' : '22vw'}`, eager: true })),
     hit, select, mLabel,
   ]);
 });
@@ -91,7 +93,7 @@ labelEls.forEach((label, i) => {
 });
 
 /* corridor geometry: t ∈ [-1, 1] across the scene */
-const PERSP = 1100, WALL = 54, ACTIVE_TURN = 14, STEP = 70, SPREAD = 0.31, DEPTH = 300;
+const PERSP = 1100, WALL = 54, ACTIVE_TURN = 14, STEP = 70, SPREAD = N > 4 ? 0.34 : 0.31, DEPTH = 300;
 function place(i) {
   const t = N === 1 ? 0 : (i - (N - 1) / 2) / ((N - 1) / 2);
   const side = Math.sign(t);

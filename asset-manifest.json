@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-19",
+  "generated": "2026-10-21",
   "assets": [
     {
       "files": [
@@ -701,16 +701,159 @@
     },
     {
       "files": [
-        "assets/profile/Nejat-Sumlu-CV.pdf"
+        "assets/projects/concept-headquarters/images/exterior-1400.webp",
+        "assets/projects/concept-headquarters/images/exterior-1672.webp",
+        "assets/projects/concept-headquarters/images/exterior-800.webp"
       ],
-      "project": "Profile",
-      "folder": "profile",
-      "role": "Public CV download",
-      "caption": "Download CV (PDF)",
-      "source": "tools/cv/cv.html (generated)",
-      "source_sha256": "",
-      "original_name": "",
-      "verification": "Rebuilt from verified CV facts only; excludes address, phone, high school and references."
+      "project": "Concept Headquarters",
+      "folder": "concept-headquarters",
+      "role": "selected-render",
+      "source": "03-dis-cephe-v2.png",
+      "source_sha256": "b3d2ea7eb72db92ee92f2d6f485abe28ac1ed9f712b8384023a0f9a69b2f55bb"
+    },
+    {
+      "files": [
+        "assets/projects/concept-headquarters/images/open-office-1400.webp",
+        "assets/projects/concept-headquarters/images/open-office-1671.webp",
+        "assets/projects/concept-headquarters/images/open-office-800.webp"
+      ],
+      "project": "Concept Headquarters",
+      "folder": "concept-headquarters",
+      "role": "selected-render",
+      "source": "01-acik-ofis-perspektif-v2.png",
+      "source_sha256": "12cfe3b998ec9730152f2f91195081698f4a7fee6588af86d246120fb3effa40"
+    },
+    {
+      "files": [
+        "assets/projects/concept-headquarters/images/workstations-1400.webp",
+        "assets/projects/concept-headquarters/images/workstations-1672.webp",
+        "assets/projects/concept-headquarters/images/workstations-800.webp"
+      ],
+      "project": "Concept Headquarters",
+      "folder": "concept-headquarters",
+      "role": "selected-render",
+      "source": "02-calisma-alani-v2.png",
+      "source_sha256": "c090716665b4db1a502173d0f927de98cbab77490585d465768f060e69e71912"
+    },
+    {
+      "files": [
+        "assets/projects/concept-headquarters/drawings/site-plan-large.webp",
+        "assets/projects/concept-headquarters/drawings/site-plan-preview.webp",
+        "assets/projects/concept-headquarters/drawings/site-plan.pdf"
+      ],
+      "project": "Concept Headquarters",
+      "folder": "concept-headquarters",
+      "role": "drawing",
+      "source": "Yeni klasör (2)/vaz1.pdf",
+      "source_sha256": "de3fa6e8a15f0310face8f7cfe4c446c49e0731826affbbf752db625e2d0b7e5"
+    },
+    {
+      "files": [
+        "assets/projects/concept-headquarters/drawings/basement-large.webp",
+        "assets/projects/concept-headquarters/drawings/basement-preview.webp",
+        "assets/projects/concept-headquarters/drawings/basement.pdf"
+      ],
+      "project": "Concept Headquarters",
+      "folder": "concept-headquarters",
+      "role": "drawing",
+      "source": "Yeni klasör (2)/pla1.pdf",
+      "source_sha256": "764504aa58ec2363886ba75c4e370520571284dba4c2e04a9baf5631d7e3b352"
+    },
+    {
+      "files": [
+        "assets/projects/concept-headquarters/drawings/ground-floor-large.webp",
+        "assets/projects/concept-headquarters/drawings/ground-floor-preview.webp",
+        "assets/projects/concept-headquarters/drawings/ground-floor.pdf"
+      ],
+      "project": "Concept Headquarters",
+      "folder": "concept-headquarters",
+      "role": "drawing",
+      "source": "Yeni klasör (2)/pla2.pdf",
+      "source_sha256": "af662be4b1bfb1aa8023cbbb4dc2ad70f7b996ba7ae50942c13cbb4d31ab803f"
+    },
+    {
+      "files": [
+        "assets/projects/concept-headquarters/drawings/first-floor-large.webp",
+        "assets/projects/concept-headquarters/drawings/first-floor-preview.webp",
+        "assets/projects/concept-headquarters/drawings/first-floor.pdf"
+      ],
+      "project": "Concept Headquarters",
+      "folder": "concept-headquarters",
+      "role": "drawing",
+      "source": "Yeni klasör (2)/pla3.pdf",
+      "source_sha256": "c9c96646e5a46dac7050da459326e474bf1756807b530234be06a700ff240f82"
+    },
+    {
+      "files": [
+        "assets/projects/concept-headquarters/drawings/second-floor-large.webp",
+        "assets/projects/concept-headquarters/drawings/second-floor-preview.webp",
+        "assets/projects/concept-headquarters/drawings/second-floor.pdf"
+      ],
+      "project": "Concept Headquarters",
+      "folder": "concept-headquarters",
+      "role": "drawing",
+      "source": "Yeni klasör (2)/pla4.pdf",
+      "source_sha256": "f0ad285d7b3dbbc660be9786b298b940e6472525d47ecd0fec0dcc036042545f"
+    },
+    {
+      "files": [
+        "assets/projects/concept-headquarters/drawings/third-floor-large.webp",
+        "assets/projects/concept-headquarters/drawings/third-floor-preview.webp",
+        "assets/projects/concept-headquarters/drawings/third-floor.pdf"
+      ],
+      "project": "Concept Headquarters",
+      "folder": "concept-headquarters",
+      "role": "drawing",
+      "source": "Yeni klasör (2)/pla5.pdf",
+      "source_sha256": "9deca5d07be8a107e9ce7fd89b2787a030c6088cdc8e0969eeddbd5c3b19c61f"
+    },
+    {
+      "files": [
+        "assets/projects/concept-headquarters/drawings/section-aa-large.webp",
+        "assets/projects/concept-headquarters/drawings/section-aa-preview.webp",
+        "assets/projects/concept-headquarters/drawings/section-aa.pdf"
+      ],
+      "project": "Concept Headquarters",
+      "folder": "concept-headquarters",
+      "role": "drawing",
+      "source": "aakes.pdf",
+      "source_sha256": "e196e2de7e373aa693fe4af2cd5e353187c9e9a980198b42a736762800c8c373"
+    },
+    {
+      "files": [
+        "assets/projects/concept-headquarters/drawings/section-bb-large.webp",
+        "assets/projects/concept-headquarters/drawings/section-bb-preview.webp",
+        "assets/projects/concept-headquarters/drawings/section-bb.pdf"
+      ],
+      "project": "Concept Headquarters",
+      "folder": "concept-headquarters",
+      "role": "drawing",
+      "source": "bbkess.pdf",
+      "source_sha256": "feb31a6de656c3216983e984b52d339a4e0823029bf6b2648c3628aeea6411c2"
+    },
+    {
+      "files": [
+        "assets/projects/concept-headquarters/drawings/section-cc-large.webp",
+        "assets/projects/concept-headquarters/drawings/section-cc-preview.webp",
+        "assets/projects/concept-headquarters/drawings/section-cc.pdf"
+      ],
+      "project": "Concept Headquarters",
+      "folder": "concept-headquarters",
+      "role": "drawing",
+      "source": "Yeni klasör (2)/ckes.pdf",
+      "source_sha256": "4bf912c06277b9a5aea4e5bc5cc26559c608ea5c7bfc08951a7b58707cc23015"
+    },
+    {
+      "files": [
+        "assets/projects/concept-headquarters/drawings/section-dd-large.webp",
+        "assets/projects/concept-headquarters/drawings/section-dd-preview.webp",
+        "assets/projects/concept-headquarters/drawings/section-dd.pdf"
+      ],
+      "project": "Concept Headquarters",
+      "folder": "concept-headquarters",
+      "role": "drawing",
+      "source": "Yeni klasör (2)/dkes.pdf",
+      "source_sha256": "45eb43f7086354d7a91e18170dafeda901f8f8931cca11d574a67127fdddf708"
     }
   ],
   "flagged": [

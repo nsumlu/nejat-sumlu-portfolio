@@ -265,6 +265,221 @@ export const PROJECTS = [
     year: null, showYear: false,
   },
 
+  {
+    "id": "concept-headquarters",
+    "number": "05",
+    "title": "Concept Headquarters",
+    "kind": "interior",
+    "category": "Workplace interior",
+    "dir": "assets/projects/concept-headquarters/",
+    "accent": "#3D8A9C",
+    "cover": {
+      "base": "images/exterior",
+      "widths": [
+        800,
+        1400,
+        1672
+      ],
+      "w": 1672,
+      "h": 941,
+      "alt": "Headquarters proposal with a charcoal upper volume, white facade frames, glazed wings and integrated planting under soft daylight",
+      "caption": "Headquarters exterior",
+      "label": "Visualisation"
+    },
+    "hero": {
+      "base": "images/exterior",
+      "widths": [
+        800,
+        1400,
+        1672
+      ],
+      "w": 1672,
+      "h": 941,
+      "alt": "Headquarters proposal with a charcoal upper volume, white facade frames, glazed wings and integrated planting under soft daylight",
+      "caption": "Headquarters exterior",
+      "label": "Visualisation"
+    },
+    "lede": "A headquarters concept bringing nature and technology into the working day.",
+    "concept": [
+      "An academic headquarters proposal for Adidas on Eski Büyükdere Caddesi in Istanbul. The project is guided by biophilic futurism: a dialogue between the restorative qualities of nature and the expressive possibilities of contemporary workplace technology.",
+      "Live planting, natural daylight, organic forms and a material palette informed by sustainability are paired with modern lighting systems and geometric elements. Blue, white, grey and charcoal are balanced by timber and greenery, shaping a workplace intended to support both creativity and focused work.",
+      "The programme extends beyond desks. Reception, product display and testing, customer services, training and gathering spaces occupy the ground floor. Dining, terraces, a VR room and a shared lounge and library sit on the first floor; departmental workspaces occupy the second, with management offices and meeting facilities above. Parking and building services are located in the basement."
+    ],
+    "facts": [
+      [
+        "Type",
+        "Corporate headquarters and workplace concept"
+      ],
+      [
+        "Location",
+        "Eski Büyükdere Caddesi, Istanbul"
+      ],
+      [
+        "Concept",
+        "Biophilic futurism"
+      ],
+      [
+        "Levels",
+        "Basement, ground floor and three upper floors"
+      ],
+      [
+        "Programme",
+        "Workspaces, product development, reception, training, dining, terraces and management"
+      ],
+      [
+        "Context",
+        "Academic project — Interior Architecture, Istanbul Gelişim University"
+      ],
+      [
+        "Imagery",
+        "Visualisations of an unbuilt proposal"
+      ]
+    ],
+    "views": [
+      {
+        "layout": "full",
+        "images": [
+          {
+            "base": "images/open-office",
+            "widths": [
+              800,
+              1400,
+              1671
+            ],
+            "w": 1671,
+            "h": 941,
+            "alt": "Open-plan office with muted turquoise walls, timber-framed desks, brown chairs, planting and sculptural ceiling lights",
+            "caption": "Open-plan workspace",
+            "label": "Visualisation"
+          }
+        ]
+      },
+      {
+        "layout": "offset-right",
+        "images": [
+          {
+            "base": "images/workstations",
+            "widths": [
+              800,
+              1400,
+              1672
+            ],
+            "w": 1672,
+            "h": 941,
+            "alt": "Shared workstations beside venetian-blind windows, with planted dividers and continuous rounded ceiling lights",
+            "caption": "Shared workstations and daylight",
+            "label": "Visualisation"
+          }
+        ],
+        "text": "Planting and daylight soften the working environment, while the rounded lighting elements give the open-plan office a continuous visual rhythm."
+      }
+    ],
+    "drawings": [
+      {
+        "file": "drawings/site-plan",
+        "type": "Plan",
+        "title": "Site plan",
+        "w": 1400,
+        "h": 890,
+        "scale": "1:100"
+      },
+      {
+        "file": "drawings/basement",
+        "type": "Plan",
+        "title": "Basement",
+        "w": 1400,
+        "h": 1373
+      },
+      {
+        "file": "drawings/ground-floor",
+        "type": "Plan",
+        "title": "Ground floor",
+        "w": 1390,
+        "h": 1400
+      },
+      {
+        "file": "drawings/first-floor",
+        "type": "Plan",
+        "title": "First floor",
+        "w": 1387,
+        "h": 1400
+      },
+      {
+        "file": "drawings/second-floor",
+        "type": "Plan",
+        "title": "Second floor",
+        "w": 1400,
+        "h": 1400
+      },
+      {
+        "file": "drawings/third-floor",
+        "type": "Plan",
+        "title": "Third floor",
+        "w": 1400,
+        "h": 1399
+      },
+      {
+        "file": "drawings/section-aa",
+        "type": "Section",
+        "title": "Section A-A",
+        "w": 1400,
+        "h": 879,
+        "scale": "1:50"
+      },
+      {
+        "file": "drawings/section-bb",
+        "type": "Section",
+        "title": "Section B-B",
+        "w": 1400,
+        "h": 899,
+        "scale": "1:50"
+      },
+      {
+        "file": "drawings/section-cc",
+        "type": "Section",
+        "title": "Section C-C",
+        "w": 1400,
+        "h": 905,
+        "scale": "1:50"
+      },
+      {
+        "file": "drawings/section-dd",
+        "type": "Section",
+        "title": "Section D-D",
+        "w": 1400,
+        "h": 948,
+        "scale": "1:50"
+      }
+    ],
+    "materials": {
+      "text": "The concept board combines timber, grey mineral surfaces, white finishes, integrated greenery and contemporary lighting within a blue and charcoal palette.",
+      "list": [
+        [
+          "Palette",
+          "Blue, white, grey and charcoal"
+        ],
+        [
+          "Natural elements",
+          "Live planting and timber textures"
+        ],
+        [
+          "Workspaces",
+          "Epoxy flooring and carpet finishes noted across the plans and sections"
+        ],
+        [
+          "Shared areas",
+          "Laminate, ceramic and stone finishes according to room use"
+        ],
+        [
+          "Lighting",
+          "Natural daylight and continuous sculptural light elements"
+        ]
+      ]
+    },
+    "year": null,
+    "showYear": false
+  },
+
   /* ------------------------------------------------------------------
      FUTURE PROJECTS — copy one of the blocks above, give it a new id,
      number and folder (assets/projects/<id>/), and it will appear in the

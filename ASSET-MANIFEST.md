@@ -85,7 +85,7 @@ Public captions use neutral labels (*Visualisation*, *Plan*, *Section*, *Elevati
 | projects/02-concept-restaurant/moodboard/material-light-palette.png | **Excluded** | Composite board (Turkish heading, duplicated renders, material swatches of unverified origin); not in the selected images folder. Possible overlap with old-portfolio material imagery cannot be ruled out. |
 | Restaurant upper-floor plan | **Missing** | No clean verified PDF supplied. Old-portfolio page not used. The page shows the ground floor plan and four sections only. |
 | LinkedIn / Behance profile URLs | **Needs review** | QR codes decode to me-qr.com redirect links; the final profile URLs could not be fetched from this environment. Dynamic QR links can expire — replace with direct URLs in assets/js/content.js (SITE.social) and tools/cv/cv.html. |
-| Project dates | **Hidden until confirmed** | Concept Store: old portfolio says 2022/2023, source folder says "2.sınıf-2.dönem" (2nd year, spring term), i.e. 2021/22 if enrolment began in 2020. Concept Restaurant 2022/2023 and Cultural Centre 2024/2025 come from the old portfolio only. All dates are omitted; set `year` + `showYear` in content.js once confirmed. |
+| Project dates | **Verified from original presentation covers** | Store and Restaurant: 2023–2024. Cultural Centre and Headquarters: 2024–2025. Restaurant also confirmed directly by the owner. Earlier folder-based assumptions and old portfolio dates are superseded. |
 | Plan scales | **Shown only where printed** | Restaurant ground floor and the four cultural-centre plans carry no printed scale; no scale is shown for them. |
 | RELIC No.01 text | **Sourced** | Wording taken from https://nsumlu.github.io/relic-no01-final/ (title, materials, “Light, remembered.”). |
 
@@ -123,3 +123,9 @@ Detailed provenance: `assets/projects/concept-headquarters/sources.json`. CV dow
 ## Headquarters material study
 
 Four texture references are extracted directly from the materials area of the supplied headquarters presentation, page 1. No old portfolio imagery or external manufacturer claims are used. See `assets/projects/concept-headquarters/materials/sources.json`.
+
+## Material studies and academic years — 21 October 2026
+
+All four interior projects have a four-sample material study. Restaurant ceramic and textile samples come from its original presentation cover. Store and Cultural Centre samples are detail views of the already approved project render files; they do not claim manufacturer or product identification. Each project materials folder includes provenance metadata.
+
+Order: Store, Restaurant, Cultural Centre, Headquarters, RELIC. Academic years are 2023–2024 for Store/Restaurant and 2024–2025 for Cultural Centre/Headquarters, verified against original project presentation headers. No academic year is inferred for RELIC.

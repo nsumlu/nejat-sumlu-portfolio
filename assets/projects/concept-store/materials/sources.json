@@ -1,0 +1,59 @@
+{
+  "project": "Concept Store",
+  "academicYear": "2023–2024",
+  "periodSource": "Original project presentation cover",
+  "samples": [
+    {
+      "src": "images/display-and-stair-1910.webp",
+      "w": 1910,
+      "h": 823,
+      "title": "Dark marble finish",
+      "note": "Column surface",
+      "alt": "Dark marble finish detail from the selected project visualisation",
+      "detail": {
+        "zoom": 10,
+        "x": 0.615,
+        "y": 0.83
+      }
+    },
+    {
+      "src": "images/display-and-stair-1910.webp",
+      "w": 1910,
+      "h": 823,
+      "title": "Light stone finish",
+      "note": "Runway podium surface",
+      "alt": "Light stone finish detail from the selected project visualisation",
+      "detail": {
+        "zoom": 8,
+        "x": 0.22,
+        "y": 0.85
+      }
+    },
+    {
+      "src": "images/display-and-stair-1910.webp",
+      "w": 1910,
+      "h": 823,
+      "title": "Timber finish",
+      "note": "Warm floor texture",
+      "alt": "Timber finish detail from the selected project visualisation",
+      "detail": {
+        "zoom": 14,
+        "x": 0.9,
+        "y": 0.92
+      }
+    },
+    {
+      "src": "images/display-and-stair-1910.webp",
+      "w": 1910,
+      "h": 823,
+      "title": "Metal and glass",
+      "note": "Display capsule detail",
+      "alt": "Metal and glass detail from the selected project visualisation",
+      "detail": {
+        "zoom": 12,
+        "x": 0.78,
+        "y": 0.2
+      }
+    }
+  ]
+}

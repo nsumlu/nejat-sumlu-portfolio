@@ -1,0 +1,59 @@
+{
+  "project": "Concept Cultural Centre",
+  "academicYear": "2024–2025",
+  "periodSource": "Original project presentation cover",
+  "samples": [
+    {
+      "src": "images/performance-hall-1672.webp",
+      "w": 1672,
+      "h": 941,
+      "title": "Timber wall finish",
+      "note": "Warm acoustic wall texture",
+      "alt": "Timber wall finish detail from the selected project visualisation",
+      "detail": {
+        "zoom": 12,
+        "x": 0.85,
+        "y": 0.52
+      }
+    },
+    {
+      "src": "images/performance-hall-1672.webp",
+      "w": 1672,
+      "h": 941,
+      "title": "Orange wall finish",
+      "note": "The project’s graphic accent",
+      "alt": "Orange wall finish detail from the selected project visualisation",
+      "detail": {
+        "zoom": 8,
+        "x": 0.17,
+        "y": 0.25
+      }
+    },
+    {
+      "src": "images/performance-hall-1672.webp",
+      "w": 1672,
+      "h": 941,
+      "title": "Upholstery",
+      "note": "Multipurpose hall seating",
+      "alt": "Upholstery detail from the selected project visualisation",
+      "detail": {
+        "zoom": 20,
+        "x": 0.7,
+        "y": 0.84
+      }
+    },
+    {
+      "src": "images/performance-hall-1672.webp",
+      "w": 1672,
+      "h": 941,
+      "title": "Dark floor finish",
+      "note": "Performance area",
+      "alt": "Dark floor finish detail from the selected project visualisation",
+      "detail": {
+        "zoom": 20,
+        "x": 0.35,
+        "y": 0.7
+      }
+    }
+  ]
+}

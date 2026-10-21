@@ -18,13 +18,13 @@ function render(p, i) {
   document.body.classList.add(arrived ? 'is-arrived' : 'is-direct');
   document.body.dataset.kind = p.kind;
 
-  const next = PROJECTS[(i + 1) % PROJECTS.length];
+  const next = PROJECTS[i + 1];
   const sections = [hero(p), intro(p, i), concept(p), facts(p)];
   if (p.kind === 'object') sections.push(objectBlock(p));
   if (p.views?.length) sections.push(views(p));
   if (p.drawings?.length) sections.push(drawings(p));
   if (p.materials) sections.push(materials(p));
-  if (PROJECTS.length > 1) sections.push(nextBlock(next));
+  if (next) sections.push(nextBlock(next));
   main.replaceChildren(...sections);
 
   initReveals(main);
@@ -60,6 +60,7 @@ function hero(p) {
 function intro(p, i) {
   const loc = (p.facts.find(([k]) => k === 'Location') || [])[1];
   const rows = [['Category', p.category]];
+  if (p.academicYear) rows.push(['Academic year', p.academicYear]);
   if (loc) rows.push(['Location', loc]);
   rows.push(['Opening image', `${p.hero.caption || p.title} — ${(p.hero.label || 'Visualisation').toLowerCase()}`]);
   return el('section', { class: 'p-intro wrap', 'aria-label': 'Project summary' }, [
@@ -79,7 +80,8 @@ function concept(p) {
 
 function facts(p) {
   const rows = p.facts.slice();
-  if (p.showYear && p.year) rows.splice(1, 0, ['Year', p.year]);
+  if (p.academicYear) rows.splice(1, 0, ['Academic year', p.academicYear]);
+  else if (p.showYear && p.year) rows.splice(1, 0, ['Year', p.year]);
   return el('section', { class: 'p-facts wrap', 'aria-labelledby': 'facts-h' }, [
     el('h2', { class: 'side-label', id: 'facts-h' }, [el('span', { class: 'num', text: 'B' }), 'Project facts']),
     el('dl', { class: 'facts' }, rows.flatMap(([k, v]) => [el('div', { class: 'facts__row' }, [el('dt', { text: k }), el('dd', { text: v })])])),
@@ -145,6 +147,14 @@ function drawings(p) {
   ]);
 }
 
+function sampleStyle(sample) {
+  if (!sample.detail) return null;
+  const width = sample.detail.zoom * 100, height = width * sample.h / sample.w;
+  const left = Math.max(100 - width, Math.min(0, 50 - width * sample.detail.x));
+  const top = Math.max(100 - height, Math.min(0, 50 - height * sample.detail.y));
+  return `position:absolute;max-width:none;width:${width}%;height:auto;left:${left}%;top:${top}%;`;
+}
+
 function materials(p) {
   const m = p.materials;
   return el('section', { class: `p-materials wrap${m.samples?.length ? ' p-materials--samples' : ''}`, 'aria-labelledby': 'mat-h' }, [
@@ -153,14 +163,15 @@ function materials(p) {
       el('p', { class: 'reveal', text: m.text }),
       el('dl', { class: 'facts facts--compact' }, m.list.map(([k, v]) => el('div', { class: 'facts__row' }, [el('dt', { text: k }), el('dd', { text: v })]))),
     ]),
-    m.image ? el('div', { class: 'p-materials__img' }, fig(p, m.image, '(max-width:760px) 100vw, 45vw')) : null,
+    m.image && !m.samples?.length ? el('div', { class: 'p-materials__img' }, fig(p, m.image, '(max-width:760px) 100vw, 45vw')) : null,
     m.samples?.length ? el('div', { class: 'material-study' }, [
       el('p', { class: 'material-study__intro meta', text: m.sampleNote || 'Material palette' }),
       el('div', { class: 'material-study__grid' }, m.samples.map((sample, i) => el('figure', { class: 'material-sample reveal' }, [
-        el('div', { class: 'material-sample__image' }, el('img', {src: p.dir + sample.src, width: sample.w, height: sample.h, alt: sample.alt, loading: 'lazy', decoding: 'async'})),
+        el('div', { class: 'material-sample__image' }, el('img', {src: p.dir + sample.src, width: sample.w, height: sample.h, alt: sample.alt, loading: 'lazy', decoding: 'async', style: sampleStyle(sample)})),
         el('figcaption', {}, [el('span', {class: 'meta',text: String(i + 1).padStart(2, '0')}), el('strong', {text: sample.title}), el('span', {class: 'material-sample__note',text: sample.note})]),
       ]))),
     ]) : null,
+    m.image && m.samples?.length ? el('div', { class: 'p-materials__detail' }, fig(p, m.image, '(max-width:760px) 100vw, 74vw')) : null,
   ]);
 }
 

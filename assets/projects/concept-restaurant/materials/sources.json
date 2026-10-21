@@ -1,0 +1,49 @@
+{
+  "project": "Concept Restaurant",
+  "academicYear": "2023–2024",
+  "periodSource": "Project presentation cover, 23–24 DÖNEMİ; also confirmed by owner",
+  "samples": [
+    {
+      "src": "materials/ceramic.webp",
+      "title": "Patterned ceramic",
+      "note": "Concept-board reference",
+      "w": 303,
+      "h": 303,
+      "alt": "Patterned ceramic reference from the restaurant project PDF"
+    },
+    {
+      "src": "materials/woven-textile.webp",
+      "title": "Woven textile",
+      "note": "Concept-board reference",
+      "w": 285,
+      "h": 291,
+      "alt": "Woven textile reference from the restaurant project PDF"
+    },
+    {
+      "src": "images/bar-oblique-1672.webp",
+      "w": 1672,
+      "h": 941,
+      "title": "Warm wall finish",
+      "note": "Terracotta colour and texture",
+      "alt": "Warm wall finish detail from the selected project visualisation",
+      "detail": {
+        "zoom": 24,
+        "x": 0.15,
+        "y": 0.28
+      }
+    },
+    {
+      "src": "images/bar-oblique-1672.webp",
+      "w": 1672,
+      "h": 941,
+      "title": "Timber finish",
+      "note": "Warm floor texture",
+      "alt": "Timber finish detail from the selected project visualisation",
+      "detail": {
+        "zoom": 12,
+        "x": 0.86,
+        "y": 0.9
+      }
+    }
+  ]
+}

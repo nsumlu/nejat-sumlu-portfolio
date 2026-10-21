@@ -898,6 +898,26 @@
       "caption": "Integrated greenery",
       "source": "Headquarters concept presentation, page 1, materials area",
       "sha256": "1a04440051fdc517868a52eb7e7f18b88edcbc5069dff236a66d40e096a4f3d2"
+    },
+    {
+      "files": [
+        "assets/projects/concept-restaurant/materials/ceramic.webp"
+      ],
+      "project": "Concept Restaurant",
+      "folder": "concept-restaurant",
+      "role": "Material sample",
+      "source": "Original restaurant presentation, page 1, material reference samples",
+      "sha256": "2b86fa2f0d51bfdf1985c02dd88aab57424d822830fc49a8d53a18272ea0f87b"
+    },
+    {
+      "files": [
+        "assets/projects/concept-restaurant/materials/woven-textile.webp"
+      ],
+      "project": "Concept Restaurant",
+      "folder": "concept-restaurant",
+      "role": "Material sample",
+      "source": "Original restaurant presentation, page 1, material reference samples",
+      "sha256": "19d8a84ea91306f204aca3d5230f98392bdd830045b8ecf60ba16f4621531419"
     }
   ],
   "flagged": [
@@ -938,5 +958,11 @@
     "review/*.png|jpg — internal review aids only",
     "projects/*/drawing-previews/*.webp — superseded; previews regenerated from the verified PDFs",
     "profile/Nejat-Sumlu-CV.pdf — original contains private address, phone and references; not published"
-  ]
+  ],
+  "academicYears": {
+    "concept-store": "2023–2024",
+    "concept-restaurant": "2023–2024",
+    "concept-cultural-centre": "2024–2025",
+    "concept-headquarters": "2024–2025"
+  }
 }

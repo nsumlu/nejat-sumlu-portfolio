@@ -16,7 +16,7 @@ export const SITE = {
   location: 'Istanbul, Türkiye',
   email: 'nsumlu@hotmail.com',
   intro:
-    'I am an Istanbul-based interior designer exploring how material, light and spatial composition shape experience. My work spans cultural spaces, retail and restaurant interiors, alongside an interest in collectible objects.',
+    'I’m an Istanbul-based interior designer who enjoys designing and making. My approach brings together material, light and thoughtful detail to balance aesthetics with everyday use. Curious and collaborative, I see each project as an opportunity to explore and learn.',
   portrait: { src: 'assets/profile/portrait-326.webp', w: 326, h: 435, alt: 'Portrait of Nejat Şumlu' },
   education: [
     { years: '2020–2025', title: 'Interior Architecture (BA)', place: 'Istanbul Gelişim University, Faculty of Fine Arts' },

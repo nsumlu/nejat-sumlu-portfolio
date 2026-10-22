@@ -245,7 +245,7 @@ export const PROJECTS = [
       }
     ],
     "materials": {
-      "text": "Finishes as noted on the drawings. The palette stays deliberately narrow so the garments, the marble columns and the red runway carry the colour.",
+      "text": "The palette stays deliberately narrow so the garments, the marble columns and the red runway carry the colour.",
       "list": [
         [
           "Ground-floor rooms",
@@ -515,7 +515,7 @@ export const PROJECTS = [
       }
     ],
     "materials": {
-      "text": "Finishes as noted on the drawings. Marble and tile floors keep the base calm beneath saturated walls, murals and textiles.",
+      "text": "Marble and tile floors keep the base calm beneath saturated walls, murals and textiles.",
       "list": [
         [
           "Dining rooms",
@@ -871,7 +871,7 @@ export const PROJECTS = [
       }
     ],
     "materials": {
-      "text": "Finishes as noted on the drawings — each chosen for what happens in the room.",
+      "text": "Materials are selected to suit the activities within each space.",
       "list": [
         [
           "Exhibition hall and shop",

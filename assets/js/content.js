@@ -53,7 +53,7 @@ export const PROJECTS = [
     "dir": "assets/projects/concept-store/",
     "accent": "#C99A2E",
     "cover": {
-      "base": "images/storefront-v3",
+      "base": "images/storefront-v4",
       "widths": [
         800,
         1400,
@@ -127,10 +127,6 @@ export const PROJECTS = [
         "Academic project — Interior Architecture, Istanbul Gelişim University"
       ],
       [
-        "Brand reference",
-        "BIJAN, used as a design-brief reference; not a commissioned collaboration"
-      ],
-      [
         "Imagery",
         "Visualisations of an unbuilt proposal"
       ]
@@ -194,7 +190,7 @@ export const PROJECTS = [
         "layout": "contained",
         "images": [
           {
-            "base": "images/storefront-v3",
+            "base": "images/storefront-v4",
             "widths": [
               800,
               1400,
@@ -413,7 +409,7 @@ export const PROJECTS = [
     ],
     "views": [
       {
-        "layout": "pair",
+        "layout": "pair-bar",
         "images": [
           {
             "base": "images/bar-oblique",
@@ -481,7 +477,6 @@ export const PROJECTS = [
         "text": "The terrace extends the evening programme outdoors — standing tables, lanterns and a place for live performance."
       }
     ],
-    "drawingsNote": "The four sections cut through both floors and the walkable roof terrace, showing the dining levels, workshop rooms and floor build-ups.",
     "drawings": [
       {
         "file": "drawings/ground-floor",
@@ -489,6 +484,13 @@ export const PROJECTS = [
         "title": "Ground floor",
         "w": 1400,
         "h": 1097
+      },
+      {
+        "file": "drawings/first-floor",
+        "type": "Plan",
+        "title": "First floor",
+        "w": 1400,
+        "h": 1123
       },
       {
         "file": "drawings/section-aa",

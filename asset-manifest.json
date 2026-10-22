@@ -3,18 +3,18 @@
   "assets": [
     {
       "files": [
-        "assets/projects/concept-store/images/storefront-v3-800.webp",
-        "assets/projects/concept-store/images/storefront-v3-1400.webp",
-        "assets/projects/concept-store/images/storefront-v3-1672.webp"
+        "assets/projects/concept-store/images/storefront-v4-800.webp",
+        "assets/projects/concept-store/images/storefront-v4-1400.webp",
+        "assets/projects/concept-store/images/storefront-v4-1672.webp"
       ],
       "project": "Concept Store",
       "folder": "concept-store",
       "role": "Image — Selector cover; matches first frame of entrance video; Selected views (offset, with note)",
       "caption": "Visualisation — Storefront at dusk",
-      "source": "C:\\Users\\nsuml\\Documents\\Codex\\2026-10-14\\realtime-voice-chat\\outputs\\render-revisions\\store-facade-perspective-v3.png",
-      "source_sha256": "cea41607a13ba70fe4b7f5e59e5a0f5588eb55b383493b9b99fffebb8a4a1f64",
-      "original_name": "store-facade-perspective-v3.png",
-      "verification": "User-approved imagegen revision: coherent walnut, visible glass, coordinated shelf contents or doorway perspective."
+      "source": "C:\\Users\\nsuml\\Documents\\Codex\\2026-10-14\\realtime-voice-chat\\outputs\\render-revisions\\store-facade-opposite-v4.png",
+      "source_sha256": "3999fc3ebd1ffbddd14b8d662caeb66a292ae6a445b4ec9e2da1cd177157e6d8",
+      "original_name": "store-facade-opposite-v4.png",
+      "verification": "User-requested imagegen edit: opposite interior viewing direction within main doorway; exterior preserved."
     },
     {
       "files": [
@@ -914,6 +914,18 @@
       "role": "Selected revised render",
       "source": "02-calisma-alani-serit-v4.png",
       "source_sha256": "c1a062336f269949fc73361b12d60fdba1c98aebf020cfbeaca87ae4303d5856"
+    },
+    {
+      "files": [
+        "assets/projects/concept-restaurant/drawings/first-floor-preview.webp",
+        "assets/projects/concept-restaurant/drawings/first-floor-large.webp"
+      ],
+      "project": "Concept Restaurant",
+      "folder": "concept-restaurant",
+      "role": "Drawing — First floor plan, zoomable raster previews only",
+      "source": "C:\\Users\\nsuml\\Desktop\\Yeni klasör\\cafe\\meks2.PDF",
+      "source_sha256": "8b586806fcc03aeecdaea9e4ed47d6fa0bf76d55c084219dd9243908e96836f8",
+      "verification": "User identified this PDF as missing restaurant first-floor plan. Visually checked workshop areas, terrace and shared dining; all annotations preserved; original PDF kept private."
     }
   ],
   "flagged": [

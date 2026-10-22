@@ -18,18 +18,18 @@
     },
     {
       "files": [
-        "assets/projects/concept-store/images/entrance-axis-800.webp",
-        "assets/projects/concept-store/images/entrance-axis-1400.webp",
-        "assets/projects/concept-store/images/entrance-axis-1787.webp"
+        "assets/projects/concept-store/images/entrance-axis-v3-800.webp",
+        "assets/projects/concept-store/images/entrance-axis-v3-1400.webp",
+        "assets/projects/concept-store/images/entrance-axis-v3-1787.webp"
       ],
       "project": "Concept Store",
       "folder": "concept-store",
       "role": "Image — Project hero (settled arrival). The video's last frame = this render ×0.861, shifted −128.8/+0.3 px, no rotation (ORB/RANSAC, 2,714 inliers; residual 3.6/255); the entrance crossfades frame → render",
       "caption": "Visualisation — Arrival, the entrance axis",
-      "source": "projects/01-concept-store/images/04-entrance-axis.png",
-      "source_sha256": "fd511c94c54f6e91b4caf3a06468f5526d260adab03c7eae32374b23f6b48452",
-      "original_name": "bijan2.png",
-      "verification": "Visually checked: belongs to this project (consistent interior language, signage/programme); hash matches package manifest."
+      "source": "C:\\Users\\nsuml\\Documents\\Codex\\2026-10-14\\realtime-voice-chat\\outputs\\render-revisions\\store-mezzanine-columns-v3.png",
+      "source_sha256": "a64fd1aebf8b6e31e724bbdcf0ad882189fa36b47389a9c965c46118a925c64b",
+      "original_name": "store-mezzanine-columns-v3.png",
+      "verification": "User-approved imagegen refinement of upper mezzanine column and balustrade contact."
     },
     {
       "files": [
@@ -78,7 +78,6 @@
     },
     {
       "files": [
-        "assets/projects/concept-store/drawings/front-elevation.pdf",
         "assets/projects/concept-store/drawings/front-elevation-preview.webp",
         "assets/projects/concept-store/drawings/front-elevation-large.webp"
       ],
@@ -93,7 +92,6 @@
     },
     {
       "files": [
-        "assets/projects/concept-store/drawings/ground-floor.pdf",
         "assets/projects/concept-store/drawings/ground-floor-preview.webp",
         "assets/projects/concept-store/drawings/ground-floor-large.webp"
       ],
@@ -108,7 +106,6 @@
     },
     {
       "files": [
-        "assets/projects/concept-store/drawings/mezzanine.pdf",
         "assets/projects/concept-store/drawings/mezzanine-preview.webp",
         "assets/projects/concept-store/drawings/mezzanine-large.webp"
       ],
@@ -123,7 +120,6 @@
     },
     {
       "files": [
-        "assets/projects/concept-store/drawings/section-aa.pdf",
         "assets/projects/concept-store/drawings/section-aa-preview.webp",
         "assets/projects/concept-store/drawings/section-aa-large.webp"
       ],
@@ -138,7 +134,6 @@
     },
     {
       "files": [
-        "assets/projects/concept-store/drawings/section-bb.pdf",
         "assets/projects/concept-store/drawings/section-bb-preview.webp",
         "assets/projects/concept-store/drawings/section-bb-large.webp"
       ],
@@ -153,7 +148,6 @@
     },
     {
       "files": [
-        "assets/projects/concept-store/drawings/section-cc.pdf",
         "assets/projects/concept-store/drawings/section-cc-preview.webp",
         "assets/projects/concept-store/drawings/section-cc-large.webp"
       ],
@@ -168,7 +162,6 @@
     },
     {
       "files": [
-        "assets/projects/concept-store/drawings/section-dd.pdf",
         "assets/projects/concept-store/drawings/section-dd-preview.webp",
         "assets/projects/concept-store/drawings/section-dd-large.webp"
       ],
@@ -258,7 +251,6 @@
     },
     {
       "files": [
-        "assets/projects/concept-restaurant/drawings/ground-floor.pdf",
         "assets/projects/concept-restaurant/drawings/ground-floor-preview.webp",
         "assets/projects/concept-restaurant/drawings/ground-floor-large.webp"
       ],
@@ -273,7 +265,6 @@
     },
     {
       "files": [
-        "assets/projects/concept-restaurant/drawings/section-aa.pdf",
         "assets/projects/concept-restaurant/drawings/section-aa-preview.webp",
         "assets/projects/concept-restaurant/drawings/section-aa-large.webp"
       ],
@@ -288,7 +279,6 @@
     },
     {
       "files": [
-        "assets/projects/concept-restaurant/drawings/section-bb.pdf",
         "assets/projects/concept-restaurant/drawings/section-bb-preview.webp",
         "assets/projects/concept-restaurant/drawings/section-bb-large.webp"
       ],
@@ -303,7 +293,6 @@
     },
     {
       "files": [
-        "assets/projects/concept-restaurant/drawings/section-cc.pdf",
         "assets/projects/concept-restaurant/drawings/section-cc-preview.webp",
         "assets/projects/concept-restaurant/drawings/section-cc-large.webp"
       ],
@@ -318,7 +307,6 @@
     },
     {
       "files": [
-        "assets/projects/concept-restaurant/drawings/section-dd.pdf",
         "assets/projects/concept-restaurant/drawings/section-dd-preview.webp",
         "assets/projects/concept-restaurant/drawings/section-dd-large.webp"
       ],
@@ -498,7 +486,6 @@
     },
     {
       "files": [
-        "assets/projects/concept-cultural-centre/drawings/first-floor.pdf",
         "assets/projects/concept-cultural-centre/drawings/first-floor-preview.webp",
         "assets/projects/concept-cultural-centre/drawings/first-floor-large.webp"
       ],
@@ -513,7 +500,6 @@
     },
     {
       "files": [
-        "assets/projects/concept-cultural-centre/drawings/ground-floor.pdf",
         "assets/projects/concept-cultural-centre/drawings/ground-floor-preview.webp",
         "assets/projects/concept-cultural-centre/drawings/ground-floor-large.webp"
       ],
@@ -528,7 +514,6 @@
     },
     {
       "files": [
-        "assets/projects/concept-cultural-centre/drawings/second-floor.pdf",
         "assets/projects/concept-cultural-centre/drawings/second-floor-preview.webp",
         "assets/projects/concept-cultural-centre/drawings/second-floor-large.webp"
       ],
@@ -543,7 +528,6 @@
     },
     {
       "files": [
-        "assets/projects/concept-cultural-centre/drawings/section-aa.pdf",
         "assets/projects/concept-cultural-centre/drawings/section-aa-preview.webp",
         "assets/projects/concept-cultural-centre/drawings/section-aa-large.webp"
       ],
@@ -558,7 +542,6 @@
     },
     {
       "files": [
-        "assets/projects/concept-cultural-centre/drawings/section-bb.pdf",
         "assets/projects/concept-cultural-centre/drawings/section-bb-preview.webp",
         "assets/projects/concept-cultural-centre/drawings/section-bb-large.webp"
       ],
@@ -573,7 +556,6 @@
     },
     {
       "files": [
-        "assets/projects/concept-cultural-centre/drawings/section-cc.pdf",
         "assets/projects/concept-cultural-centre/drawings/section-cc-preview.webp",
         "assets/projects/concept-cultural-centre/drawings/section-cc-large.webp"
       ],
@@ -588,7 +570,6 @@
     },
     {
       "files": [
-        "assets/projects/concept-cultural-centre/drawings/section-dd.pdf",
         "assets/projects/concept-cultural-centre/drawings/section-dd-preview.webp",
         "assets/projects/concept-cultural-centre/drawings/section-dd-large.webp"
       ],
@@ -603,7 +584,6 @@
     },
     {
       "files": [
-        "assets/projects/concept-cultural-centre/drawings/third-floor.pdf",
         "assets/projects/concept-cultural-centre/drawings/third-floor-preview.webp",
         "assets/projects/concept-cultural-centre/drawings/third-floor-large.webp"
       ],
@@ -738,8 +718,7 @@
     {
       "files": [
         "assets/projects/concept-headquarters/drawings/site-plan-large.webp",
-        "assets/projects/concept-headquarters/drawings/site-plan-preview.webp",
-        "assets/projects/concept-headquarters/drawings/site-plan.pdf"
+        "assets/projects/concept-headquarters/drawings/site-plan-preview.webp"
       ],
       "project": "Concept Headquarters",
       "folder": "concept-headquarters",
@@ -750,8 +729,7 @@
     {
       "files": [
         "assets/projects/concept-headquarters/drawings/basement-large.webp",
-        "assets/projects/concept-headquarters/drawings/basement-preview.webp",
-        "assets/projects/concept-headquarters/drawings/basement.pdf"
+        "assets/projects/concept-headquarters/drawings/basement-preview.webp"
       ],
       "project": "Concept Headquarters",
       "folder": "concept-headquarters",
@@ -762,8 +740,7 @@
     {
       "files": [
         "assets/projects/concept-headquarters/drawings/ground-floor-large.webp",
-        "assets/projects/concept-headquarters/drawings/ground-floor-preview.webp",
-        "assets/projects/concept-headquarters/drawings/ground-floor.pdf"
+        "assets/projects/concept-headquarters/drawings/ground-floor-preview.webp"
       ],
       "project": "Concept Headquarters",
       "folder": "concept-headquarters",
@@ -774,8 +751,7 @@
     {
       "files": [
         "assets/projects/concept-headquarters/drawings/first-floor-large.webp",
-        "assets/projects/concept-headquarters/drawings/first-floor-preview.webp",
-        "assets/projects/concept-headquarters/drawings/first-floor.pdf"
+        "assets/projects/concept-headquarters/drawings/first-floor-preview.webp"
       ],
       "project": "Concept Headquarters",
       "folder": "concept-headquarters",
@@ -786,8 +762,7 @@
     {
       "files": [
         "assets/projects/concept-headquarters/drawings/second-floor-large.webp",
-        "assets/projects/concept-headquarters/drawings/second-floor-preview.webp",
-        "assets/projects/concept-headquarters/drawings/second-floor.pdf"
+        "assets/projects/concept-headquarters/drawings/second-floor-preview.webp"
       ],
       "project": "Concept Headquarters",
       "folder": "concept-headquarters",
@@ -798,8 +773,7 @@
     {
       "files": [
         "assets/projects/concept-headquarters/drawings/third-floor-large.webp",
-        "assets/projects/concept-headquarters/drawings/third-floor-preview.webp",
-        "assets/projects/concept-headquarters/drawings/third-floor.pdf"
+        "assets/projects/concept-headquarters/drawings/third-floor-preview.webp"
       ],
       "project": "Concept Headquarters",
       "folder": "concept-headquarters",
@@ -810,8 +784,7 @@
     {
       "files": [
         "assets/projects/concept-headquarters/drawings/section-aa-large.webp",
-        "assets/projects/concept-headquarters/drawings/section-aa-preview.webp",
-        "assets/projects/concept-headquarters/drawings/section-aa.pdf"
+        "assets/projects/concept-headquarters/drawings/section-aa-preview.webp"
       ],
       "project": "Concept Headquarters",
       "folder": "concept-headquarters",
@@ -822,8 +795,7 @@
     {
       "files": [
         "assets/projects/concept-headquarters/drawings/section-bb-large.webp",
-        "assets/projects/concept-headquarters/drawings/section-bb-preview.webp",
-        "assets/projects/concept-headquarters/drawings/section-bb.pdf"
+        "assets/projects/concept-headquarters/drawings/section-bb-preview.webp"
       ],
       "project": "Concept Headquarters",
       "folder": "concept-headquarters",
@@ -834,8 +806,7 @@
     {
       "files": [
         "assets/projects/concept-headquarters/drawings/section-cc-large.webp",
-        "assets/projects/concept-headquarters/drawings/section-cc-preview.webp",
-        "assets/projects/concept-headquarters/drawings/section-cc.pdf"
+        "assets/projects/concept-headquarters/drawings/section-cc-preview.webp"
       ],
       "project": "Concept Headquarters",
       "folder": "concept-headquarters",
@@ -846,8 +817,7 @@
     {
       "files": [
         "assets/projects/concept-headquarters/drawings/section-dd-large.webp",
-        "assets/projects/concept-headquarters/drawings/section-dd-preview.webp",
-        "assets/projects/concept-headquarters/drawings/section-dd.pdf"
+        "assets/projects/concept-headquarters/drawings/section-dd-preview.webp"
       ],
       "project": "Concept Headquarters",
       "folder": "concept-headquarters",
@@ -990,5 +960,6 @@
     "concept-restaurant": "2023–2024",
     "concept-cultural-centre": "2024–2025",
     "concept-headquarters": "2024–2025"
-  }
+  },
+  "public_pdf_policy": "Drawing PDFs removed from public site at user request; zoomable raster previews remain. Originals retained privately in workspace."
 }

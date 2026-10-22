@@ -133,3 +133,6 @@ Order: Store, Restaurant, Cultural Centre, Headquarters, RELIC. Academic years a
 ## Headquarters interior render replacement — 23 October 2026
 
 Open office uses the approved adidas wordmark and three grey aisle stripe revision (`open-office-v3`). The frontal view uses the approved correction with the stripe group set farther from the desks, mostly cropped below the foreground (`workstations-v4`). The exterior image is unchanged.
+
+
+Update 2026-10-23: All drawing PDFs removed from the public site at user request. Zoomable raster previews remain; originals retained privately in workspace. Entrance-axis render updated with approved mezzanine-column refinement.

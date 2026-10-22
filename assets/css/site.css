@@ -412,6 +412,11 @@ main, .site-footer { position: relative; z-index: 1; }
 .v-row--full > .v-fig { grid-column: 1 / -1; }
 .v-row--contained > .v-fig, .v-row--contained-feature > .v-fig { grid-column: 1 / -1; width: 100%; max-width: 960px; justify-self: center; }
 .v-row--contained-feature > .v-fig { max-width: 1040px; }
+@media (min-width: 761px) {
+  .v-row--contained > .v-fig { grid-column: 2 / 11; max-width: none; width: calc(100% + var(--gap)); justify-self: start; }
+  .v-row--contained:nth-child(even) > .v-fig { grid-column: 3 / 12; }
+  .v-row--contained-feature > .v-fig { grid-column: 2 / 12; max-width: none; width: calc(100% + var(--gap)); justify-self: start; }
+}
 .v-row--pair-even > .v-fig:first-child { grid-column: 1 / 7; }
 .v-row--pair-even > .v-fig:last-child { grid-column: 7 / 13; }
 @media (max-width: 760px) { .v-row--pair-even > .v-fig:first-child, .v-row--pair-even > .v-fig:last-child { grid-column: 1 / -1; margin-top: 0; margin-bottom: 28px; } }

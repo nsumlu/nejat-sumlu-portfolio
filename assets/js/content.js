@@ -65,14 +65,14 @@ export const PROJECTS = [
       "label": "Visualisation"
     },
     "hero": {
-      "base": "images/entrance-axis",
+      "base": "images/entrance-axis-v3",
       "widths": [
         800,
         1400,
         1787
       ],
       "w": 1787,
-      "h": 835,
+      "h": 837,
       "alt": "Inside the store: a red runway carpet leads between marble columns to a lit podium under a chandelier",
       "label": "Visualisation",
       "caption": "Arrival — the entrance axis"

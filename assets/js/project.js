@@ -130,7 +130,6 @@ function drawings(p) {
         el('span', { class: 'dwg__title', text: d.title + (d.scale ? `, ${d.scale}` : '') }),
         el('span', { class: 'dwg__acts' }, [
           el('button', { type: 'button', class: 'txt-btn', 'data-dwg': k, text: 'View' }),
-          el('a', { class: 'txt-btn', href: `${p.dir}${d.file}.pdf`, target: '_blank', rel: 'noopener', text: 'PDF ↗' }),
         ]),
       ]),
     ]);
@@ -138,7 +137,7 @@ function drawings(p) {
   return el('section', { class: 'p-drawings', 'aria-labelledby': 'dwg-h' }, [
     el('div', { class: 'p-drawings__band' }, el('div', { class: 'wrap p-drawings__head' }, [
       el('h2', { class: 'h-section', id: 'dwg-h' }, [el('span', { class: 'num', text: 'D' }), 'Plans and sections']),
-      el('p', { class: 'p-drawings__note', text: `${p.drawings.length} drawings. Open any sheet to zoom and pan; the original PDF is linked beside each.` }),
+      el('p', { class: 'p-drawings__note', text: `${p.drawings.length} drawings. Open any sheet to zoom and pan.` }),
     ])),
     el('div', { class: 'wrap' }, [
       plans.length ? el('div', { class: `dwg-grid dwg-grid--plans${plans.length === 1 ? ' dwg-grid--single' : ''}` }, [

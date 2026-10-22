@@ -1,4 +1,4 @@
-/* Full-screen drawing viewer: zoom, pan, pinch, reset, keyboard, PDF link. */
+/* Full-screen drawing viewer: zoom, pan, pinch, reset and keyboard. */
 import { el } from './common.js';
 
 export function initViewer(p, root) {
@@ -9,7 +9,6 @@ export function initViewer(p, root) {
   const canvas = el('div', { class: 'viewer__canvas', tabindex: '0', 'aria-label': 'Drawing. Drag or use arrow keys to pan, plus and minus to zoom, 0 to reset.' }, img);
   const title = el('h2', { class: 'viewer__title' });
   const count = el('span', { class: 'meta viewer__count' });
-  const pdf = el('a', { class: 'viewer__btn viewer__btn--text', target: '_blank', rel: 'noopener', text: 'Original PDF ↗' });
   const btn = (label, aria, fn) => el('button', { type: 'button', class: 'viewer__btn', 'aria-label': aria, onclick: fn, text: label });
   const zoomLabel = el('span', { class: 'meta viewer__zoom', 'aria-live': 'polite' });
   const dlg = el('dialog', { class: 'viewer', 'aria-label': 'Drawing viewer' }, [
@@ -20,7 +19,6 @@ export function initViewer(p, root) {
         zoomLabel,
         btn('+', 'Zoom in', () => zoomBy(1.4)),
         btn('Reset', 'Reset view', reset),
-        pdf,
         btn('×', 'Close viewer', () => dlg.close()),
       ]),
     ]),
@@ -47,7 +45,7 @@ export function initViewer(p, root) {
     s = fit; x = (cw - iw * s) / 2; y = (ch - ih * s) / 2; apply();
   }
   function zoomAt(f, cx, cy) {
-    // never magnify past ~1.6× the high-resolution sheet; the PDF is there for more
+    // Limit magnification to preserve the readability of the high-resolution preview.
     const ns = Math.min(Math.max(maxS, fit * 1.5), Math.max(fit * 0.8, s * f));
     x = cx - (cx - x) * (ns / s); y = cy - (cy - y) * (ns / s); s = ns; clampPan(); apply();
   }
@@ -58,7 +56,6 @@ export function initViewer(p, root) {
     const d = list[k];
     title.textContent = `${d.type} — ${d.title}${d.scale ? ', ' + d.scale : ''}`;
     count.textContent = `${String(k + 1).padStart(2, '0')} / ${String(list.length).padStart(2, '0')}`;
-    pdf.href = `${p.dir}${d.file}.pdf`;
     img.alt = `${d.type} — ${d.title}`;
     iw = d.w; ih = d.h;
     img.style.width = iw + 'px'; img.style.height = ih + 'px';

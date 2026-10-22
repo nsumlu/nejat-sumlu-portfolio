@@ -348,48 +348,48 @@
     },
     {
       "files": [
-        "assets/projects/concept-cultural-centre/images/exhibition-hall-800.webp",
-        "assets/projects/concept-cultural-centre/images/exhibition-hall-1400.webp",
-        "assets/projects/concept-cultural-centre/images/exhibition-hall-1672.webp"
+        "assets/projects/concept-cultural-centre/images/exhibition-hall-motion-v2-800.webp",
+        "assets/projects/concept-cultural-centre/images/exhibition-hall-motion-v2-1400.webp",
+        "assets/projects/concept-cultural-centre/images/exhibition-hall-motion-v2-1672.webp"
       ],
       "project": "Concept Cultural Centre",
       "folder": "concept-cultural-centre",
       "role": "Image — Selected views (full width)",
       "caption": "Visualisation — Exhibition hall, ground floor",
-      "source": "projects/03-concept-cultural-centre/images/02-sergi-holu.png",
-      "source_sha256": "d7d1dc9ec31c9b229c77c335406919c6d25856641ad1d21232814bc921ff4742",
-      "original_name": "02-sergi-holu.png",
-      "verification": "Visually checked: belongs to this project (consistent interior language, signage/programme); hash matches package manifest."
+      "source": "C:\\Users\\nsuml\\.codex\\generated_images\\01a13b12-935a-7990-849c-0efad4b5c2a2\\exec-66d2b006-ebeb-4c9a-af92-dce80b2fc29d.png",
+      "source_sha256": "72478bf9ce5a10947e33d58a4f464cbe0fa2dfa313457c02fee4e9c527039580",
+      "original_name": "exec-66d2b006-ebeb-4c9a-af92-dce80b2fc29d.png",
+      "verification": "User-approved imagegen edit: restrained short motion blur on visitors only."
     },
     {
       "files": [
-        "assets/projects/concept-cultural-centre/images/exhibition-detail-800.webp",
-        "assets/projects/concept-cultural-centre/images/exhibition-detail-1400.webp",
-        "assets/projects/concept-cultural-centre/images/exhibition-detail-1672.webp"
+        "assets/projects/concept-cultural-centre/images/exhibition-detail-motion-v2-800.webp",
+        "assets/projects/concept-cultural-centre/images/exhibition-detail-motion-v2-1400.webp",
+        "assets/projects/concept-cultural-centre/images/exhibition-detail-motion-v2-1672.webp"
       ],
       "project": "Concept Cultural Centre",
       "folder": "concept-cultural-centre",
       "role": "Image — Selected views (pair)",
       "caption": "Visualisation — Exhibition detail",
-      "source": "projects/03-concept-cultural-centre/images/05-sergi-detay.png",
-      "source_sha256": "d575aff9d800f0524cbd5736aa8b1b59ab572f0981c0e92d172f7f2092618949",
-      "original_name": "05-sergi-detay.png",
-      "verification": "Visually checked: belongs to this project (consistent interior language, signage/programme); hash matches package manifest."
+      "source": "C:\\Users\\nsuml\\.codex\\generated_images\\01a13b12-935a-7990-849c-0efad4b5c2a2\\exec-7d419a00-3d69-4b3c-9892-7b6ea174b38f.png",
+      "source_sha256": "821eb6ae3efe6a7577482f7b785e1937a3475199636c88b9be6f3b87e7635786",
+      "original_name": "exec-7d419a00-3d69-4b3c-9892-7b6ea174b38f.png",
+      "verification": "User-approved imagegen edit: restrained short motion blur on visitors only."
     },
     {
       "files": [
-        "assets/projects/concept-cultural-centre/images/exhibition-panels-800.webp",
-        "assets/projects/concept-cultural-centre/images/exhibition-panels-1400.webp",
-        "assets/projects/concept-cultural-centre/images/exhibition-panels-1672.webp"
+        "assets/projects/concept-cultural-centre/images/exhibition-panels-motion-v2-800.webp",
+        "assets/projects/concept-cultural-centre/images/exhibition-panels-motion-v2-1400.webp",
+        "assets/projects/concept-cultural-centre/images/exhibition-panels-motion-v2-1672.webp"
       ],
       "project": "Concept Cultural Centre",
       "folder": "concept-cultural-centre",
       "role": "Image — Selected views (pair)",
       "caption": "Visualisation — Exhibition panels",
-      "source": "projects/03-concept-cultural-centre/images/07-sergi-panolari.png",
-      "source_sha256": "3b50dd0f3f182c8c45cd1b3c0b977b6d47a9eb309f5b996a879fe312f18cb6bc",
-      "original_name": "07-sergi-panolari.png",
-      "verification": "Visually checked: belongs to this project (consistent interior language, signage/programme); hash matches package manifest."
+      "source": "C:\\Users\\nsuml\\.codex\\generated_images\\01a13b12-935a-7990-849c-0efad4b5c2a2\\exec-43d08f47-b5ff-42bb-bfbe-86195583873f.png",
+      "source_sha256": "a4416e7cf9438051f39f6f835d75a1cb843a310bc9388a26ca591b3b6be32778",
+      "original_name": "exec-43d08f47-b5ff-42bb-bfbe-86195583873f.png",
+      "verification": "User-approved imagegen edit: restrained short motion blur on visitors only."
     },
     {
       "files": [

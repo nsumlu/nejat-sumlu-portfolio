@@ -410,6 +410,9 @@ main, .site-footer { position: relative; z-index: 1; }
 .p-views > .side-label { margin-bottom: clamp(28px, 4vw, 56px); }
 .v-row { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(12, 1fr); column-gap: var(--gap); margin-bottom: clamp(56px, 8vw, 140px); align-items: start; }
 .v-row--full > .v-fig { grid-column: 1 / -1; }
+.v-row--pair-even > .v-fig:first-child { grid-column: 1 / 7; }
+.v-row--pair-even > .v-fig:last-child { grid-column: 7 / 13; }
+@media (max-width: 760px) { .v-row--pair-even > .v-fig:first-child, .v-row--pair-even > .v-fig:last-child { grid-column: 1 / -1; margin-top: 0; margin-bottom: 28px; } }
 .v-row--pair > .v-fig:first-child { grid-column: 1 / 8; }
 .v-row--pair > .v-fig:last-child { grid-column: 9 / 13; margin-top: clamp(80px, 14vw, 260px); }
 .v-row--trio > .v-fig:nth-child(1) { grid-column: 1 / 5; }

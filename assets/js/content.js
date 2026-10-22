@@ -137,7 +137,25 @@ export const PROJECTS = [
     ],
     "views": [
       {
-        "layout": "pair",
+        "layout": "full",
+        "images": [
+          {
+            "base": "images/display-capsules",
+            "widths": [
+              800,
+              1400,
+              1679
+            ],
+            "w": 1679,
+            "h": 937,
+            "alt": "Tailored suits inside cylindrical glass display capsules between dark marble columns",
+            "caption": "Glass display capsules",
+            "label": "Visualisation"
+          }
+        ]
+      },
+      {
+        "layout": "pair-even",
         "images": [
           {
             "base": "images/display-and-stair",
@@ -168,7 +186,7 @@ export const PROJECTS = [
         ]
       },
       {
-        "layout": "offset-right",
+        "layout": "full",
         "images": [
           {
             "base": "images/storefront",
@@ -183,8 +201,7 @@ export const PROJECTS = [
             "caption": "Storefront at dusk",
             "label": "Visualisation"
           }
-        ],
-        "text": "The facade borrows a palazzo language — Corinthian columns, a carved pediment and two atlantes framing the door — and opens straight onto the runway axis."
+        ]
       }
     ],
     "drawings": [
@@ -260,19 +277,6 @@ export const PROJECTS = [
           "Ceramic flooring"
         ]
       ],
-      "image": {
-        "base": "images/display-capsules",
-        "widths": [
-          800,
-          1400,
-          1679
-        ],
-        "w": 1679,
-        "h": 937,
-        "alt": "Tailored suits inside cylindrical glass display capsules between dark marble columns",
-        "caption": "Glass display capsules",
-        "label": "Visualisation"
-      },
       "samples": [
         {
           "src": "images/display-and-stair-1910.webp",
@@ -650,7 +654,7 @@ export const PROJECTS = [
         "layout": "full",
         "images": [
           {
-            "base": "images/exhibition-hall",
+            "base": "images/exhibition-hall-motion-v2",
             "widths": [
               800,
               1400,
@@ -668,7 +672,7 @@ export const PROJECTS = [
         "layout": "pair",
         "images": [
           {
-            "base": "images/exhibition-detail",
+            "base": "images/exhibition-detail-motion-v2",
             "widths": [
               800,
               1400,
@@ -681,7 +685,7 @@ export const PROJECTS = [
             "label": "Visualisation"
           },
           {
-            "base": "images/exhibition-panels",
+            "base": "images/exhibition-panels-motion-v2",
             "widths": [
               800,
               1400,

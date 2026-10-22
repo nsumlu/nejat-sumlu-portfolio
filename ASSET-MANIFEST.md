@@ -129,3 +129,7 @@ Four texture references are extracted directly from the materials area of the su
 All four interior projects have a four-sample material study. Restaurant ceramic and textile samples come from its original presentation cover. Store and Cultural Centre samples are detail views of the already approved project render files; they do not claim manufacturer or product identification. Each project materials folder includes provenance metadata.
 
 Order: Store, Restaurant, Cultural Centre, Headquarters, RELIC. Academic years are 2023–2024 for Store/Restaurant and 2024–2025 for Cultural Centre/Headquarters, verified against original project presentation headers. No academic year is inferred for RELIC.
+
+## Headquarters interior render replacement — 23 October 2026
+
+Open office uses the approved adidas wordmark and three grey aisle stripe revision (`open-office-v3`). The frontal view uses the approved correction with the stripe group set farther from the desks, mostly cropped below the foreground (`workstations-v4`). The exterior image is unchanged.

@@ -1029,7 +1029,7 @@ export const PROJECTS = [
         "layout": "full",
         "images": [
           {
-            "base": "images/open-office",
+            "base": "images/open-office-v3",
             "widths": [
               800,
               1400,
@@ -1037,7 +1037,7 @@ export const PROJECTS = [
             ],
             "w": 1671,
             "h": 941,
-            "alt": "Open-plan office with muted turquoise walls, timber-framed desks, brown chairs, planting and sculptural ceiling lights",
+            "alt": "Open-plan office with a white adidas wordmark on a turquoise wall and three subtle grey stripes along the circulation aisle",
             "caption": "Open-plan workspace",
             "label": "Visualisation"
           }
@@ -1047,7 +1047,7 @@ export const PROJECTS = [
         "layout": "offset-right",
         "images": [
           {
-            "base": "images/workstations",
+            "base": "images/workstations-v4",
             "widths": [
               800,
               1400,
@@ -1055,7 +1055,7 @@ export const PROJECTS = [
             ],
             "w": 1672,
             "h": 941,
-            "alt": "Shared workstations beside venetian-blind windows, with planted dividers and continuous rounded ceiling lights",
+            "alt": "Shared workstations with planted dividers and a grey aisle stripe partly visible at the bottom foreground, away from the desk carpet",
             "caption": "Shared workstations and daylight",
             "label": "Visualisation"
           }

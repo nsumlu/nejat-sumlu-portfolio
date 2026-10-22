@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21",
+  "generated": "2026-10-23",
   "assets": [
     {
       "files": [
@@ -918,6 +918,30 @@
       "role": "Material sample",
       "source": "Original restaurant presentation, page 1, material reference samples",
       "sha256": "19d8a84ea91306f204aca3d5230f98392bdd830045b8ecf60ba16f4621531419"
+    },
+    {
+      "files": [
+        "assets/projects/concept-headquarters/images/open-office-v3-800.webp",
+        "assets/projects/concept-headquarters/images/open-office-v3-1400.webp",
+        "assets/projects/concept-headquarters/images/open-office-v3-1671.webp"
+      ],
+      "project": "Concept Headquarters",
+      "folder": "concept-headquarters",
+      "role": "Selected revised render",
+      "source": "01-acik-ofis-logo-serit-v3.png",
+      "source_sha256": "926b4d2523fb90291e529620e814629025dd9cf5fc4e940ea4143b40b82a5132"
+    },
+    {
+      "files": [
+        "assets/projects/concept-headquarters/images/workstations-v4-800.webp",
+        "assets/projects/concept-headquarters/images/workstations-v4-1400.webp",
+        "assets/projects/concept-headquarters/images/workstations-v4-1672.webp"
+      ],
+      "project": "Concept Headquarters",
+      "folder": "concept-headquarters",
+      "role": "Selected revised render",
+      "source": "02-calisma-alani-serit-v4.png",
+      "source_sha256": "c1a062336f269949fc73361b12d60fdba1c98aebf020cfbeaca87ae4303d5856"
     }
   ],
   "flagged": [

@@ -9,15 +9,15 @@
     },
     {
       "role": "selected-render",
-      "source": "01-acik-ofis-perspektif-v2.png",
-      "base": "images/open-office",
-      "sha256": "12cfe3b998ec9730152f2f91195081698f4a7fee6588af86d246120fb3effa40"
+      "source": "01-acik-ofis-logo-serit-v3.png",
+      "base": "images/open-office-v3",
+      "sha256": "926b4d2523fb90291e529620e814629025dd9cf5fc4e940ea4143b40b82a5132"
     },
     {
       "role": "selected-render",
-      "source": "02-calisma-alani-v2.png",
-      "base": "images/workstations",
-      "sha256": "c090716665b4db1a502173d0f927de98cbab77490585d465768f060e69e71912"
+      "source": "02-calisma-alani-serit-v4.png",
+      "base": "images/workstations-v4",
+      "sha256": "c1a062336f269949fc73361b12d60fdba1c98aebf020cfbeaca87ae4303d5856"
     },
     {
       "role": "drawing",

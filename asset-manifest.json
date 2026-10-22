@@ -3,18 +3,18 @@
   "assets": [
     {
       "files": [
-        "assets/projects/concept-store/images/storefront-800.webp",
-        "assets/projects/concept-store/images/storefront-1400.webp",
-        "assets/projects/concept-store/images/storefront-1672.webp"
+        "assets/projects/concept-store/images/storefront-v3-800.webp",
+        "assets/projects/concept-store/images/storefront-v3-1400.webp",
+        "assets/projects/concept-store/images/storefront-v3-1672.webp"
       ],
       "project": "Concept Store",
       "folder": "concept-store",
       "role": "Image — Selector cover; matches first frame of entrance video; Selected views (offset, with note)",
       "caption": "Visualisation — Storefront at dusk",
-      "source": "projects/01-concept-store/images/01-facade.png",
-      "source_sha256": "09e948788a39384c97883b66e719671b552d5b3201e32eadd11ccab1b1819c58",
-      "original_name": "ChatGPT Image Oct 18, 2026, 10_54_30 PM.png",
-      "verification": "Visually checked: belongs to this project (consistent interior language, signage/programme); hash matches package manifest."
+      "source": "C:\\Users\\nsuml\\Documents\\Codex\\2026-10-14\\realtime-voice-chat\\outputs\\render-revisions\\store-facade-perspective-v3.png",
+      "source_sha256": "cea41607a13ba70fe4b7f5e59e5a0f5588eb55b383493b9b99fffebb8a4a1f64",
+      "original_name": "store-facade-perspective-v3.png",
+      "verification": "User-approved imagegen revision: coherent walnut, visible glass, coordinated shelf contents or doorway perspective."
     },
     {
       "files": [
@@ -33,18 +33,18 @@
     },
     {
       "files": [
-        "assets/projects/concept-store/images/display-and-stair-800.webp",
-        "assets/projects/concept-store/images/display-and-stair-1400.webp",
-        "assets/projects/concept-store/images/display-and-stair-1910.webp"
+        "assets/projects/concept-store/images/display-and-stair-v3-800.webp",
+        "assets/projects/concept-store/images/display-and-stair-v3-1400.webp",
+        "assets/projects/concept-store/images/display-and-stair-v3-1910.webp"
       ],
       "project": "Concept Store",
       "folder": "concept-store",
       "role": "Image — Selected views (pair)",
       "caption": "Visualisation — Menswear display and stair",
-      "source": "projects/01-concept-store/images/02-display-and-stair.png",
-      "source_sha256": "1258b992f81610e172a8450d98aa85e1dd9532e9a53715f09d3c5f15478f452b",
-      "original_name": "ChatGPT Image Oct 18, 2026, 09_47_23 PM.png",
-      "verification": "Visually checked: belongs to this project (consistent interior language, signage/programme); hash matches package manifest."
+      "source": "C:\\Users\\nsuml\\Documents\\Codex\\2026-10-14\\realtime-voice-chat\\outputs\\render-revisions\\store-menswear-glass-v3.png",
+      "source_sha256": "3f4bb1077ab8cd97bd8beb812dec803a6022fe75a4f30f5f579cecbb2d8546eb",
+      "original_name": "store-menswear-glass-v3.png",
+      "verification": "User-approved imagegen revision: coherent walnut, visible glass, coordinated shelf contents or doorway perspective."
     },
     {
       "files": [
@@ -63,18 +63,18 @@
     },
     {
       "files": [
-        "assets/projects/concept-store/images/display-capsules-800.webp",
-        "assets/projects/concept-store/images/display-capsules-1400.webp",
-        "assets/projects/concept-store/images/display-capsules-1679.webp"
+        "assets/projects/concept-store/images/display-capsules-v3-800.webp",
+        "assets/projects/concept-store/images/display-capsules-v3-1400.webp",
+        "assets/projects/concept-store/images/display-capsules-v3-1679.webp"
       ],
       "project": "Concept Store",
       "folder": "concept-store",
       "role": "Image — Materials and details image",
       "caption": "Visualisation — Glass display capsules",
-      "source": "projects/01-concept-store/images/03-display-capsules.png",
-      "source_sha256": "277729068814fcf7193a378cc856ef81822836a0338e6e8d3e7dbc8a51cdeb4e",
-      "original_name": "bijan1.png",
-      "verification": "Visually checked: belongs to this project (consistent interior language, signage/programme); hash matches package manifest."
+      "source": "C:\\Users\\nsuml\\Documents\\Codex\\2026-10-14\\realtime-voice-chat\\outputs\\render-revisions\\store-capsules-glass-v3.png",
+      "source_sha256": "edabead6a4aaff8a3761257a4fe7a08e108a7cd22ecb23b572d5f1bfdecdbec3",
+      "original_name": "store-capsules-glass-v3.png",
+      "verification": "User-approved imagegen revision: coherent walnut, visible glass, coordinated shelf contents or doorway perspective."
     },
     {
       "files": [

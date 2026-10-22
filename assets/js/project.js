@@ -99,6 +99,8 @@ function views(p) {
   const rows = p.views.map((v) => {
     const imgs = v.images;
     switch (v.layout) {
+      case 'contained':
+      case 'contained-feature': return el('div', { class: `v-row v-row--${v.layout}` }, fig(p, imgs[0], '(max-width:760px) 100vw, 1040px'));
       case 'pair-even': return el('div', { class: 'v-row v-row--pair-even' }, imgs.map((m) => fig(p, m, '(max-width:760px) 100vw, 50vw')));
       case 'pair': return el('div', { class: 'v-row v-row--pair' }, [fig(p, imgs[0], '(max-width:760px) 100vw, 58vw'), fig(p, imgs[1], '(max-width:760px) 100vw, 40vw')]);
       case 'trio': return el('div', { class: 'v-row v-row--trio' }, imgs.map((m) => fig(p, m, '(max-width:760px) 100vw, 33vw')));

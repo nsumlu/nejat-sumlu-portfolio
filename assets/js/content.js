@@ -53,14 +53,14 @@ export const PROJECTS = [
     "dir": "assets/projects/concept-store/",
     "accent": "#C99A2E",
     "cover": {
-      "base": "images/storefront",
+      "base": "images/storefront-v3",
       "widths": [
         800,
         1400,
         1672
       ],
       "w": 1672,
-      "h": 941,
+      "h": 942,
       "alt": "Classical yellow storefront with columns and carved figures flanking an arched entrance, lit at dusk",
       "label": "Visualisation"
     },
@@ -137,17 +137,17 @@ export const PROJECTS = [
     ],
     "views": [
       {
-        "layout": "full",
+        "layout": "contained-feature",
         "images": [
           {
-            "base": "images/display-capsules",
+            "base": "images/display-capsules-v3",
             "widths": [
               800,
               1400,
               1679
             ],
             "w": 1679,
-            "h": 937,
+            "h": 938,
             "alt": "Tailored suits inside cylindrical glass display capsules between dark marble columns",
             "caption": "Glass display capsules",
             "label": "Visualisation"
@@ -155,21 +155,26 @@ export const PROJECTS = [
         ]
       },
       {
-        "layout": "pair-even",
+        "layout": "contained",
         "images": [
           {
-            "base": "images/display-and-stair",
+            "base": "images/display-and-stair-v3",
             "widths": [
               800,
               1400,
               1910
             ],
             "w": 1910,
-            "h": 823,
+            "h": 824,
             "alt": "Suits on a circular display beside a dark marble column, with a curved white stair beyond",
             "caption": "Menswear display and stair",
             "label": "Visualisation"
-          },
+          }
+        ]
+      },
+      {
+        "layout": "contained",
+        "images": [
           {
             "base": "images/podium-office",
             "widths": [
@@ -186,17 +191,17 @@ export const PROJECTS = [
         ]
       },
       {
-        "layout": "full",
+        "layout": "contained",
         "images": [
           {
-            "base": "images/storefront",
+            "base": "images/storefront-v3",
             "widths": [
               800,
               1400,
               1672
             ],
             "w": 1672,
-            "h": 941,
+            "h": 942,
             "alt": "Classical yellow storefront with Corinthian columns and two carved figures flanking an arched entrance, lit at dusk",
             "caption": "Storefront at dusk",
             "label": "Visualisation"
@@ -279,7 +284,7 @@ export const PROJECTS = [
       ],
       "samples": [
         {
-          "src": "images/display-and-stair-1910.webp",
+          "src": "images/display-and-stair-v3-1910.webp",
           "w": 1910,
           "h": 823,
           "title": "Dark marble finish",
@@ -292,7 +297,7 @@ export const PROJECTS = [
           }
         },
         {
-          "src": "images/display-and-stair-1910.webp",
+          "src": "images/display-and-stair-v3-1910.webp",
           "w": 1910,
           "h": 823,
           "title": "Light stone finish",
@@ -305,7 +310,7 @@ export const PROJECTS = [
           }
         },
         {
-          "src": "images/display-and-stair-1910.webp",
+          "src": "images/display-and-stair-v3-1910.webp",
           "w": 1910,
           "h": 823,
           "title": "Timber finish",
@@ -318,7 +323,7 @@ export const PROJECTS = [
           }
         },
         {
-          "src": "images/display-and-stair-1910.webp",
+          "src": "images/display-and-stair-v3-1910.webp",
           "w": 1910,
           "h": 823,
           "title": "Metal and glass",
@@ -439,7 +444,7 @@ export const PROJECTS = [
         ]
       },
       {
-        "layout": "full",
+        "layout": "contained",
         "images": [
           {
             "base": "images/terrace-day",
@@ -651,7 +656,7 @@ export const PROJECTS = [
     ],
     "views": [
       {
-        "layout": "full",
+        "layout": "contained",
         "images": [
           {
             "base": "images/exhibition-hall-motion-v2",
@@ -1030,7 +1035,7 @@ export const PROJECTS = [
     ],
     "views": [
       {
-        "layout": "full",
+        "layout": "contained",
         "images": [
           {
             "base": "images/open-office-v4",

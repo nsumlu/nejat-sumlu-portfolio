@@ -1033,7 +1033,7 @@ export const PROJECTS = [
         "layout": "full",
         "images": [
           {
-            "base": "images/open-office-v3",
+            "base": "images/open-office-v4",
             "widths": [
               800,
               1400,

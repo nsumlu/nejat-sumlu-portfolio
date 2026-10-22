@@ -921,15 +921,17 @@
     },
     {
       "files": [
-        "assets/projects/concept-headquarters/images/open-office-v3-800.webp",
-        "assets/projects/concept-headquarters/images/open-office-v3-1400.webp",
-        "assets/projects/concept-headquarters/images/open-office-v3-1671.webp"
+        "assets/projects/concept-headquarters/images/open-office-v4-800.webp",
+        "assets/projects/concept-headquarters/images/open-office-v4-1400.webp",
+        "assets/projects/concept-headquarters/images/open-office-v4-1671.webp"
       ],
       "project": "Concept Headquarters",
       "folder": "concept-headquarters",
       "role": "Selected revised render",
-      "source": "01-acik-ofis-logo-serit-v3.png",
-      "source_sha256": "926b4d2523fb90291e529620e814629025dd9cf5fc4e940ea4143b40b82a5132"
+      "source": "C:\\Users\\nsuml\\Documents\\Codex\\2026-10-14\\realtime-voice-chat\\outputs\\render-revisions\\office-without-plant-v4.png",
+      "source_sha256": "b54ecd3f0cd9fe99c246c3e45a717e057e47f484ecfbd483a05676deee278af7",
+      "verification": "Imagegen local edit requested by user: remove only floor plant immediately left of foreground water cooler; retain floor stripes and layout.",
+      "original_name": "office-without-plant-v4.png"
     },
     {
       "files": [

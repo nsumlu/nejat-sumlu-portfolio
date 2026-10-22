@@ -342,7 +342,7 @@ export const PROJECTS = [
     "dir": "assets/projects/concept-restaurant/",
     "accent": "#C4471F",
     "cover": {
-      "base": "images/dining-room",
+      "base": "images/dining-room-motion-v1",
       "widths": [
         800,
         1400,
@@ -354,7 +354,7 @@ export const PROJECTS = [
       "label": "Visualisation"
     },
     "hero": {
-      "base": "images/dining-room",
+      "base": "images/dining-room-motion-v1",
       "widths": [
         800,
         1400,
@@ -456,7 +456,7 @@ export const PROJECTS = [
         "layout": "offset-right",
         "images": [
           {
-            "base": "images/terrace-night",
+            "base": "images/terrace-night-motion-v1",
             "widths": [
               800,
               1400,

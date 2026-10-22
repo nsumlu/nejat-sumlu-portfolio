@@ -183,18 +183,18 @@
     },
     {
       "files": [
-        "assets/projects/concept-restaurant/images/dining-room-800.webp",
-        "assets/projects/concept-restaurant/images/dining-room-1400.webp",
-        "assets/projects/concept-restaurant/images/dining-room-1672.webp"
+        "assets/projects/concept-restaurant/images/dining-room-motion-v1-800.webp",
+        "assets/projects/concept-restaurant/images/dining-room-motion-v1-1400.webp",
+        "assets/projects/concept-restaurant/images/dining-room-motion-v1-1672.webp"
       ],
       "project": "Concept Restaurant",
       "folder": "concept-restaurant",
       "role": "Image — Selector cover and project hero",
       "caption": "Visualisation — Dining room",
-      "source": "projects/02-concept-restaurant/images/01-dining.png",
-      "source_sha256": "db48fa6f751cc18c2772a09d45572ffbfc0c5807cbec07ecfcb0fb44aec1c963",
-      "original_name": "ChatGPT Image Oct 19, 2026, 05_48_21 PM.png",
-      "verification": "Visually checked: belongs to this project (consistent interior language, signage/programme); hash matches package manifest."
+      "source": "C:\\Users\\nsuml\\Documents\\Codex\\2026-10-14\\realtime-voice-chat\\outputs\\restaurant-renders\\dining-room-motion-v1.png",
+      "source_sha256": "34e40ae414a4a6caebcdd3f2147a33cbe44c53b169d81d0e72fdf7c14f13ef10",
+      "original_name": "dining-room-motion-v1.png",
+      "verification": "User-approved imagegen edit: motion blur applied to human figures; interior preserved."
     },
     {
       "files": [
@@ -243,18 +243,18 @@
     },
     {
       "files": [
-        "assets/projects/concept-restaurant/images/terrace-night-800.webp",
-        "assets/projects/concept-restaurant/images/terrace-night-1400.webp",
-        "assets/projects/concept-restaurant/images/terrace-night-1672.webp"
+        "assets/projects/concept-restaurant/images/terrace-night-motion-v1-800.webp",
+        "assets/projects/concept-restaurant/images/terrace-night-motion-v1-1400.webp",
+        "assets/projects/concept-restaurant/images/terrace-night-motion-v1-1672.webp"
       ],
       "project": "Concept Restaurant",
       "folder": "concept-restaurant",
       "role": "Image — Selected views (offset)",
       "caption": "Visualisation — Upper-floor terrace at night",
-      "source": "projects/02-concept-restaurant/images/05-terrace-night.png",
-      "source_sha256": "2e0db3f9c443d60ca4f36d68bde243bc80571d6a54de769a08ae85b3e104759f",
-      "original_name": "ChatGPT Image Oct 19, 2026, 05_39_52 PM.png",
-      "verification": "Visually checked: belongs to this project (consistent interior language, signage/programme); hash matches package manifest."
+      "source": "C:\\Users\\nsuml\\Documents\\Codex\\2026-10-14\\realtime-voice-chat\\outputs\\restaurant-renders\\terrace-night-motion-v1.png",
+      "source_sha256": "a6f2bec096060a4dd77a9139b5d2eabbabb1c41a6c204dc6e6b695484abc7028",
+      "original_name": "terrace-night-motion-v1.png",
+      "verification": "User-approved imagegen edit: motion blur on people only."
     },
     {
       "files": [

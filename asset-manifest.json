@@ -18,18 +18,18 @@
     },
     {
       "files": [
-        "assets/projects/concept-store/images/entrance-axis-v3-800.webp",
-        "assets/projects/concept-store/images/entrance-axis-v3-1400.webp",
-        "assets/projects/concept-store/images/entrance-axis-v3-1787.webp"
+        "assets/projects/concept-store/images/entrance-axis-v4-800.webp",
+        "assets/projects/concept-store/images/entrance-axis-v4-1400.webp",
+        "assets/projects/concept-store/images/entrance-axis-v4-1787.webp"
       ],
       "project": "Concept Store",
       "folder": "concept-store",
       "role": "Image — Project hero (settled arrival). The video's last frame = this render ×0.861, shifted −128.8/+0.3 px, no rotation (ORB/RANSAC, 2,714 inliers; residual 3.6/255); the entrance crossfades frame → render",
       "caption": "Visualisation — Arrival, the entrance axis",
-      "source": "C:\\Users\\nsuml\\Documents\\Codex\\2026-10-14\\realtime-voice-chat\\outputs\\render-revisions\\store-mezzanine-columns-v3.png",
-      "source_sha256": "a64fd1aebf8b6e31e724bbdcf0ad882189fa36b47389a9c965c46118a925c64b",
-      "original_name": "store-mezzanine-columns-v3.png",
-      "verification": "User-approved imagegen refinement of upper mezzanine column and balustrade contact."
+      "source": "C:\\Users\\nsuml\\Documents\\Codex\\2026-10-14\\realtime-voice-chat\\outputs\\render-revisions\\store-entrance-uniform-slab-v4.png",
+      "source_sha256": "6de811f8e7494467f4f0209480ba8730d3aadad04671174660a7cd40519c8963",
+      "original_name": "store-entrance-uniform-slab-v4.png",
+      "verification": "User-requested imagegen edit: uninterrupted thick mezzanine fascia matching closer podium-office view, naturally occluding lower balustrade."
     },
     {
       "files": [

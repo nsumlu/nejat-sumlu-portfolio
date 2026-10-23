@@ -65,7 +65,7 @@ export const PROJECTS = [
       "label": "Visualisation"
     },
     "hero": {
-      "base": "images/entrance-axis-v3",
+      "base": "images/entrance-axis-v4",
       "widths": [
         800,
         1400,

@@ -48,18 +48,18 @@
     },
     {
       "files": [
-        "assets/projects/concept-store/images/podium-office-800.webp",
-        "assets/projects/concept-store/images/podium-office-1400.webp",
-        "assets/projects/concept-store/images/podium-office-1910.webp"
+        "assets/projects/concept-store/images/podium-office-v2-800.webp",
+        "assets/projects/concept-store/images/podium-office-v2-1400.webp",
+        "assets/projects/concept-store/images/podium-office-v2-1910.webp"
       ],
       "project": "Concept Store",
       "folder": "concept-store",
       "role": "Image — Selected views (pair)",
       "caption": "Visualisation — Podium and frosted office",
-      "source": "projects/01-concept-store/images/05-podium-office.png",
-      "source_sha256": "917e12e2e8c268677c2d8bc2165b0ab896d9b40bd2973329f53f9f81c5e7cdce",
-      "original_name": "ChatGPT Image Oct 18, 2026, 09_32_19 PM.png",
-      "verification": "Visually checked: belongs to this project (consistent interior language, signage/programme); hash matches package manifest."
+      "source": "C:\\Users\\nsuml\\Documents\\Codex\\2026-10-14\\realtime-voice-chat\\outputs\\render-revisions\\store-podium-office-v2.png",
+      "source_sha256": "45f943a08684ae44011283edd71cc085e644cceb2da87901f9c74020755d373b",
+      "original_name": "store-podium-office-v2.png",
+      "verification": "Imagegen edit requested by user: closer view aligned to approved entrance render; upper columns rest on mezzanine slab, chandelier and frosted enclosure match master."
     },
     {
       "files": [

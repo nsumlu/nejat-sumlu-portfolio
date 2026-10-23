@@ -172,7 +172,7 @@ export const PROJECTS = [
         "layout": "contained",
         "images": [
           {
-            "base": "images/podium-office",
+            "base": "images/podium-office-v2",
             "widths": [
               800,
               1400,

@@ -1214,7 +1214,7 @@ export const PROJECTS = [
     "number": "05",
     "title": "RELIC No.01",
     "kind": "object",
-    "category": "Collectible object",
+    "category": "Concept collectible object",
     "dir": "assets/projects/relic-no01/",
     "accent": "#B8742A",
     "cover": {

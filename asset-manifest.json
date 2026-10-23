@@ -926,6 +926,18 @@
       "source": "C:\\Users\\nsuml\\Desktop\\Yeni klasör\\cafe\\meks2.PDF",
       "source_sha256": "8b586806fcc03aeecdaea9e4ed47d6fa0bf76d55c084219dd9243908e96836f8",
       "verification": "User identified this PDF as missing restaurant first-floor plan. Visually checked workshop areas, terrace and shared dining; all annotations preserved; original PDF kept private."
+    },
+    {
+      "files": [
+        "assets/projects/concept-store/video/doorstep-entry-v2-720.mp4",
+        "assets/projects/concept-store/video/doorstep-entry-v2-720.webm"
+      ],
+      "project": "Concept Store",
+      "folder": "concept-store",
+      "role": "Entrance video — exterior approach then approved interior still",
+      "source": "C:\\Users\\nsuml\\Documents\\Codex\\2026-10-14\\realtime-voice-chat\\outputs\\entrance-preview\\doorstep-to-approved-render.mp4",
+      "source_sha256": "b44b9d3d4c03f22bce9b6a96974b6cb4823c2fcb399c0010d6ce962083c23387",
+      "verification": "User-approved approximately 4.17-second preview: first 2 seconds of supplied Flow clip at 0.67 speed, then 0.9-second approved interior still. Muted; MP4 and WebM."
     }
   ],
   "flagged": [

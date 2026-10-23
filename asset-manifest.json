@@ -3,18 +3,18 @@
   "assets": [
     {
       "files": [
-        "assets/projects/concept-store/images/storefront-v4-800.webp",
-        "assets/projects/concept-store/images/storefront-v4-1400.webp",
-        "assets/projects/concept-store/images/storefront-v4-1672.webp"
+        "assets/projects/concept-store/images/storefront-v5-800.webp",
+        "assets/projects/concept-store/images/storefront-v5-1400.webp",
+        "assets/projects/concept-store/images/storefront-v5-1672.webp"
       ],
       "project": "Concept Store",
       "folder": "concept-store",
       "role": "Image — Selector cover; matches first frame of entrance video; Selected views (offset, with note)",
       "caption": "Visualisation — Storefront at dusk",
-      "source": "C:\\Users\\nsuml\\Documents\\Codex\\2026-10-14\\realtime-voice-chat\\outputs\\render-revisions\\store-facade-opposite-v4.png",
-      "source_sha256": "3999fc3ebd1ffbddd14b8d662caeb66a292ae6a445b4ec9e2da1cd177157e6d8",
-      "original_name": "store-facade-opposite-v4.png",
-      "verification": "User-requested imagegen edit: opposite interior viewing direction within main doorway; exterior preserved."
+      "source": "C:\\Users\\nsuml\\Documents\\Codex\\2026-10-14\\realtime-voice-chat\\outputs\\render-revisions\\store-facade-video-aligned-v5.png",
+      "source_sha256": "04f4bfcbc8e9a794cf4c4d4295ea0291cb566eb18e835059af6410d33702e11e",
+      "original_name": "store-facade-video-aligned-v5.png",
+      "verification": "Imagegen doorway-only refinement: approved furnishings retained, interior/carpet direction referenced to entrance-video first frame."
     },
     {
       "files": [

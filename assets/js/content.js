@@ -53,7 +53,7 @@ export const PROJECTS = [
     "dir": "assets/projects/concept-store/",
     "accent": "#C99A2E",
     "cover": {
-      "base": "images/storefront-v4",
+      "base": "images/storefront-v5",
       "widths": [
         800,
         1400,
@@ -190,7 +190,7 @@ export const PROJECTS = [
         "layout": "contained",
         "images": [
           {
-            "base": "images/storefront-v4",
+            "base": "images/storefront-v5",
             "widths": [
               800,
               1400,

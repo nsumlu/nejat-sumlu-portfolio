@@ -77,22 +77,6 @@ export const PROJECTS = [
       "label": "Visualisation",
       "caption": "Arrival — the entrance axis"
     },
-    "entrance": {
-      "video": {
-        "mp4": {
-          "large": "video/flow-entry-v3-1080.mp4",
-          "small": "video/flow-entry-v3-1080.mp4"
-        },
-        "webm": {
-          "large": "video/flow-entry-v3-1080.webm",
-          "small": "video/flow-entry-v3-1080.webm"
-        }
-      },
-      "label": "Entering Concept Store",
-      "bridge": {
-        "mode": "cover"
-      }
-    },
     "lede": "A menswear concept store where a palazzo facade opens onto a runway.",
     "concept": [
       "An academic retail study combining luxury menswear with technology and a runway experience. The brief took BIJAN — the Beverly Hills menswear house known for its Mediterranean-style palazzo boutique — as a reference for character and clientele.",

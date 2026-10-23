@@ -248,6 +248,15 @@ function bridgeToHero(p) {
   if (!b || !heroPre) return Promise.resolve();
   return Promise.race([heroPre, new Promise((r) => setTimeout(() => r(null), 600))]).then((pre) => {
     if (!pre || !pre.naturalWidth) return; // not ready: go straight to the page
+    if (b.mode === 'cover') {
+      const img = el('img', { class: 'portal__bridge', src: pre.currentSrc || pre.src, alt: '' });
+      Object.assign(img.style, { inset: '0', width: '100%', height: '100%', objectFit: 'cover' });
+      portalMedia.append(img);
+      return new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(() => {
+        img.classList.add('is-in');
+        setTimeout(resolve, 470);
+      })));
+    }
     const vw = portalMedia.clientWidth, vh = portalMedia.clientHeight;
     const [fw, fh] = b.frame, sv = Math.max(vw / fw, vh / fh);
     const ox = (vw - fw * sv) / 2, oy = (vh - fh * sv) / 2;

@@ -938,6 +938,18 @@
       "source": "C:\\Users\\nsuml\\Documents\\Codex\\2026-10-14\\realtime-voice-chat\\outputs\\entrance-preview\\doorstep-to-approved-render.mp4",
       "source_sha256": "b44b9d3d4c03f22bce9b6a96974b6cb4823c2fcb399c0010d6ce962083c23387",
       "verification": "User-approved approximately 4.17-second preview: first 2 seconds of supplied Flow clip at 0.67 speed, then 0.9-second approved interior still. Muted; MP4 and WebM."
+    },
+    {
+      "files": [
+        "assets/projects/concept-store/video/flow-entry-v3-1080.mp4",
+        "assets/projects/concept-store/video/flow-entry-v3-1080.webm"
+      ],
+      "project": "Concept Store",
+      "folder": "concept-store",
+      "role": "Entrance video — user supplied final Flow edit",
+      "source": "C:\\Users\\nsuml\\Downloads\\Video Project.mp4",
+      "source_sha256": "b0866aed455f61baa09c716889c0fb10529d6bacd169949c487ed17879879c45",
+      "verification": "User requested upload. MP4 byte-identical to supplied file, 1920x1080, 3.366667 seconds. Full HD WebM fallback. Muted playback; soft crossfade to approved hero."
     }
   ],
   "flagged": [

@@ -80,23 +80,17 @@ export const PROJECTS = [
     "entrance": {
       "video": {
         "mp4": {
-          "large": "video/doorstep-entry-v2-720.mp4",
-          "small": "video/doorstep-entry-v2-720.mp4"
+          "large": "video/flow-entry-v3-1080.mp4",
+          "small": "video/flow-entry-v3-1080.mp4"
         },
         "webm": {
-          "large": "video/doorstep-entry-v2-720.webm",
-          "small": "video/doorstep-entry-v2-720.webm"
+          "large": "video/flow-entry-v3-1080.webm",
+          "small": "video/flow-entry-v3-1080.webm"
         }
       },
       "label": "Entering Concept Store",
       "bridge": {
-        "frame": [
-          1280,
-          720
-        ],
-        "scale": 0.8602150537634409,
-        "tx": -128.60215053763443,
-        "ty": 0
+        "mode": "cover"
       }
     },
     "lede": "A menswear concept store where a palazzo facade opens onto a runway.",

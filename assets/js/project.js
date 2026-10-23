@@ -141,7 +141,7 @@ function drawings(p) {
       el('p', { class: 'p-drawings__note', text: `${p.drawings.length} drawings. Open any sheet to zoom and pan.` }),
     ])),
     el('div', { class: 'wrap' }, [
-      plans.length ? el('div', { class: `dwg-grid dwg-grid--plans${plans.length === 1 ? ' dwg-grid--single' : ''}` }, [
+      plans.length ? el('div', { class: `dwg-grid dwg-grid--plans${p.id === 'concept-restaurant' ? ' dwg-grid--aligned' : ''}${plans.length === 1 ? ' dwg-grid--single' : ''}` }, [
         ...plans.map(card),
         plans.length === 1 && p.drawingsNote ? el('p', { class: 'dwg-note reveal', text: p.drawingsNote }) : null,
       ]) : null,

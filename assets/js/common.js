@@ -1,4 +1,4 @@
-import { SITE, srcset, src } from './content.js';
+import { SITE, srcset, src } from './content.js?v=kehr-20261102';
 
 export const reducedMotion = () => window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 

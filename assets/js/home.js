@@ -1,5 +1,5 @@
-import { SITE, PROJECTS, src } from './content.js';
-import { el, picture, bindProfile, initReveals, reducedMotion, projectUrl, heroSizes } from './common.js';
+import { SITE, PROJECTS, src } from './content.js?v=kehr-20261102';
+import { el, picture, bindProfile, initReveals, reducedMotion, projectUrl, heroSizes } from './common.js?v=kehr-20261102';
 
 /* ---------------------------------------------------------------- profile */
 bindProfile();

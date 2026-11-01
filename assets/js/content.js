@@ -1284,9 +1284,8 @@ export const PROJECTS = [
     "label": "Concept visualisation"
   },
   "hero": {
-    "base": "images/hero",
+    "base": "images/hero-hq",
     "widths": [
-      800,
       896
     ],
     "w": 896,
@@ -1422,6 +1421,38 @@ export const PROJECTS = [
       "label": "Concept visualisation"
     },
     "studies": [
+      {
+        "layout": "contained-feature",
+        "images": [
+          {
+            "base": "images/sketch-alternatives",
+            "widths": [
+              1536
+            ],
+            "w": 1536,
+            "h": 1024,
+            "caption": "Alternative form explorations",
+            "alt": "KEHR — alternative form explorations",
+            "label": "Concept sketch study"
+          }
+        ]
+      },
+      {
+        "layout": "contained-feature",
+        "images": [
+          {
+            "base": "images/sketch-form",
+            "widths": [
+              1536
+            ],
+            "w": 1536,
+            "h": 1024,
+            "caption": "Form and connection study",
+            "alt": "KEHR — form and connection study",
+            "label": "Concept sketch study"
+          }
+        ]
+      },
       {
         "layout": "contained-feature",
         "images": [

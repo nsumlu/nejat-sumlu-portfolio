@@ -697,3 +697,7 @@ main, .site-footer { position: relative; z-index: 1; }
 .portal--compact .portal__img,.portal--compact .portal__video{object-fit:contain}
 
 .p-materials__studies{grid-column:1/-1;width:100%;margin-top:48px}
+
+/* Retain KEHR's full portrait composition within its native resolution. */
+body[data-project-id="kehr"] .p-hero{background:#21070b}
+body[data-project-id="kehr"] .p-hero__media img{object-fit:contain;max-width:896px;max-height:1200px;position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);padding:64px 24px 24px;box-sizing:border-box;animation:none}

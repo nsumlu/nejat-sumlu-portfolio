@@ -1,5 +1,5 @@
-import { PROJECTS } from './content.js?v=kehr-studies-20261102';
-import { el, picture, bindProfile, initReveals, reducedMotion, projectUrl, heroSizes } from './common.js?v=kehr-studies-20261102';
+import { PROJECTS } from './content.js?v=kehr-sharp-20261102';
+import { el, picture, bindProfile, initReveals, reducedMotion, projectUrl, heroSizes } from './common.js?v=kehr-sharp-20261102';
 import { initViewer } from './viewer.js';
 
 const params = new URLSearchParams(location.search);
@@ -17,6 +17,7 @@ function render(p, i) {
   try { arrived = sessionStorage.getItem('ns.arrive') === p.id; sessionStorage.removeItem('ns.arrive'); sessionStorage.removeItem('ns.heroSrc'); } catch {}
   document.body.classList.add(arrived ? 'is-arrived' : 'is-direct');
   document.body.dataset.kind = p.kind;
+  document.body.dataset.projectId = p.id;
 
   const next = PROJECTS[i + 1];
   const sections = [hero(p), intro(p, i), concept(p), facts(p)];

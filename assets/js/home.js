@@ -1,5 +1,5 @@
-import { SITE, PROJECTS, src } from './content.js?v=kehr-direct-20261102';
-import { el, picture, bindProfile, initReveals, reducedMotion, projectUrl, heroSizes } from './common.js?v=kehr-direct-20261102';
+import { SITE, PROJECTS, src } from './content.js?v=kehr-noflash-20261102';
+import { el, picture, bindProfile, initReveals, reducedMotion, projectUrl, heroSizes } from './common.js?v=kehr-noflash-20261102';
 
 /* ---------------------------------------------------------------- profile */
 bindProfile();
@@ -306,6 +306,7 @@ function bridgeToHero(p) {
 function openProject(i) {
   const p = PROJECTS[i];
   if (opening) return;
+  if (p.id === 'kehr') { window.location.href = projectUrl(p); return; }
   if (reducedMotion()) { go(p); return; }
   opening = true;
   portal.classList.toggle('portal--compact', p.id === 'kehr');

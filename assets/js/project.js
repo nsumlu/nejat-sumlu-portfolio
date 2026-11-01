@@ -1,5 +1,5 @@
-import { PROJECTS } from './content.js?v=kehr-entryonly-20261102';
-import { el, picture, bindProfile, initReveals, reducedMotion, projectUrl, heroSizes } from './common.js?v=kehr-entryonly-20261102';
+import { PROJECTS } from './content.js?v=kehr-studies-20261102';
+import { el, picture, bindProfile, initReveals, reducedMotion, projectUrl, heroSizes } from './common.js?v=kehr-studies-20261102';
 import { initViewer } from './viewer.js';
 
 const params = new URLSearchParams(location.search);
@@ -177,6 +177,7 @@ function materials(p) {
       ]))),
     ]) : null,
     m.image && m.samples?.length ? el('div', { class: 'p-materials__detail' }, fig(p, m.image, '(max-width:760px) 100vw, 74vw')) : null,
+    m.studies?.length ? el('div', {class: 'p-materials__studies'}, m.studies.map(row => el('div', {class: row.images.length > 1 ? 'v-row v-row--pair-even' : 'v-row v-row--contained-feature'}, row.images.map(img => fig(p, img, '(max-width:760px) 100vw, 50vw'))))) : null,
   ]);
 }
 

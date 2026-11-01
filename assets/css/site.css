@@ -695,3 +695,5 @@ main, .site-footer { position: relative; z-index: 1; }
 .portal--compact{background:#160d10}
 .portal--compact .portal__media{background:#160d10}
 .portal--compact .portal__img,.portal--compact .portal__video{object-fit:contain}
+
+.p-materials__studies{grid-column:1/-1;width:100%;margin-top:48px}

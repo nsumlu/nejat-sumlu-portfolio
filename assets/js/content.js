@@ -1391,78 +1391,6 @@ export const PROJECTS = [
           "label": "Concept visualisation"
         }
       ]
-    },
-    {
-      "layout": "contained-feature",
-      "images": [
-        {
-          "base": "images/board-v2",
-          "widths": [
-            1600
-          ],
-          "w": 1600,
-          "h": 1131,
-          "ext": "png",
-          "alt": "KEHR — material, form and connection concept board",
-          "caption": "Matter and Light — material, form and connection",
-          "label": "Concept study"
-        }
-      ]
-    },
-    {
-      "layout": "pair-even",
-      "images": [
-        {
-          "base": "images/exploded",
-          "widths": [
-            800,
-            1297
-          ],
-          "w": 1297,
-          "h": 722,
-          "alt": "Exploded form study",
-          "caption": "Exploded form study",
-          "label": "Blender modelling study"
-        },
-        {
-          "base": "images/model-v2",
-          "widths": [
-            775
-          ],
-          "w": 775,
-          "h": 470,
-          "alt": "Assembled form study",
-          "caption": "Assembled form study",
-          "label": "Blender modelling study"
-        }
-      ]
-    },
-    {
-      "layout": "pair-even",
-      "images": [
-        {
-          "base": "images/front",
-          "widths": [
-            680
-          ],
-          "w": 680,
-          "h": 471,
-          "alt": "Front view",
-          "caption": "Front view",
-          "label": "Blender modelling study"
-        },
-        {
-          "base": "images/top",
-          "widths": [
-            695
-          ],
-          "w": 695,
-          "h": 467,
-          "alt": "Softly asymmetric tabletop contour",
-          "caption": "Softly asymmetric tabletop contour",
-          "label": "Blender modelling study"
-        }
-      ]
     }
   ],
   "materials": {
@@ -1492,7 +1420,81 @@ export const PROJECTS = [
       "alt": "A short metal collar articulates the transition between tabletop and glass",
       "caption": "A short metal collar articulates the transition between tabletop and glass",
       "label": "Concept visualisation"
-    }
+    },
+    "studies": [
+      {
+        "layout": "contained-feature",
+        "images": [
+          {
+            "base": "images/board-v2",
+            "widths": [
+              1600
+            ],
+            "w": 1600,
+            "h": 1131,
+            "ext": "png",
+            "alt": "KEHR — material, form and connection concept board",
+            "caption": "Matter and Light — material, form and connection",
+            "label": "Concept study"
+          }
+        ]
+      },
+      {
+        "layout": "pair-even",
+        "images": [
+          {
+            "base": "images/exploded",
+            "widths": [
+              800,
+              1297
+            ],
+            "w": 1297,
+            "h": 722,
+            "alt": "Exploded form study",
+            "caption": "Exploded form study",
+            "label": "Blender modelling study"
+          },
+          {
+            "base": "images/model-v2",
+            "widths": [
+              775
+            ],
+            "w": 775,
+            "h": 470,
+            "alt": "Assembled form study",
+            "caption": "Assembled form study",
+            "label": "Blender modelling study"
+          }
+        ]
+      },
+      {
+        "layout": "pair-even",
+        "images": [
+          {
+            "base": "images/front",
+            "widths": [
+              680
+            ],
+            "w": 680,
+            "h": 471,
+            "alt": "Front view",
+            "caption": "Front view",
+            "label": "Blender modelling study"
+          },
+          {
+            "base": "images/top",
+            "widths": [
+              695
+            ],
+            "w": 695,
+            "h": 467,
+            "alt": "Softly asymmetric tabletop contour",
+            "caption": "Softly asymmetric tabletop contour",
+            "label": "Blender modelling study"
+          }
+        ]
+      }
+    ]
   },
   "year": 2026,
   "showYear": true,

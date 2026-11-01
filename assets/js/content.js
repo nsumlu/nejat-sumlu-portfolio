@@ -1393,6 +1393,23 @@ export const PROJECTS = [
       ]
     },
     {
+      "layout": "contained-feature",
+      "images": [
+        {
+          "base": "images/board-v2",
+          "widths": [
+            1600
+          ],
+          "w": 1600,
+          "h": 1131,
+          "ext": "png",
+          "alt": "KEHR — material, form and connection concept board",
+          "caption": "Matter and Light — material, form and connection",
+          "label": "Concept study"
+        }
+      ]
+    },
+    {
       "layout": "pair-even",
       "images": [
         {
@@ -1506,10 +1523,10 @@ export const PROJECTS = [
 /* Utility used by the renderers ------------------------------------------ */
 export function srcset(project, img) {
   const base = (project ? project.dir : '') + img.base;
-  return img.widths.map((w) => `${base}-${w}.webp ${w}w`).join(', ');
+  return img.widths.map((w) => `${base}-${w}.${img.ext || 'webp'} ${w}w`).join(', ');
 }
 export function src(project, img, prefer = 1400) {
   const base = (project ? project.dir : '') + img.base;
   const w = img.widths.find((x) => x >= prefer) || img.widths[img.widths.length - 1];
-  return `${base}-${w}.webp`;
+  return `${base}-${w}.${img.ext || 'webp'}`;
 }

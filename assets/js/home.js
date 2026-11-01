@@ -1,5 +1,5 @@
-import { SITE, PROJECTS, src } from './content.js?v=kehr-film-20261102';
-import { el, picture, bindProfile, initReveals, reducedMotion, projectUrl, heroSizes } from './common.js?v=kehr-film-20261102';
+import { SITE, PROJECTS, src } from './content.js?v=kehr-board-20261102';
+import { el, picture, bindProfile, initReveals, reducedMotion, projectUrl, heroSizes } from './common.js?v=kehr-board-20261102';
 
 /* ---------------------------------------------------------------- profile */
 bindProfile();

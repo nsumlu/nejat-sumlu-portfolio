@@ -1,4 +1,4 @@
-import { SITE, srcset, src } from './content.js?v=kehr-loosesketch-20261102';
+import { SITE, srcset, src } from './content.js?v=kehr-cardfilm-20261102';
 
 export const reducedMotion = () => window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 

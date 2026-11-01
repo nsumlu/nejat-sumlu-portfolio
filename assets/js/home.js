@@ -1,5 +1,5 @@
-import { SITE, PROJECTS, src } from './content.js?v=kehr-loosesketch-20261102';
-import { el, picture, bindProfile, initReveals, reducedMotion, projectUrl, heroSizes } from './common.js?v=kehr-loosesketch-20261102';
+import { SITE, PROJECTS, src } from './content.js?v=kehr-cardfilm-20261102';
+import { el, picture, bindProfile, initReveals, reducedMotion, projectUrl, heroSizes } from './common.js?v=kehr-cardfilm-20261102';
 
 /* ---------------------------------------------------------------- profile */
 bindProfile();
@@ -59,11 +59,35 @@ const panels = PROJECTS.map((p, i) => {
     el('span', { class: 'plane__mopen', 'aria-hidden': 'true' }, 'View Project →'),
   ]);
   return el('div', { class: 'plane', role: 'listitem', 'data-i': i, 'aria-label': `${p.number} ${p.title}`, style: `--accent:${p.accent || '#3546B6'}` }, [
-    el('div', { class: 'plane__img' }, picture(p, p.cover, { sizes: `(max-width: 760px) 64vw, ${N > 4 ? '19vw' : '22vw'}`, eager: true })),
+    el('div', { class: 'plane__img' }, [
+      picture(p, p.cover, { sizes: `(max-width: 760px) 64vw, ${N > 4 ? '19vw' : '22vw'}`, eager: true }),
+      p.id === 'kehr' && !reducedMotion() ? (() => {
+        const v = el('video', {class: 'plane__video', muted: true, loop: true, playsinline: true, preload: 'metadata', poster: src(p, p.cover, 800), 'aria-hidden': 'true', disablepictureinpicture: true});
+        v.muted = true;
+        v.src = p.dir + p.entrance.video.mp4.small;
+        v.addEventListener('playing', () => v.classList.add('is-playing'));
+        return v;
+      })() : null,
+    ]),
     hit, select, mLabel,
   ]);
 });
 space.replaceChildren(...panels);
+// Only animate the KEHR card when it is in view; retain the still as a fallback.
+const cardVideos = new Map();
+const videoObserver = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    const v = entry.target.querySelector('.plane__video');
+    if (!v) return;
+    cardVideos.set(v, entry.isIntersecting);
+    if (entry.isIntersecting && !document.hidden) v.play().catch(() => {});
+    else v.pause();
+  });
+}, {threshold: 0.1});
+panels.filter(p => p.querySelector('.plane__video')).forEach(p => videoObserver.observe(p));
+document.addEventListener('visibilitychange', () => cardVideos.forEach((visible, v) => {
+  if (visible && !document.hidden) v.play().catch(() => {}); else v.pause();
+}));
 
 const labelEls = PROJECTS.map((p, i) => {
   const open = el('a', { class: 'lbl__open', href: projectUrl(p) }, ['View Project ', el('span', { 'aria-hidden': 'true', text: '→' })]);

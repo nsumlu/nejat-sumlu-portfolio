@@ -698,3 +698,5 @@ main, .site-footer { position: relative; z-index: 1; }
 
 .p-materials__studies{grid-column:1/-1;width:100%;margin-top:48px}
 
+
+.plane__video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;pointer-events:none;opacity:0;transition:opacity .25s linear}.plane__video.is-playing{opacity:1}

@@ -1,5 +1,5 @@
-import { SITE, PROJECTS, src } from './content.js?v=kehr-cardfilm-20261102';
-import { el, picture, bindProfile, initReveals, reducedMotion, projectUrl, heroSizes } from './common.js?v=kehr-cardfilm-20261102';
+import { SITE, PROJECTS, src } from './content.js?v=kehr-direct-20261102';
+import { el, picture, bindProfile, initReveals, reducedMotion, projectUrl, heroSizes } from './common.js?v=kehr-direct-20261102';
 
 /* ---------------------------------------------------------------- profile */
 bindProfile();
@@ -312,7 +312,7 @@ function openProject(i) {
 
   // Start loading the entrance video immediately (only for projects that have one)
   let video = null;
-  if (p.entrance) {
+  if (p.entrance && p.id !== 'kehr') {
     video = el('video', { muted: true, playsinline: true, preload: 'auto', 'aria-hidden': 'true', disablepictureinpicture: true });
     video.muted = true; // property, for iOS
     const size = window.innerWidth < 900 ? 'small' : 'large';

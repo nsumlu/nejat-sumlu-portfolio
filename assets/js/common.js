@@ -1,4 +1,4 @@
-import { SITE, srcset, src } from './content.js?v=kehr-compact-20261102';
+import { SITE, srcset, src } from './content.js?v=kehr-entryonly-20261102';
 
 export const reducedMotion = () => window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 

@@ -1494,14 +1494,6 @@ export const PROJECTS = [
       "label": "Concept visualisation"
     }
   },
-  "films": [
-    {
-      "src": "video/06_material_film.mp4",
-      "poster": "video/06_material_film.jpg",
-      "title": "Material film",
-      "caption": "A study of metal texture, amber translucency and the warm traces of external light."
-    }
-  ],
   "year": 2026,
   "showYear": true,
   "entrance": {

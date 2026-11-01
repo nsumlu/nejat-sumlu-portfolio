@@ -1,5 +1,5 @@
-import { SITE, PROJECTS, src } from './content.js?v=kehr-20261102';
-import { el, picture, bindProfile, initReveals, reducedMotion, projectUrl, heroSizes } from './common.js?v=kehr-20261102';
+import { SITE, PROJECTS, src } from './content.js?v=kehr-edit-20261102';
+import { el, picture, bindProfile, initReveals, reducedMotion, projectUrl, heroSizes } from './common.js?v=kehr-edit-20261102';
 
 /* ---------------------------------------------------------------- profile */
 bindProfile();
@@ -127,7 +127,7 @@ function layout() {
   panels.forEach((pl, i) => {
     if (!visible.includes(i)) return;
     const g = place(i), on = i === active;
-    const x = g.t * (visible.length > 4 ? 0.34 : 0.31) * W;
+    const x = g.t * (visible.length === 2 ? 0.18 : visible.length > 4 ? 0.34 : 0.31) * W;
     const z = g.z + (on ? STEP : 0);
     const ry = on ? -g.side * ACTIVE_TURN : g.ry;
     pl.style.setProperty('--x', `${x}px`);

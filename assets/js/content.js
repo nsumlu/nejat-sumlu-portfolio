@@ -1281,7 +1281,7 @@ export const PROJECTS = [
     "h": 1200,
     "alt": "KEHR — Matter and Light",
     "caption": "KEHR — Matter and Light",
-    "label": "AI-assisted concept visualisation"
+    "label": "Concept visualisation"
   },
   "hero": {
     "base": "images/hero",
@@ -1293,13 +1293,14 @@ export const PROJECTS = [
     "h": 1200,
     "alt": "KEHR — Matter and Light",
     "caption": "KEHR — Matter and Light",
-    "label": "AI-assisted concept visualisation"
+    "label": "Concept visualisation"
   },
   "lede": "Matter and Light. A hard surface. A warm trace.",
   "concept": [
-    "KEHR brings the textured surface of metal together with the translucency of amber glass. A thin, softly contoured tabletop rests above a simple cylindrical pedestal, directing attention to surface, colour and changing light.",
-    "The material inquiry begun with RELIC No.01 continues here through the effect an object leaves in its surroundings. Metal catches light across its surface; amber glass gives transmitted light a warm hue. The table’s presence extends into the coloured traces around it.",
-    "KEHR is a concept design, not a manufactured or tested product. AI-assisted images and films explore the intended material character. Blender studies develop the geometry; production details, connection strength and stability remain subject to prototype validation."
+    "KEHR is a sculptural side table exploring the meeting of textured metal and translucent amber glass. A thin, softly asymmetric tabletop rests above a straight cylindrical pedestal. The restrained form brings surface, colour and changing light into focus.",
+    "Matter and Light. The tabletop catches light in small, shifting reflections, while blue-bronze tones deepen its surface. Amber glass filters the view behind it and gives transmitted light a warm hue, extending the object’s presence into the coloured traces on the floor.",
+    "The material inquiry begun with RELIC No.01 continues through the effect an object leaves in its surroundings. Designed as a companion beside a seat, KEHR balances a thin tabletop, a slender pedestal and a strong material contrast. A hard surface. A warm trace.",
+    "KEHR is a concept design, not a manufactured or tested product. Blender studies explore the assembled form, the softly asymmetric contour and the proposed connection. Final sections, connection strength and stability will be developed and validated through prototyping."
   ],
   "facts": [
     [
@@ -1325,6 +1326,10 @@ export const PROJECTS = [
     [
       "Design",
       "Nejat Şumlu"
+    ],
+    [
+      "Design approach",
+      "Thin tabletop · slender pedestal · contrasting material behaviours"
     ]
   ],
   "gallery": [],
@@ -1342,7 +1347,7 @@ export const PROJECTS = [
           "h": 1390,
           "alt": "A thin metal tabletop above a cylindrical amber-glass pedestal",
           "caption": "A thin metal tabletop above a cylindrical amber-glass pedestal",
-          "label": "AI-assisted concept visualisation"
+          "label": "Concept visualisation"
         },
         {
           "base": "images/surface",
@@ -1354,7 +1359,7 @@ export const PROJECTS = [
           "h": 1390,
           "alt": "Hammered-effect metal with blue-bronze tonal variation",
           "caption": "Hammered-effect metal with blue-bronze tonal variation",
-          "label": "AI-assisted concept visualisation"
+          "label": "Concept visualisation"
         }
       ]
     },
@@ -1371,7 +1376,7 @@ export const PROJECTS = [
           "h": 1200,
           "alt": "A hand behind amber glass reveals its translucency",
           "caption": "A hand behind amber glass reveals its translucency",
-          "label": "AI-assisted concept visualisation"
+          "label": "Concept visualisation"
         },
         {
           "base": "images/light",
@@ -1383,24 +1388,7 @@ export const PROJECTS = [
           "h": 1390,
           "alt": "External light passing through amber glass leaves a warm trace",
           "caption": "External light passing through amber glass leaves a warm trace",
-          "label": "AI-assisted concept visualisation"
-        }
-      ]
-    },
-    {
-      "layout": "contained-feature",
-      "images": [
-        {
-          "base": "images/board",
-          "widths": [
-            800,
-            1600
-          ],
-          "w": 2978,
-          "h": 2105,
-          "alt": "Material, form and proposed connection — concept board in Turkish",
-          "caption": "Material, form and proposed connection — concept board in Turkish",
-          "label": "Concept study"
+          "label": "Concept visualisation"
         }
       ]
     },
@@ -1420,7 +1408,7 @@ export const PROJECTS = [
           "label": "Blender modelling study"
         },
         {
-          "base": "images/model",
+          "base": "images/model-v2",
           "widths": [
             775
           ],
@@ -1486,51 +1474,15 @@ export const PROJECTS = [
       "h": 1390,
       "alt": "A short metal collar articulates the transition between tabletop and glass",
       "caption": "A short metal collar articulates the transition between tabletop and glass",
-      "label": "AI-assisted concept visualisation"
+      "label": "Concept visualisation"
     }
   },
   "films": [
     {
-      "src": "video/01_burgundy_hero.mp4",
-      "poster": "video/01_burgundy_hero.jpg",
-      "title": "Burgundy study",
-      "caption": "AI-assisted concept film. External light; no integrated illumination."
-    },
-    {
-      "src": "video/03_metal_surface.mp4",
-      "poster": "video/03_metal_surface.jpg",
-      "title": "Metal surface",
-      "caption": "AI-assisted concept film. External light; no integrated illumination."
-    },
-    {
-      "src": "video/04_amber_hand.mp4",
-      "poster": "video/04_amber_hand.jpg",
-      "title": "Amber translucency",
-      "caption": "AI-assisted concept film. External light; no integrated illumination."
-    },
-    {
-      "src": "video/05_spatial_view.mp4",
-      "poster": "video/05_spatial_view.jpg",
-      "title": "Spatial presence",
-      "caption": "AI-assisted concept film. External light; no integrated illumination."
-    },
-    {
       "src": "video/06_material_film.mp4",
       "poster": "video/06_material_film.jpg",
       "title": "Material film",
-      "caption": "AI-assisted concept film. External light; no integrated illumination."
-    }
-  ],
-  "downloads": [
-    {
-      "file": "downloads/KEHR_Presentation.pdf",
-      "title": "Project presentation",
-      "note": "PDF · Turkish · includes Blender studies"
-    },
-    {
-      "file": "downloads/KEHR_Technical_Board.png",
-      "title": "Concept board",
-      "note": "PNG · Turkish · material and connection study"
+      "caption": "A study of metal texture, amber translucency and the warm traces of external light."
     }
   ],
   "year": 2026,

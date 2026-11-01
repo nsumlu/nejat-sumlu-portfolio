@@ -1,5 +1,5 @@
-import { PROJECTS } from './content.js?v=kehr-sharp-20261102';
-import { el, picture, bindProfile, initReveals, reducedMotion, projectUrl, heroSizes } from './common.js?v=kehr-sharp-20261102';
+import { PROJECTS } from './content.js?v=kehr-loosesketch-20261102';
+import { el, picture, bindProfile, initReveals, reducedMotion, projectUrl, heroSizes } from './common.js?v=kehr-loosesketch-20261102';
 import { initViewer } from './viewer.js';
 
 const params = new URLSearchParams(location.search);

@@ -1441,7 +1441,7 @@ export const PROJECTS = [
         "layout": "contained-feature",
         "images": [
           {
-            "base": "images/sketch-form",
+            "base": "images/sketch-form-v2",
             "widths": [
               1536
             ],

@@ -690,3 +690,8 @@ main, .site-footer { position: relative; z-index: 1; }
 @media(max-width:760px){.film-grid,.download-grid{grid-template-columns:1fr}.film-card video{max-height:70svh}.p-films,.p-downloads{padding-top:42px;padding-bottom:42px}}
 
 .film-grid:has(> :only-child){grid-template-columns:minmax(0,600px)}
+
+/* KEHR: preserve the portrait film without full-screen enlargement or cropping. */
+.portal--compact{background:#160d10}
+.portal--compact .portal__media{background:#160d10}
+.portal--compact .portal__img,.portal--compact .portal__video{object-fit:contain}

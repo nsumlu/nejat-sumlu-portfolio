@@ -1,5 +1,5 @@
-import { SITE, PROJECTS, src } from './content.js?v=kehr-board-20261102';
-import { el, picture, bindProfile, initReveals, reducedMotion, projectUrl, heroSizes } from './common.js?v=kehr-board-20261102';
+import { SITE, PROJECTS, src } from './content.js?v=kehr-compact-20261102';
+import { el, picture, bindProfile, initReveals, reducedMotion, projectUrl, heroSizes } from './common.js?v=kehr-compact-20261102';
 
 /* ---------------------------------------------------------------- profile */
 bindProfile();
@@ -284,6 +284,7 @@ function openProject(i) {
   if (opening) return;
   if (reducedMotion()) { go(p); return; }
   opening = true;
+  portal.classList.toggle('portal--compact', p.id === 'kehr');
 
   // Start loading the entrance video immediately (only for projects that have one)
   let video = null;
@@ -310,7 +311,13 @@ function openProject(i) {
   void portalMedia.offsetWidth; // commit start rect
   requestAnimationFrame(() => {
     portal.classList.add('is-open');
-    Object.assign(portalMedia.style, { left: '0px', top: '0px', width: '100vw', height: '100dvh' });
+    if (p.id === 'kehr') {
+      const h = Math.min(640, window.innerHeight * 0.72, window.innerWidth * 0.82 * 16 / 9);
+      const w = h * 9 / 16;
+      Object.assign(portalMedia.style, {left: `${(window.innerWidth-w)/2}px`, top: `${(window.innerHeight-h)/2}px`, width: `${w}px`, height: `${h}px`});
+    } else {
+      Object.assign(portalMedia.style, { left: '0px', top: '0px', width: '100vw', height: '100dvh' });
+    }
   });
 
   const expanded = new Promise((res) => {

@@ -1262,7 +1262,280 @@ export const PROJECTS = [
     },
     "year": null,
     "showYear": false
-  }
+  },
+{
+  "id": "kehr",
+  "number": "06",
+  "title": "KEHR",
+  "kind": "object",
+  "category": "Concept collectible side table",
+  "dir": "assets/projects/kehr/",
+  "accent": "#783D35",
+  "cover": {
+    "base": "images/hero",
+    "widths": [
+      800,
+      896
+    ],
+    "w": 896,
+    "h": 1200,
+    "alt": "KEHR — Matter and Light",
+    "caption": "KEHR — Matter and Light",
+    "label": "AI-assisted concept visualisation"
+  },
+  "hero": {
+    "base": "images/hero",
+    "widths": [
+      800,
+      896
+    ],
+    "w": 896,
+    "h": 1200,
+    "alt": "KEHR — Matter and Light",
+    "caption": "KEHR — Matter and Light",
+    "label": "AI-assisted concept visualisation"
+  },
+  "lede": "Matter and Light. A hard surface. A warm trace.",
+  "concept": [
+    "KEHR brings the textured surface of metal together with the translucency of amber glass. A thin, softly contoured tabletop rests above a simple cylindrical pedestal, directing attention to surface, colour and changing light.",
+    "The material inquiry begun with RELIC No.01 continues here through the effect an object leaves in its surroundings. Metal catches light across its surface; amber glass gives transmitted light a warm hue. The table’s presence extends into the coloured traces around it.",
+    "KEHR is a concept design, not a manufactured or tested product. AI-assisted images and films explore the intended material character. Blender studies develop the geometry; production details, connection strength and stability remain subject to prototype validation."
+  ],
+  "facts": [
+    [
+      "Type",
+      "Collectible side table"
+    ],
+    [
+      "Status",
+      "Concept design — not prototyped"
+    ],
+    [
+      "Nominal dimensions",
+      "H 500 mm · tabletop 450 × 420 mm · glass Ø140 mm"
+    ],
+    [
+      "Materials",
+      "Amber glass and textured metal; final alloy and finish to be developed"
+    ],
+    [
+      "Lighting",
+      "External light only; no integrated light source"
+    ],
+    [
+      "Design",
+      "Nejat Şumlu"
+    ]
+  ],
+  "gallery": [],
+  "views": [
+    {
+      "layout": "pair-even",
+      "images": [
+        {
+          "base": "images/form",
+          "widths": [
+            800,
+            1132
+          ],
+          "w": 1132,
+          "h": 1390,
+          "alt": "A thin metal tabletop above a cylindrical amber-glass pedestal",
+          "caption": "A thin metal tabletop above a cylindrical amber-glass pedestal",
+          "label": "AI-assisted concept visualisation"
+        },
+        {
+          "base": "images/surface",
+          "widths": [
+            800,
+            1132
+          ],
+          "w": 1132,
+          "h": 1390,
+          "alt": "Hammered-effect metal with blue-bronze tonal variation",
+          "caption": "Hammered-effect metal with blue-bronze tonal variation",
+          "label": "AI-assisted concept visualisation"
+        }
+      ]
+    },
+    {
+      "layout": "pair-even",
+      "images": [
+        {
+          "base": "images/translucency",
+          "widths": [
+            800,
+            896
+          ],
+          "w": 896,
+          "h": 1200,
+          "alt": "A hand behind amber glass reveals its translucency",
+          "caption": "A hand behind amber glass reveals its translucency",
+          "label": "AI-assisted concept visualisation"
+        },
+        {
+          "base": "images/light",
+          "widths": [
+            800,
+            1132
+          ],
+          "w": 1132,
+          "h": 1390,
+          "alt": "External light passing through amber glass leaves a warm trace",
+          "caption": "External light passing through amber glass leaves a warm trace",
+          "label": "AI-assisted concept visualisation"
+        }
+      ]
+    },
+    {
+      "layout": "contained-feature",
+      "images": [
+        {
+          "base": "images/board",
+          "widths": [
+            800,
+            1600
+          ],
+          "w": 2978,
+          "h": 2105,
+          "alt": "Material, form and proposed connection — concept board in Turkish",
+          "caption": "Material, form and proposed connection — concept board in Turkish",
+          "label": "Concept study"
+        }
+      ]
+    },
+    {
+      "layout": "pair-even",
+      "images": [
+        {
+          "base": "images/exploded",
+          "widths": [
+            800,
+            1297
+          ],
+          "w": 1297,
+          "h": 722,
+          "alt": "Exploded form study",
+          "caption": "Exploded form study",
+          "label": "Blender modelling study"
+        },
+        {
+          "base": "images/model",
+          "widths": [
+            775
+          ],
+          "w": 775,
+          "h": 470,
+          "alt": "Assembled form study",
+          "caption": "Assembled form study",
+          "label": "Blender modelling study"
+        }
+      ]
+    },
+    {
+      "layout": "pair-even",
+      "images": [
+        {
+          "base": "images/front",
+          "widths": [
+            680
+          ],
+          "w": 680,
+          "h": 471,
+          "alt": "Front view",
+          "caption": "Front view",
+          "label": "Blender modelling study"
+        },
+        {
+          "base": "images/top",
+          "widths": [
+            695
+          ],
+          "w": 695,
+          "h": 467,
+          "alt": "Softly asymmetric tabletop contour",
+          "caption": "Softly asymmetric tabletop contour",
+          "label": "Blender modelling study"
+        }
+      ]
+    }
+  ],
+  "materials": {
+    "text": "A restrained silhouette holds two contrasting material behaviours: textured metal reflects light, while amber glass filters it. The selected connection concept uses a bonded metal collar and a screw-fixed removable tabletop. Adhesive, tolerances and load performance require further development.",
+    "list": [
+      [
+        "Tabletop",
+        "Thin profile with a hammered-effect surface"
+      ],
+      [
+        "Pedestal",
+        "Straight, hollow amber-glass cylinder with an integral thick base"
+      ],
+      [
+        "Connection",
+        "Bonded metal collar; removable screw-fixed tabletop"
+      ]
+    ],
+    "image": {
+      "base": "images/connection",
+      "widths": [
+        800,
+        1132
+      ],
+      "w": 1132,
+      "h": 1390,
+      "alt": "A short metal collar articulates the transition between tabletop and glass",
+      "caption": "A short metal collar articulates the transition between tabletop and glass",
+      "label": "AI-assisted concept visualisation"
+    }
+  },
+  "films": [
+    {
+      "src": "video/01_burgundy_hero.mp4",
+      "poster": "video/01_burgundy_hero.jpg",
+      "title": "Burgundy study",
+      "caption": "AI-assisted concept film. External light; no integrated illumination."
+    },
+    {
+      "src": "video/03_metal_surface.mp4",
+      "poster": "video/03_metal_surface.jpg",
+      "title": "Metal surface",
+      "caption": "AI-assisted concept film. External light; no integrated illumination."
+    },
+    {
+      "src": "video/04_amber_hand.mp4",
+      "poster": "video/04_amber_hand.jpg",
+      "title": "Amber translucency",
+      "caption": "AI-assisted concept film. External light; no integrated illumination."
+    },
+    {
+      "src": "video/05_spatial_view.mp4",
+      "poster": "video/05_spatial_view.jpg",
+      "title": "Spatial presence",
+      "caption": "AI-assisted concept film. External light; no integrated illumination."
+    },
+    {
+      "src": "video/06_material_film.mp4",
+      "poster": "video/06_material_film.jpg",
+      "title": "Material film",
+      "caption": "AI-assisted concept film. External light; no integrated illumination."
+    }
+  ],
+  "downloads": [
+    {
+      "file": "downloads/KEHR_Presentation.pdf",
+      "title": "Project presentation",
+      "note": "PDF · Turkish · includes Blender studies"
+    },
+    {
+      "file": "downloads/KEHR_Technical_Board.png",
+      "title": "Concept board",
+      "note": "PNG · Turkish · material and connection study"
+    }
+  ],
+  "year": 2026,
+  "showYear": true
+}
 ];
 
 /* Utility used by the renderers ------------------------------------------ */

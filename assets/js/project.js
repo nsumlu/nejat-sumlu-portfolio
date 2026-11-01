@@ -24,6 +24,8 @@ function render(p, i) {
   if (p.views?.length) sections.push(views(p));
   if (p.drawings?.length) sections.push(drawings(p));
   if (p.materials) sections.push(materials(p));
+  if (p.films?.length) sections.push(films(p));
+  if (p.downloads?.length) sections.push(downloads(p));
   if (next) sections.push(nextBlock(next));
   main.replaceChildren(...sections);
 
@@ -189,6 +191,23 @@ function objectBlock(p) {
         el('span', { class: 'cta-block__a', 'aria-hidden': 'true', text: '↗' }),
       ]),
     ]) : null,
+  ]);
+}
+
+function films(p) {
+  return el('section', {class: 'p-films wrap', 'aria-labelledby': 'film-h'}, [
+    el('h2', {id: 'film-h', class: 'side-label', text: 'Material in motion'}),
+    el('p', {class: 'film-intro', text: 'Short studies of surface, translucency and spatial presence. Select a film to play.'}),
+    el('div', {class: 'film-grid'}, p.films.map(f => el('figure', {class: 'film-card'}, [
+      el('video', {controls: true, playsinline: true, preload: 'none', poster: p.dir + f.poster, 'aria-label': f.title, onplay: e => { main.querySelectorAll('video').forEach(v => { if (v !== e.currentTarget) v.pause(); }); }}, [el('source', {src: p.dir + f.src, type: 'video/mp4'}), el('a', {href: p.dir + f.src, text: 'Open video'})]),
+      el('figcaption', {}, [el('h3', {text: f.title}), el('p', {text: f.caption})])
+    ])))
+  ]);
+}
+function downloads(p) {
+  return el('section', {class: 'p-downloads wrap', 'aria-labelledby': 'downloads-h'}, [
+    el('h2', {id: 'downloads-h', class: 'side-label', text: 'Project files'}),
+    el('div', {class: 'download-grid'}, p.downloads.map(d => el('a', {class: 'project-download', href: p.dir + d.file, download: true}, [el('strong', {text: d.title + ' ↓'}), el('span', {text: d.note})])))
   ]);
 }
 

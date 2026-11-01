@@ -1486,7 +1486,20 @@ export const PROJECTS = [
     }
   ],
   "year": 2026,
-  "showYear": true
+  "showYear": true,
+  "entrance": {
+    "label": "KEHR — Matter and Light",
+    "video": {
+      "mp4": {
+        "small": "video/06_material_film.mp4",
+        "large": "video/06_material_film.mp4"
+      },
+      "webm": {
+        "small": "video/06_material_film.mp4",
+        "large": "video/06_material_film.mp4"
+      }
+    }
+  }
 }
 ];
 
